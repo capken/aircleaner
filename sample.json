@@ -1,0 +1,29 @@
+{
+  "brand": "Blueair",
+  "model": "603",
+  "dimensions": {
+    "height": 660,
+    "width": 500,
+    "length": 340
+  },
+  "weight": 16,
+  "CADR": {
+    "dust": 680,
+    "pollen": 765,
+    "tobacco_smoke": 765
+  },
+  "noise_level": {
+    "min": 28,
+    "max": 58
+  },
+  "power": {
+    "min": 16,
+    "max": 90
+  },
+  "air_volume": 830,
+  "total_fan_speed_levels": 4,
+  "filter_lifetime": 6,
+  "image": "http://blueair.cn/Assets/home/products/ap_model_603.png",
+  "material": "steel",
+  "_source": "http://blueair.cn/Products/AirPurifiers/AP600Model"
+}

@@ -1,0 +1,6 @@
+http://blueair.cn/Products/AirPurifiers/APSenseModel
+http://blueair.cn/Products/AirPurifiers/AP600Model
+http://blueair.cn/Products/AirPurifiers/AP500Model
+http://blueair.cn/Products/AirPurifiers/AP400Model
+http://blueair.cn/Products/AirPurifiers/AP300Model
+http://blueair.cn/Products/AirPurifiers/AP200Model

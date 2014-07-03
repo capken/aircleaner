@@ -1,0 +1,1 @@
+curl "http://www.electrolux.com.cn/Products/%E5%B1%85%E5%AE%A4/%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%99%A8" | egrep -o "href=\".+?\">详细参数" | egrep -o "/[^\"]+" | xargs -I PATH echo "http://www.electrolux.com.cnPATH"
