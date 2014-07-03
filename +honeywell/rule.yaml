@@ -1,0 +1,4 @@
+---
+dimensions: !ruby/regexp /产品尺寸\(mm\)(\d+)mm×(\d+)mm×(\d+)mm/i
+noise: !ruby/regexp /噪音（db\)(\d+).+?- (\d+).+?dB/i
+power: !ruby/regexp /额定功率\(w\)(\s?)(\d+)w/i

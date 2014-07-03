@@ -1,0 +1,9 @@
+---
+brand: !ruby/regexp /品牌(.+?)型号/
+model: !ruby/regexp /型号([\w\d -]+)/
+dimensions: !ruby/regexp /产品尺寸\(mm\)(\d+)x(\d+)x(\d+)/i
+weight: !ruby/regexp /净重（kg\)([\d.]+)kg/i
+cadr: !ruby/regexp /净化空气率（%）(\d+)M3\/h/i
+noise: !ruby/regexp /噪音（db\)(\d+)-(\d+)/i
+power: !ruby/regexp /耗电量（w\)(\d+)-(\d+)/i
+fan_speed_levels: !ruby/regexp /(\d+)档风速/

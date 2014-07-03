@@ -16,15 +16,15 @@ STDIN.each do |url|
       obj["brand"] = $1 
     end
 
-    obj["model"] = $1 if content =~ /型号([A-Za-z0-9-]+)/
+    obj["model"] = $1 if content =~ /型号([A-Za-z0-9 -]+)/
 
     doc.css("div#spec-n1 img").each do |image|
       obj["image"] = URI.join url.strip, image["src"]
     end
 
     dimensions = {}
-    if content =~ /尺寸\(mm\)(\d+)mm×(\d+)mm×(\d+)mm/ or 
-        content =~ /尺寸\(mm\)(\d+)\*(\d+)\*(\d+)（mm）/
+    if content =~ /尺寸\(mm\)(\d+)mm×(\d+)mm×(\d+)mm/i or 
+        content =~ /尺寸\(mm\)(\d+)[*x](\d+)[*x](\d+)(?:（mm）)?/i
       dimensions["height"] = $1.to_i
       dimensions["width"] = $2.to_i
       dimensions["deep"] = $3.to_i
