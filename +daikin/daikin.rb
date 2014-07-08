@@ -10,7 +10,7 @@ STDIN.each do |url|
 
     obj["brand"] = "Daikin"
 
-    if content =~ /型号\s*([A-Z0-9]+)\(/
+    if content =~ /(?:型号|机型)\s*([A-Z0-9]+)\(/
       obj["model"] = $1 
     end
 

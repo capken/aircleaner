@@ -9,6 +9,7 @@ rule = ARGV[0].nil? ? {} : YAML.load_file("#{ARGV[0]}")
 common_rule = YAML.load_file(File.join(root_path, "jd/common_rule.yaml"))
 
 rule = common_rule.merge rule
+warn rule
 
 STDIN.each do |url|
   doc = Nokogiri::HTML(open(url.strip))
@@ -56,6 +57,8 @@ STDIN.each do |url|
     obj["air_volume"] = -1
     obj["total_fan_speed_levels"] = $1 if content =~ rule["fan_speed_levels"]
     obj["filter_lifetime"] = -1
+    obj["made_in"] = $1 if content =~ rule["made_in"]
+    obj["material"] = $1 if content =~ rule["material"]
     obj["_source"] = url.strip
 
     puts obj.to_json

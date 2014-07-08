@@ -51,7 +51,9 @@ STDIN.each do |url|
     obj["power"]= power
 
     obj["air_volume"] = -1
-    obj["total_fan_speed_levels"] = $1.split('/').size + 1 if content =~ /风速:([^\s]+)/
+    if content =~ /(?:风速|风量调节):([^\n]+)/
+      obj["total_fan_speed_levels"] = $1.split(/[、,\/]/).size
+    end
     obj["filter_lifetime"] = -1
     obj["_source"] = url.strip
 

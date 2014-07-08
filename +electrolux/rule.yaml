@@ -1,0 +1,4 @@
+---
+noise: !ruby/regexp /噪音（db\)([\d.]+).+?([\d.]+)/
+power: !ruby/regexp /额定功率\(w\)(\s?)(\d+)/
+fan_speed_levels: !ruby/regexp /风量(\d+)档/

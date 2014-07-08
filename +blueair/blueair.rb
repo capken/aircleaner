@@ -30,9 +30,9 @@ STDIN.each do |url|
     obj["weight"] = $1.to_f if content =~ /重量：([0-9.]+)kg/
 
     cadr = {}
-    cadr["dust"] = $1.to_i if content =~ /灰尘\d+\((\d+)m³\/h\)/
-    cadr["pollen"] = $1.to_i if content =~ /花粉\d+\((\d+)m³\/h\)/
-    cadr["tobacco_smoke"] = $1.to_i if content =~ /烟雾\d+\((\d+)m³\/h\)/
+    cadr["dust"] = $1.to_i if content =~ /灰尘.+?\((\d+)m³\/h\)/
+    cadr["pollen"] = $1.to_i if content =~ /花粉.+?\((\d+)m³\/h\)/
+    cadr["tobacco_smoke"] = $1.to_i if content =~ /烟雾.+?\((\d+)m³\/h\)/
     obj["CADR"] = cadr
 
     noise_level = {}
@@ -52,6 +52,8 @@ STDIN.each do |url|
     obj["air_volume"] = $1.to_i if content =~ /风量：(\d+)m³\/h/
     obj["total_fan_speed_levels"] = $1.to_i if content =~ /风档：(\d+)/
     obj["filter_lifetime"] = $1.to_i if content =~ /滤网平均使用寿命\s*(\d+)个月/
+    obj["material"] = $1 if content =~ /材料：([^\s]+)/
+    obj["made_in"] = $1 if content =~ /产地\s*([^\s]+)/
     obj["_source"] = url.strip
 
     puts obj.to_json
