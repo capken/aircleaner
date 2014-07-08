@@ -18,16 +18,16 @@ STDIN.each do |url|
     links = doc.css("div.breadcrumb a")
     obj["brand"] = links[2].to_str.gsub(/空气净化器/, "") if links.size == 4
     obj["model"] = links.last.to_str.gsub(/#{obj["brand"]}/, "").strip if links.size == 4
-    obj["made_in"] = $1 if content =~ /产地：\s*([^\n\r]+)/
-    obj["color"] = $1 if content =~ /颜色[:：]\s*([^\n\r]+)/
+    obj["made_in"] = $1 if content =~ /产地：\s*([^\n]+)/
+    obj["color"] = $1 if content =~ /颜色[:：]\s*([^\n]+)/
     obj["filter_lifetime"] = $1.to_f if content =~ /滤芯寿命\s*(\d+).*?月/
     obj["filter_material"] = "HEPA" if content =~ /HEPA过滤|HEPA网/
     obj["timing"] = true if content =~ /定时模式|\d小时定时器/
-    obj["remote_control"] = $1 if content =~ /遥控功能：\s*([^\n\r]+)/
+    obj["remote_control"] = $1 if content =~ /遥控功能：\s*([^\n]+)/
     obj["sleep_mode"] = true if content =~ /睡眠模式/
     obj["filter_replacement_reminder"] = true if content =~ /滤网更新提醒/
     obj["air_quality_led"] = true if content =~ /净化度指示灯/
-    obj["material"] = $1 || $2 if content =~ /材质：([^\n\r]+)|机身材料：([^\n\r]+)/
+    obj["material"] = $1 || $2 if content =~ /材质：([^\n]+)|机身材料：([^\n]+)/
 
     if content =~ /外观尺寸.+?(\d+)\*(\d+)\*(\d+)mm/m
       dimensions = {
@@ -74,6 +74,10 @@ STDIN.each do |url|
 
     doc.css("div.pic img").each do |image|
       obj["image"] = URI.join url.strip, image["src"]
+    end
+
+    obj.each do |k, v|
+      obj[k] = v.strip if v.is_a? String
     end
 
     puts obj.to_json
