@@ -1,0 +1,94 @@
+{"brand":"3M","model":"GCC","category":"净化器附件","dimensions":{"height":50,"width":200,"deep":370},"weight":0.5,"_source":"http://www.newegg.cn/Product/A09-341-51E.htm"}
+{"brand":"3M","model":"菲尔萃KJEA200","category":"空气净化器","dimensions":{"height":215,"width":220,"deep":420},"weight":10.0,"_source":"http://www.newegg.cn/Product/A09-341-519.htm"}
+{"brand":"3M","model":"菲尔萃优净型MFAC01-CN","category":"空气净化器","power":{"min":46.0,"max":88.0},"dimensions":{"height":410,"width":190,"deep":350},"weight":7.5,"_source":"http://www.newegg.cn/Product/A09-341-518.htm"}
+{"brand":"DAIKIN 大金","model":"MC70KMV2","category":"流光能空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":8.5,"color":"经典白","_source":"http://www.newegg.cn/Product/A09-282-4HY.htm"}
+{"brand":"DAIKIN 大金","model":"MC70KMV2-K","category":"流光能空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":9.0,"color":"冰晶蓝","_source":"http://www.newegg.cn/Product/A09-282-4HY-04.htm"}
+{"brand":"DAIKIN 大金","model":"MC70KMV2-N","category":"流光能空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":8.5,"color":"香槟金","_source":"http://www.newegg.cn/Product/A09-282-4HY-02.htm"}
+{"brand":"DAIKIN 大金","model":"MC70KMV2-R","category":"流光能空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":8.5,"color":"珊瑚红","_source":"http://www.newegg.cn/Product/A09-282-4HY-03.htm"}
+{"brand":"DAIKIN 大金","model":"MCK57LMV2-A","category":"流光能加湿空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":11.0,"color":"冰晶蓝","_source":"http://www.newegg.cn/Product/A09-282-4HX-04.htm"}
+{"brand":"DAIKIN 大金","model":"MCK57LMV2-N","category":"流光能加湿空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":11.0,"color":"香槟金","_source":"http://www.newegg.cn/Product/A09-282-4HX-02.htm"}
+{"brand":"DAIKIN 大金","model":"MCK57LMV2-R","category":"流光能加湿空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":11.0,"color":"珊瑚红","_source":"http://www.newegg.cn/Product/A09-282-4HX-03.htm"}
+{"brand":"DAIKIN 大金","model":"MCK57LMV2-W","category":"流光能加湿空气清洁器","noise_level":{"min":31.0,"max":60.0},"weight":11.0,"color":"经典白","_source":"http://www.newegg.cn/Product/A09-282-4HX.htm"}
+{"brand":"DeLonghi 德龙","model":"AC100","category":"空气净化器","_source":"http://www.newegg.cn/Product/A09-472-4ZF.htm"}
+{"brand":"DeLonghi 德龙","model":"AC150","category":"空气净化器","_source":"http://www.newegg.cn/Product/A09-472-4ZE.htm"}
+{"brand":"DeLonghi 德龙","model":"AC230","category":"空气净化器","_source":"http://www.newegg.cn/Product/A09-472-4ZD.htm"}
+{"brand":"DeLonghi 德龙","model":"AC75","category":"空气净化器","_source":"http://www.newegg.cn/Product/A09-472-4ZG.htm"}
+{"brand":"DeLonghi 德龙","model":"DD30P","category":"除湿机","_source":"http://www.newegg.cn/Product/A09-472-4ZJ.htm"}
+{"brand":"DeLonghi 德龙","model":"DD40P","category":"除湿机","_source":"http://www.newegg.cn/Product/A09-472-4ZH.htm"}
+{"brand":"DeLonghi 德龙","model":"DEC100 EX:2","category":"除湿机","_source":"http://www.newegg.cn/Product/A09-472-4ZK.htm"}
+{"brand":"Delonghi 德龙","model":"DEC200E","category":"除湿机","_source":"http://www.newegg.cn/Product/98-C03-081.htm"}
+{"brand":"Delonghi 德龙","model":"DNC65","category":"除湿机","_source":"http://www.newegg.cn/Product/98-C09-052.htm"}
+{"brand":"Electrolux 伊莱克斯","model":"CN500AZ","category":"空气净化器","power":{"max":125.0},"dimensions":{"height":620,"width":450,"deep":260},"weight":9.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-187-4AX.htm"}
+{"brand":"Electrolux 伊莱克斯","model":"EDH100","color":"淡粉色","dimensions":{"height":548,"width":198,"deep":350},"weight":5.8,"_source":"http://www.newegg.cn/Product/A09-187-4C1.htm"}
+{"brand":"Electrolux 伊莱克斯","model":"EDH110","category":"除湿机","_source":"http://www.newegg.cn/Product/A09-187-4C2.htm"}
+{"brand":"Electrolux 伊莱克斯","model":"Z9123","category":"室内","power":{"max":78.0},"noise_level":{},"CADR":{"dust":385},"dimensions":{"height":630,"width":503,"deep":258},"weight":9.9,"color":"白色","_source":"http://www.newegg.cn/Product/A09-187-4AV.htm"}
+{"brand":"Electrolux 伊莱克斯","model":"Z9124","category":"空气净化器","power":{"max":78.0},"CADR":{"dust":385},"dimensions":{"height":550,"width":210,"deep":420},"weight":7.2,"color":"黑色","_source":"http://www.newegg.cn/Product/A09-187-4AW.htm"}
+{"brand":"FELLOWS 范罗士","model":"DX5","category":"空气净化器","noise_level":{"max":47.0},"dimensions":{"height":692,"width":220,"deep":184},"weight":4.55,"color":"白色","_source":"http://www.newegg.cn/Product/A09-03T-531.htm"}
+{"brand":"FELLOWS 范罗士","model":"DX55","category":"空气净化器","dimensions":{"height":521,"width":181,"deep":330},"weight":4.61,"color":"白色","_source":"http://www.newegg.cn/Product/A09-03T-532.htm"}
+{"brand":"FELLOWS 范罗士","model":"DX95","category":"空气净化器","dimensions":{"height":638,"width":206,"deep":406},"weight":6.39,"color":"白色","_source":"http://www.newegg.cn/Product/A09-03T-533.htm"}
+{"brand":"FMART 福玛特","model":"APL100","category":"空气净化器","power":{"max":50.0},"dimensions":{"height":640,"width":320,"deep":530},"weight":8.1,"color":"白色","_source":"http://www.newegg.cn/Product/A09-1LM-4XG.htm"}
+{"brand":"FMART 福玛特","model":"APM202","category":"空气净化器","power":{"max":50.0},"dimensions":{"height":477,"width":187,"deep":470},"weight":4.3,"color":"白色","_source":"http://www.newegg.cn/Product/A09-1LM-4WX.htm"}
+{"brand":"FMART 福玛特","model":"APM300","category":"空气净化器","power":{"max":45.0},"dimensions":{"height":695,"width":245,"deep":325},"weight":4.3,"color":"白色","_source":"http://www.newegg.cn/Product/A09-1LM-4WW.htm"}
+{"brand":"GREE 格力","model":"DH20E","category":"除湿机","noise_level":{},"dimensions":{"height":261,"width":545,"deep":380},"weight":14.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-285-4D0.htm"}
+{"brand":"PHILIPS 飞利浦","model":"AC4014","category":"家用型","power":{"max":30.0},"noise_level":{"min":39.0,"max":54.0},"weight":4.8,"color":"白色","_source":"http://www.newegg.cn/Product/A09-033-4FL.htm"}
+{"brand":"PHILIPS 飞利浦","model":"AC4025","category":"家用型","power":{"max":30.0},"noise_level":{"min":36.0,"max":54.0},"weight":4.5,"color":"前盖:白；边框：绿","_source":"http://www.newegg.cn/Product/A09-033-4FH.htm"}
+{"brand":"PHILIPS 飞利浦","model":"AC4026","category":"家用型","power":{"max":30.0},"noise_level":{"min":39.0,"max":54.0},"weight":4.8,"color":"前盖:白；框边: 橙","_source":"http://www.newegg.cn/Product/A09-033-4FJ.htm"}
+{"brand":"PHILIPS 飞利浦","model":"AC4072","power":{"max":47.0},"noise_level":{"min":20.0,"max":50.0},"weight":7.2,"_source":"http://www.newegg.cn/Product/99-C44-005.htm"}
+{"brand":"PHILIPS 飞利浦","model":"AC4084","category":"家用型","power":{"max":20.0},"weight":10.0,"_source":"http://www.newegg.cn/Product/A09-033-4FK.htm"}
+{"brand":"PHILIPS 飞利浦","model":"HU4903","category":"加湿器","_source":"http://www.newegg.cn/Product/A09-033-4FG.htm"}
+{"brand":"Panasonic 松下","model":"F-PDJ30C-Y","category":"空气净化器","noise_level":{"max":20.1},"CADR":{"dust":172},"dimensions":{"height":210,"width":311,"deep":540},"weight":4.1,"color":"黄色","_source":"http://www.newegg.cn/Product/A4E-120-00Z.htm"}
+{"brand":"Panasonic 松下","model":"F-PDJ35C-A","category":"空气净化器","noise_level":{"max":20.7},"CADR":{"dust":178},"dimensions":{"height":189,"width":300,"deep":520},"weight":4.5,"color":"蓝色","_source":"http://www.newegg.cn/Product/A4E-120-011.htm"}
+{"brand":"Panasonic 松下","model":"F-PDJ35C-V","category":"空气净化器","noise_level":{"max":20.7},"CADR":{"dust":178},"dimensions":{"height":189,"width":300,"deep":520},"weight":4.5,"color":"紫色","_source":"http://www.newegg.cn/Product/A4E-120-011-02.htm"}
+{"brand":"Panasonic 松下","model":"F-PXH55C-V","category":"空气净化器","weight":7.0,"color":"紫色","_source":"http://www.newegg.cn/Product/A09-120-4ZZ.htm"}
+{"brand":"Panasonic 松下","model":"F-PXJ30C-A","category":"空气净化器","noise_level":{"max":20.1},"CADR":{"dust":151},"dimensions":{"height":210,"width":311,"deep":540},"weight":4.3,"color":"蓝色","_source":"http://www.newegg.cn/Product/A4E-120-010.htm"}
+{"brand":"Panasonic 松下","model":"F-PXJ35C-A","color":"蓝色","category":"空气净化器","noise_level":{"max":20.0},"CADR":{"dust":184},"dimensions":{"height":189,"width":300,"deep":520},"weight":4.7,"_source":"http://www.newegg.cn/Product/A4E-120-012.htm"}
+{"brand":"Panasonic 松下","model":"F-PXJ35C-P","color":"粉红色","category":"空气净化器","noise_level":{"max":20.0},"CADR":{"dust":184},"dimensions":{"height":189,"width":300,"deep":520},"weight":4.7,"_source":"http://www.newegg.cn/Product/A4E-120-012-02.htm"}
+{"brand":"Panasonic 松下","model":"F-VDG35C-W","category":"室内","noise_level":{},"dimensions":{"height":200,"width":360,"deep":560},"weight":7.8,"color":"白色","_source":"http://www.newegg.cn/Product/A09-120-4KS-02.htm"}
+{"brand":"Panasonic 松下","model":"F-VXG70C-R","category":"室内","noise_level":{},"dimensions":{"height":275,"width":390,"deep":608},"weight":10.2,"color":"红色","_source":"http://www.newegg.cn/Product/A09-120-4KR-02.htm"}
+{"brand":"Panasonic 松下","model":"F-VXH50C-S","category":"空气净化器","weight":9.0,"color":"银色","_source":"http://www.newegg.cn/Product/A09-120-500.htm"}
+{"brand":"Panasonic 松下","model":"F-VXJ05C-A","color":"蓝色","category":"空气净化器","noise_level":{"max":17.4},"CADR":{"dust":32},"dimensions":{"height":216,"width":168,"deep":218},"weight":1.9,"_source":"http://www.newegg.cn/Product/A4E-120-013.htm"}
+{"brand":"Panasonic 松下","model":"F-VXJ05C-W","color":"白色","category":"空气净化器","noise_level":{"max":17.4},"CADR":{"dust":32},"dimensions":{"height":216,"width":168,"deep":218},"weight":1.9,"_source":"http://www.newegg.cn/Product/A4E-120-013-02.htm"}
+{"brand":"Philips 飞利浦","model":"AC4016/00","category":"空气净化器","power":{"max":30.0},"color":"香槟金","_source":"http://www.newegg.cn/Product/A09-033-4ZC.htm"}
+{"brand":"Philips 飞利浦","model":"AC4074","category":"净化器","_source":"http://www.newegg.cn/Product/99-C44-004.htm"}
+{"brand":"Philips 飞利浦","model":"AC4076/00","category":"空气净化器","power":{"max":47.0},"color":"香槟金","_source":"http://www.newegg.cn/Product/A09-033-4ZA.htm"}
+{"brand":"SAMSUNG 三星","model":"AC-347HPAWQ/SC","category":"家用型","power":{"max":36.0},"noise_level":{"max":58.0},"weight":11.8,"color":"白色","_source":"http://www.newegg.cn/Product/A09-032-4Q1.htm"}
+{"brand":"SAMSUNG 三星","model":"AC-383CSAUA/SC","category":"家用型","power":{"max":44.0},"weight":8.7,"_source":"http://www.newegg.cn/Product/A09-032-4PK.htm"}
+{"brand":"SAMSUNG 三星","model":"AC-405CPAWQ/SC","category":"家用型","power":{"max":36.0},"CADR":{"dust":330},"weight":9.7,"color":"水晶白","_source":"http://www.newegg.cn/Product/A09-032-4Q2.htm"}
+{"brand":"SAMSUNG 三星","model":"AC-505CMAGA/SC","category":"家用型","CADR":{"dust":456},"weight":12.2,"color":"银色","_source":"http://www.newegg.cn/Product/A09-032-4Q0.htm"}
+{"brand":"SAMSUNG 三星","model":"AG-053VKCBB/SC","category":"车载空气净化器","power":{"max":3.0},"noise_level":{"max":23.0},"dimensions":{"height":75,"width":169,"deep":68},"weight":0.0,"_source":"http://www.newegg.cn/Product/A09-032-4P0.htm"}
+{"brand":"SAMSUNG 三星","model":"SA501TBCH 蓝色","category":"空气净化器","dimensions":{"height":191,"width":65,"deep":120},"weight":0.51,"color":"蓝色","_source":"http://www.newegg.cn/Product/A09-032-4NZ.htm"}
+{"brand":"SAMSUNG 三星","model":"SA501TWCH 白色","category":"空气净化器","noise_level":{"min":26.0,"max":33.0},"dimensions":{"height":191,"width":65,"deep":120},"weight":0.51,"color":"白色","_source":"http://www.newegg.cn/Product/A09-032-4NY.htm"}
+{"brand":"SHARP 夏普","model":"CFJ-15SW","category":"除湿机","power":{"max":240.0},"noise_level":{},"weight":13.0,"_source":"http://www.newegg.cn/Product/A09-133-3LE.htm"}
+{"brand":"SHARP 夏普","model":"DW-D20HZ-W","category":"除湿机","power":{"max":360.0},"weight":15.0,"_source":"http://www.newegg.cn/Product/A09-133-52L.htm"}
+{"brand":"SHARP 夏普","model":"FU-CD30-W","category":"空气净化器","power":{"max":60.0},"noise_level":{"max":62.0},"CADR":{"dust":270},"weight":7.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4TF.htm"}
+{"brand":"SHARP 夏普","model":"FU-GB10-W","category":"家用型","power":{"max":50.0},"CADR":{"dust":170},"dimensions":{"height":510,"width":180,"deep":356},"weight":5.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4QG.htm"}
+{"brand":"SHARP 夏普","model":"FU-WD20-S","category":"空气净化器","CADR":{"dust":240},"dimensions":{"height":576,"width":201,"deep":357},"_source":"http://www.newegg.cn/Product/A09-133-503.htm"}
+{"brand":"SHARP 夏普","model":"FU-WD30-S","category":"空气净化器","CADR":{"dust":260},"dimensions":{"height":668,"width":263,"deep":366},"_source":"http://www.newegg.cn/Product/A09-133-502.htm"}
+{"brand":"SHARP 夏普","model":"FU-Y180SW","category":"空气净化器","power":{"max":35.0},"CADR":{"dust":175},"weight":0.0,"_source":"http://www.newegg.cn/Product/99-C46-046.htm"}
+{"brand":"SHARP 夏普","model":"IG-BC2S-B","category":"车载","weight":0.0,"_source":"http://www.newegg.cn/Product/99-C46-041.htm"}
+{"brand":"SHARP 夏普","model":"KC-W200SW","category":"空气净化器","weight":0.0,"_source":"http://www.newegg.cn/Product/99-C46-029.htm"}
+{"brand":"SHARP 夏普","model":"KC-W380SW-W","category":"空气消毒机","power":{"max":56.0},"noise_level":{"max":52.0},"CADR":{"dust":375},"weight":0.0,"_source":"http://www.newegg.cn/Product/A09-133-40Q.htm"}
+{"brand":"SHARP 夏普","model":"KC-WB2-W","category":"空气净化器","power":{"max":23.0},"noise_level":{"max":47.0},"weight":0.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4N0.htm"}
+{"brand":"SHARP 夏普","model":"KC-WB3-W","category":"空气净化器","power":{"max":29.0},"noise_level":{"max":47.0},"weight":0.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4N1.htm"}
+{"brand":"SHARP 夏普","model":"KC-WB6-W","category":"空气净化器","power":{"max":57.0},"noise_level":{"max":53.0},"CADR":{"dust":405},"weight":0.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4N2.htm"}
+{"brand":"SHARP 夏普","model":"KC-Y180SW","category":"空气净化器","noise_level":{"min":22.0,"max":49.0},"weight":0.0,"_source":"http://www.newegg.cn/Product/99-C46-042.htm"}
+{"brand":"SHARP 夏普","model":"KI-BB60-W","category":"空气净化器","power":{"max":62.0},"noise_level":{"max":62.0},"CADR":{"dust":405},"weight":0.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-133-4TD.htm"}
+{"brand":"VOSSON 沃讯","model":"V10 黑色","category":"空气净化器","noise_level":{"max":42.0},"weight":0.85,"color":"钢琴黑","_source":"http://www.newegg.cn/Product/A09-2S4-4TR-02.htm"}
+{"brand":"VOSSON 沃讯","model":"V9 白色","category":"空气净化器","noise_level":{"max":42.0},"dimensions":{"height":63,"width":179,"deep":278},"weight":0.915,"color":"白色","_source":"http://www.newegg.cn/Product/A09-2S4-4TS.htm"}
+{"brand":"VOSSON沃讯","model":"V10/V6/V68","category":"净化器附件","noise_level":{},"dimensions":{"height":15,"width":80,"deep":135},"weight":0.1,"color":"黑色","_source":"http://www.newegg.cn/Product/A09-2S4-4TN.htm"}
+{"brand":"VOSSON沃讯","model":"V3","category":"空气净化器","power":{"max":2.5},"noise_level":{"max":45.0},"dimensions":{"height":38,"width":130,"deep":130},"weight":0.35,"color":"白色","_source":"http://www.newegg.cn/Product/A09-2S4-4TM.htm"}
+{"brand":"VOSSON沃讯","model":"V9 咖啡色","category":"空气净化器","noise_level":{"max":42.0},"dimensions":{"height":63,"width":179,"deep":278},"weight":0.915,"color":"咖啡色","_source":"http://www.newegg.cn/Product/A09-2S4-4TS-02.htm"}
+{"brand":"三星","model":"SA501TPCH 粉红色","category":"空气净化器","dimensions":{"height":191,"width":65,"deep":120},"weight":510.0,"color":"粉红色","_source":"http://www.newegg.cn/Product/A09-032-4NX.htm"}
+{"brand":"三星","model":"SA600CBSSEC 蓝色","category":"空气净化器","dimensions":{"height":255,"width":96,"deep":96},"weight":0.73,"color":"蓝色","_source":"http://www.newegg.cn/Product/A09-032-4NV.htm"}
+{"brand":"三星","model":"SA600CPSSEC 粉红色","category":"空气净化器","weight":0.73,"color":"粉红色","_source":"http://www.newegg.cn/Product/A09-032-4NU.htm"}
+{"brand":"三星","model":"SA600CWSSEC 白色","category":"空气净化器","dimensions":{"height":255,"width":96,"deep":96},"weight":0.73,"color":"白色","_source":"http://www.newegg.cn/Product/A09-032-4NW.htm"}
+{"brand":"大金","model":"MC120MMV2","category":"空气净化器","dimensions":{"height":392,"width":425,"deep":1055},"weight":30.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-282-4ZQ.htm"}
+{"brand":"大金","model":"MC71NV2C-N","category":"空气净化器","weight":9.5,"color":"香槟金","_source":"http://www.newegg.cn/Product/A09-282-4PW.htm"}
+{"brand":"大金","model":"MC71NV2C-R","category":"空气净化器","noise_level":{"min":32.0,"max":65.0},"weight":9.5,"color":"红色","_source":"http://www.newegg.cn/Product/A09-282-4PX.htm"}
+{"brand":"大金","model":"MC71NV2C-S","category":"空气净化器","weight":9.5,"color":"银色","_source":"http://www.newegg.cn/Product/A09-282-4PY.htm"}
+{"brand":"大金","model":"MC71NV2C-W","category":"空气净化器","dimensions":{"height":620,"width":230,"deep":395},"weight":9.0,"color":"白色","_source":"http://www.newegg.cn/Product/A09-282-4PV.htm"}
+{"brand":"沃讯","model":"V88","category":"空气净化器","noise_level":{"max":45.0},"dimensions":{"height":65,"width":180,"deep":280},"weight":1.0,"color":"钢琴黑","_source":"http://www.newegg.cn/Product/A09-2S4-4TP-02.htm"}
+{"brand":"沃讯","model":"V88","category":"空气净化器","noise_level":{"max":45.0},"dimensions":{"height":65,"width":180,"deep":280},"weight":1.0,"color":"银色","_source":"http://www.newegg.cn/Product/A09-2S4-4TP.htm"}
+{"model":"A0","category":"空气净化器","noise_level":{"max":42.0},"dimensions":{"height":109,"width":66,"deep":95},"weight":0.15,"color":"红色","_source":"http://www.newegg.cn/Product/A09-2S4-4TQ.htm"}
+{"model":"A0","category":"空气净化器","noise_level":{"max":42.0},"dimensions":{"height":109,"width":66,"deep":95},"weight":0.15,"color":"绿色","_source":"http://www.newegg.cn/Product/A09-2S4-4TQ-02.htm"}
+{"model":"V10 银色","category":"空气净化器","noise_level":{"max":42.0},"weight":0.85,"color":"银色","_source":"http://www.newegg.cn/Product/A09-2S4-4TR.htm"}
