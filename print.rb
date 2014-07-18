@@ -11,6 +11,7 @@ headers = {
   "dimensions:width" => "宽度(mm)",
   "dimensions:deep" => "深度(mm)",
   "weight" => "重量(kg)",
+  "color" => "颜色",
   "noise_level:min" => "最小噪音(dB)",
   "noise_level:max" => "最大噪音(dB)",
   "power:min" => "最小功率(W)",
@@ -19,6 +20,12 @@ headers = {
   "material" => "材料",
   "made_in" => "原产地",
   "filter_lifetime" => "滤网寿命",
+  "filter_material" => "滤网材料",
+  "filter_replacement_reminder" => "滤网更新提醒",
+  "sleep_mode" => "支持睡眠模式",
+  "remote_control" => "支持遥控",
+  "timing" => "支持定时",
+  "air_quality_led" => "空气质量显示",
   "total_fan_speed_levels" => "风档",
   "image" => "图片",
   "_source" => "数据来源"
@@ -37,7 +44,8 @@ csv_string = CSV.generate(:encoding => "utf-8") do |csv|
     row = []
     headers.keys.each do |header|
       if header =~ /^(.+?):(.+?)$/
-        row << record[$1][$2]
+        detail = record[$1] || {}
+        row << detail[$2]
       else
         row << record[header]
       end

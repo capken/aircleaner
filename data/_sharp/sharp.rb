@@ -3,6 +3,7 @@ require 'open-uri'
 require "json"
 
 STDIN.each do |url|
+  warn url
   doc = Nokogiri::HTML(open(url.strip))
   doc.css("div.pd2_tblist table").each do |table|
     content = table.to_str

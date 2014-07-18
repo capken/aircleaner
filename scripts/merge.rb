@@ -1,27 +1,13 @@
 require 'json'
 
-attr_mapping = {
-  "cadr_dust" => { :name => "CADR:dust",  :type => :integer },
-  "power_min" => { :name => "power:min",  :type => :float },
-  "power_max" => { :name => "power:max",  :type => :float },
-  "noise_min" => { :name => "noise_level:min",  :type => :float },
-  "noise_max" => { :name => "noise_level:max",  :type => :float },
-  "made_in" => { :name => "made_in", :type => :string },
-  "weight" => { :name => "weight",  :type => :float },
-  "color" => { :name => "color",  :type => :string },
-  "sleep_mode" => { :name => "sleep_mode",  :type => :boolean },
-  "remote_control" => { :name => "remote_control",  :type => :boolean },
-  "timing" => { :name => "timing",  :type => :boolean },
-  "quality_meter" => { :name => "air_quality_led",  :type => :boolean },
-  "filter_reminder" => { :name => "filter_replacement_reminder",  :type => :boolean },
-  "filter_life" => { :name => "filter_lifetime",  :type => :float },
-}
+path = File.join(File.dirname(__FILE__), "attr_meta.json")
+attr_meta = JSON[File.readlines(path).join]
 
 def value_of(record, name, type)
   raw_value = (name =~ /^(.+?):(.+?)$/) ? 
     (record[$1] && record[$1][$2]) : record[name]
 
-  value = case type 
+  value = case type.to_sym
   when :float
     raw_value.to_s =~ /-1/ ? nil : raw_value.to_f
   when :integer
@@ -60,11 +46,11 @@ STDIN.each do |line|
       'brand' => cr['brand'],
       'model' => cr['model']
     }
-    attr_mapping.keys.each { |attr| record[attr] = [] }
+    attr_meta.keys.each { |attr| record[attr] = [] }
   end
 
-  attr_mapping.each do |attr, meta|
-    value = value_of(cr, meta[:name], meta[:type])
+  attr_meta.each do |attr, meta|
+    value = value_of(cr, meta['name'], meta['type'])
     merge(record[attr], value, cr['_source'])
   end
 
