@@ -1,2 +1,2 @@
-ruby -e "(1..20).each {|n| puts \"http://list.jd.com/737-738-749-0-3207-0-0-0-0-0-1-1-#{n}-1-2-2811-2857-0.html\"}" |
+ruby -e "(1..11).each {|n| puts \"http://list.jd.com/list.html?cat=737%2C738%2C749&page=#{n}&delivery=1\"}" |
 xargs -I URL curl URL | egrep -o "http:\/\/item\.jd\.com\/\d+\.html" | sort -u
