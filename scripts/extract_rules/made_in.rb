@@ -1,7 +1,7 @@
 
-extract :color do |input|
+extract :made_in do |input|
   input.each_pair do |label, value|
-    if label =~ /外观|颜色/
+    if label =~ /^产地$/
       break value
     end
   end

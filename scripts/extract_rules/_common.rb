@@ -1,10 +1,10 @@
 
 extract :brand do |input|
-  input['brand']
+  input['品牌'] || input['brand']
 end
 
 extract :model do |input|
-  input['model']
+  input['型号'] || input['model']
 end
 
 extract :price do |input|

@@ -1,7 +1,7 @@
 
-extract :color do |input|
+extract :filter_life do |input|
   input.each_pair do |label, value|
-    if label =~ /外观|颜色/
+    if label =~ /滤网使用寿命/
       break value
     end
   end

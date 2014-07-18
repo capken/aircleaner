@@ -1,8 +1,8 @@
 
 def boolean_of(value)
-  if value =~ /^(?:支持)/
+  if value =~ /^(?:支持|有)/
     true
-  elsif value =~ /^(?:不支持)/
+  elsif value =~ /^(?:不支持|无|否)/
     false
   end
 end
@@ -25,7 +25,7 @@ end
 
 extract :timing do |input|
   input.each_pair do |label, value|
-    if label =~ /^定时功能$/
+    if label =~ /^定时(?:功能|模式)$/
       break boolean_of(value)
     end
   end
@@ -33,7 +33,7 @@ end
 
 extract :quality_meter do |input|
   input.each_pair do |label, value|
-    if label =~ /^空气质量指示灯$/
+    if label =~ /^(?:空气质量(?:指示灯|提示)|净化度指示灯)$/
       break boolean_of(value)
     end
   end
