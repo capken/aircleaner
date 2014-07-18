@@ -1,6 +1,6 @@
 require 'json'
 
-rules_dir = File.join(File.dirname(__FILE__), 'rules')
+rules_dir = File.join(File.dirname(__FILE__), 'refine_rules')
 
 @rules = []
 
@@ -23,4 +23,3 @@ STDIN.each do |line|
 
   puts record.to_json if @is_good_record
 end
-
