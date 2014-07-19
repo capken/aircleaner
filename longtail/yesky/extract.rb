@@ -6,7 +6,7 @@ require 'digest/sha1'
 STDIN.each do |url|
   url = url.strip
   hash = Digest::SHA1.hexdigest(url)
-  warn "\nprocessing page => #{hash} #{url} ...\n"
+  warn "\nprocessing page => #{url} ...\n"
   cached_file = File.open "./cache/#{hash}"
 
   doc = Nokogiri::HTML(cached_file.read)

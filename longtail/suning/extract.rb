@@ -5,7 +5,7 @@ require 'digest/sha1'
 
 STDIN.each do |url|
   url = url.strip
-  warn "extraction on #{url}..."
+  warn "\nprocessing page => #{url} ...\n"
   hash = Digest::SHA1.hexdigest(url)
   cached_file = File.open "./cache/#{hash}"
 
