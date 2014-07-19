@@ -1,2 +1,1 @@
-cat jd/result.json newegg/result.json pcpop/result.json suning/result.json zol/result.json yesky/result.json official.json |
-ruby ../scripts/refine.rb | sort > result.json
+cat seed_domains.txt | xargs -I DIR bash -c '(cd DIR && cat urls.txt | ruby extract.rb)' > result.json
