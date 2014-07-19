@@ -41,7 +41,7 @@ end
 
 extract :filter_reminder do |input|
   input.each_pair do |label, value|
-    if label =~ /^滤网更新提醒$/
+    if label =~ /^过?滤网更新提醒$/
       break boolean_of(value)
     end
   end

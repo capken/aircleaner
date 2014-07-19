@@ -8,7 +8,8 @@ extract :model do |input|
 end
 
 extract :price do |input|
-  input['price']
+  price = input['price'] || input['产品价格']
+  price.gsub(/￥/, '').to_i if price
 end
 
 extract :_source do |input|

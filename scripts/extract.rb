@@ -18,7 +18,7 @@ STDIN.each do |line|
 
   @rules.each_pair do |attr, rule|
     value = rule.call input
-    record[attr] = value unless value == input
+    record[attr] = value unless value.nil? or value == input
   end
 
   puts record.to_json
