@@ -1,9 +1,10 @@
 require "nokogiri"
 require "json"
+require "open-uri"
 
-STDIN.each do |file_name|
-  file = File.open("./pages/#{file_name.strip}", "r")
-  doc = Nokogiri::HTML(file.read)
+STDIN.each do |id|
+  warn id
+  doc = Nokogiri::HTML(open("http://www.ahamdir.com/aham_cm/site/pages/rac_detail.htm?model=#{id.strip}"))
   record = {}
   trs = doc.css("table#compare tr")
   trs.each_with_index do |tr, i|
@@ -24,11 +25,11 @@ STDIN.each do |file_name|
     when 7
       record["room_size"] = content_text
     when 8
-      record["dust_cadr"] = content_text
+      record["cadr_dust"] = content_text
     when 9
-      record["pollen_cadr"] = content_text
+      record["cadr_pollen"] = content_text
     when 10
-      record["tobacco_smoke_cadr"] = content_text
+      record["cadr_tobacco_smoke"] = content_text
     when 11
       record["energy_star"] = content_text
     when 12
