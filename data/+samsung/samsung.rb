@@ -1,9 +1,16 @@
 require "nokogiri"
-require 'open-uri'
 require "json"
+require 'uri'
+require 'digest/sha1' 
 
 STDIN.each do |url|
-  doc = Nokogiri::HTML(open(url.strip))
+  url = url.strip
+  warn "\nprocessing page => #{url} ...\n"
+  hash = Digest::SHA1.hexdigest(url)
+  cached_file = File.open "./cache/#{hash}"
+
+  doc = Nokogiri::HTML(cached_file.read)
+
   doc.css("div#div_bullet_view_content").each do |div|
     content = div.to_str
     obj = {}
@@ -28,9 +35,7 @@ STDIN.each do |url|
 
     obj["weight"] = $1.to_f if content =~ /净重:([0-9.]+)kg/i
 
-    cadr = {}
-    cadr["dust"] = $1.to_i if content =~ /洁净空气量:(\d+)/
-    obj["CADR"] = cadr
+    obj["cadr_dust"] = $1.to_i if content =~ /洁净空气量:(\d+)/
 
     noise_level = {}
     if content =~ /噪音:高 (\d+)\/低 (\d+)/
@@ -52,9 +57,8 @@ STDIN.each do |url|
 
     obj["air_volume"] = -1
     if content =~ /(?:风速|风量调节):([^\n]+)/
-      obj["total_fan_speed_levels"] = $1.split(/[、,\/]/).size
+      obj["fan_speed_levels"] = $1.split(/[、,\/]/).size
     end
-    obj["filter_lifetime"] = -1
     obj["_source"] = url.strip
 
     puts obj.to_json

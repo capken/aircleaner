@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SHARP| 空气净化器</title>
+<link rel="icon" href="/pci_files/favicon.ico" type="image/x-icon" />
+<link href="/pci_files/css/style.css" rel="stylesheet" type="text/css" />
+<script src="/pci_files/js/jquery.js" type="text/javascript"></script>
+<script src="/pci_files/js/jquery.page-scroller.js" type="text/javascript"></script>
+<script src="/pci_files/js/product_images_controls.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $("div.back_top").click(function(){
+        $('html, body').animate({scrollTop:0}, 'slow');
+        return false;
+        });
+      $("ul.idTabs a").click(function(){
+        $("ul.idTabs a").each(function(){
+          var id_ele = $(this).attr("data");
+          $(id_ele).hide()
+          }); 
+        $($(this).attr("data")).show();
+        button_now($(this).attr("id"));
+        $('html, body').animate({scrollTop:"650px"}, 500);
+        return false;  
+      }); 
+  })
+</script>
+</head>
+<body>
+<a href="#" id="back_top"></a>
+<div class="header" >
+  <div class="header_list">
+  <p class="logo"><img src="/pci_files/images/logo.gif" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="1,-1,138,29" href="/" target="_blank" alt="SHARP" />
+    <area shape="rect" coords="1,30,138,54" href="/pci" alt="空气净化器" />
+  </map>
+  </p>
+  <div class="header_right">
+    <div class="header_icon">
+      <p class="header_icon_1"><a href="/" target="_blank">首页</a></p>
+      <p class="header_icon_3"><a href="/supports" target="_blank">服务支持</a></p>
+    </div>
+    <div class="header_input">
+      <form action="/pci/search" id="search_all_source" method="get">
+        <p><img src="/pci_files/images/input_left.gif"></p>
+        <p class="header_zbg">
+        <input class="header_zbg" title="Search..." id="textfield" name="source_keywords" type="text">
+        </p>
+        <p class="header_search">
+        <input type="button" class="header_searchbg" onclick="$('form#search_all_source').submit()">
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <div class="menu_list" id="menu_list">
+  <ul class="menu"  id="menu">
+    <li>
+    <a href="/pci"><img  style=" position:absolute;" id="menu_0" src="/pci_files/images/menu01_off.gif" alt="净化器首页" /></a>
+    <a href="/pci"><img  style=" position:relative;"  id="menu_0_0" src="/pci_files/images/menu01_on.gif" alt="净化器首页" /></a>
+    </li>
+    <li>
+    <a href="/pci/technology"><img style=" position:absolute;" id="menu_1" src="/pci_files/images/menu02_off.gif" alt="PCI技术" /></a>
+    <a href="/pci/technology"><img style=" position:relative;" id="menu_1_0" src="/pci_files/images/menu02_on.gif" alt="PCI技术" /></a>
+    </li>
+    <li>
+    <a href="/pci/campaign"><img style=" position:absolute;" id="menu_2" src="/pci_files/images/menu03_off.gif" alt="促销活动" /></a>
+    <a href="/pci/campaign"><img style=" position:relative;" id="menu_2_0" src="/pci_files/images/menu03_on.gif" alt="促销活动" /></a>
+    </li>
+    <li>
+    <a href="/pci/voice"><img style=" position:absolute;" id="menu_3" src="/pci_files/images/menu04_off.gif" alt="用户体验" /></a>
+    <a href="/pci/voice"><img style=" position:relative;" id="menu_3_0" src="/pci_files/images/menu04_on.gif" alt="用户体验" /></a>
+    </li>
+    <li>
+    <a href="/supports" target="_blank"><img style=" position:absolute;" id="menu_4" src="/pci_files/images/menu05_off.gif" alt="服务支持" /></a>
+    <a href="/supports" target="_blank"><img style=" position:relative;" id="menu_4_0" src="/pci_files/images/menu05_on.gif" alt="服务支持" /></a>
+    </li>
+    <li>
+    <a href="/pci/faq"><img style=" position:absolute;" id="menu_5" src="/pci_files/images/menu06_off.gif" alt="常见问题" /></a>
+    <a href="/pci/faq"><img style=" position:relative;" id="menu_5_0" src="/pci_files/images/menu06_on.gif" alt="常见问题" /></a>
+    </li>
+  </ul>
+</div>
+
+  <div class="in_banner">
+    <div class="content_banner">
+      <div id="pd_title"><a href="/pci">净化器首页</a> &gt; <a href="javascript:void(0);">标准型</a> &gt; CF-20NZW-2</div>
+      <div id="pd1_ic1"><a href="/shop_pci" target="_blank"><img src="/pci_files/images/product/bar_ic1_off.gif" alt="实体店搜索" /></a></div>
+      <div id="pd1_ic2"><a href="http://item.jd.com/818593.html " onclick="_gaq.push(['_trackEvent', Jindong_link, 'click', '/pci/CF-20NZW-2' + '_KV']);" target="_blank"><img src="/pci_files/images/product/bar_ic2_off.gif" alt="前往天猫店" /></a></div>
+
+    </div>
+    <div id="ny_banner_mask" style=" position:relative;top:0;left:0; height:464px; overflow:hidden;">
+    <img id="ny_banner" style="position:relative;left:0;padding:0;top:0;" src="/pci_files/images/product_banners/CF-20NZW-2.jpg" />
+  </div>
+
+  </div>
+</div>
+<div id="pd_content" class="pd_content2">
+    <div class="pd_djlist" id="pd_djlist">
+    <div id="pd_djicon" class="pd_djicon">
+      <ul class="idTabs">
+        <li><a id="li_0" data="#functionality" href="javascript:void(0)" >产品特征</a></li>
+        <li><a id="li_1" data="#specification" href="javascript:void(0)" >产品参数</a></li>
+        <li><a id="li_2" data="#accessories" href="javascript:void(0)" >相关配件</a></li>
+        <li><a id="li_3" data="#idtabs_images" href="javascript:void(0)" >产品展示</a></li>
+      </ul>
+    </div>
+  </div>
+  <!----------------------- functionality -------------------------------> 
+  <div class="pd_box" id="functionality" style="display:block;">
+    <div class="pd_fxlist">
+      
+        <div class="pd1_c10">
+<ul>
+    <li>
+    <p><img src="/pci_files/images/product/ic01.jpg" alt="" /></p>
+    <div class="pd1_c10rt">
+    <p class="pd1_c10rt_ti">清洁干燥</p>
+    <p class="pd1_c10rt_ti2">去除晾在房间内的衣物异味并进行干燥。</p>
+    <p class="pd1_c10rt_ti3">・去除在房间内晾干衣物上的异味</p>
+    <p class="pd1_c10rt_ti3">・送风范围上下120&deg;*的广角导风板</p>
+    <p class="pd1_c10rt_ti4">＊导风板的动作角度大约为90&ordm;（风的可到达范围大约为120&ordm;）</p>
+    </div>
+    </li>
+    <li>
+    <p><img src="/pci_files/images/product/ic02.jpg" alt="" /></p>
+    <div class="pd1_c10rt">
+    <p class="pd1_c10rt_ti">舒适除湿</p>
+    <p class="pd1_c10rt_ti2">去除室内浮游霉菌，抑制霉臭味。</p>
+    <p class="pd1_c10rt_ti3">・防霉除湿  ・自动除湿  ・内部干燥运转</p>
+    </div>
+    </li>
+</ul>
+</div>
+        <p class="pd1_line"></p>
+      
+        <div class="pd1_c8">
+<div class="pd1_c7text" style="padding-top:100px;"><span>旅行箱式设计</span><br />
+<p>采用4个脚轮加上大型把手的旅行箱式设计，在房间内可以轻松移动。<br />
+(CFJ-15SW只能横向移动)</p>
+</div>
+<p class="pd1_c8img1"><img src="/pci_files/images/product/pd1_img11.jpg" alt="" /></p>
+<p class="clear">&nbsp;</p>
+</div>
+        <p class="pd1_line"></p>
+      
+    </div>
+  </div><!----------------------- functionality -------------------------------> 
+
+<!----------------------- specification -------------------------------> 
+  <div class="pd_box" id="specification" style="display: none;">
+    <div class="pd2_c1">
+      <p class="pd2_ti1">CF-20NZW-2产品参数</p>
+      <div class="pd2_tblist">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+            <tr>
+	    
+	    <td width="57%">甲醛祛除率（6小时）</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">抗菌率</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">模拟现场除菌性能</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">现场除菌性能</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">PM2.5去除率（1小时）</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">洁净空气量CADR(m3/h)</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">净化效能等级</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">运行模式</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">噪音（声功率）</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">输入功率</td>
+	    
+              <td width="43%"><span>310</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">最大加湿量(ml/h)</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">盛水桶容量（L）</td>
+	    
+              <td width="43%"><span>5L储水箱容量</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">外形尺寸(mm)宽×深×高</td>
+	    
+              <td width="43%"><span>372×282×614</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">额定电压(V/Hz)</td>
+	    
+              <td width="43%"><span>220/50电源(V/Hz)</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">重量(kg)</td>
+	    
+              <td width="43%"><span>约14</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">除湿能力（L/D)</td>
+	    
+              <td width="43%"><span>30℃/80%：20</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">除湿面积（m2）</td>
+	    
+              <td width="43%"><span>46-83</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">使用温度范围（℃）</td>
+	    
+              <td width="43%"><span>5-35</span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">风量（m3/h）</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">颜色</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">锂离子充电(连续工作时间)</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">电源</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">电池使用时(充电时间)</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">净离子群浓度</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">风速模式</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">适用容积（参考）</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">电源线长度</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">电流值</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">空气流量</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+            <tr>
+	    
+	    <td width="57%">总光通量(1m)</td>
+	    
+              <td width="43%"><span></span></td>
+            </tr>
+          
+        </table>
+      </div>
+    </div>
+  </div><!----------------------- specification -------------------------------> 
+<!----------------------- accessories -------------------------------> 
+  <div class="pd_box" id="accessories" style="display: none;">
+    <div class="pd2_c1">
+      <p class="pd2_ti1">CF-20NZW-2相关配件</p>
+      <div class="pd3_list">
+        <div class="pd3_imglist">
+          
+        </div>
+      </div>
+    </div>
+  </div><!----------------------- accessories -------------------------------> 
+  <!----------------------- idtabs_images -------------------------------> 
+  <div class="pd_box" id="idtabs_images" style="display: none;">
+    <div class="pd2_c1">
+      <p class="pd2_ti1">CF-20NZW-2产品展示</p>
+      <div class="pd3_list" style="padding-top:48px;">
+        <div id="product_images_show" class="product_images_show"></div>
+      </div>
+    </div>
+  </div><!----------------------- idtabs_images -------------------------------> 
+  
+  <div style="width:990px;margin:0 auto;margin-top:-48px;margin-bottom:60px;">※本网站的产品数据仅供参考，实际数据请以产品说明书为准。<br/>
+    ※本网站的资料若有错漏，本公司不承担由此产生的后果，因产品规格有改变而造成的轻微差别，请以实物为准。
+  </div>
+  <div class="content_bar">
+    <div class="in_clist3_01"><img src="/pci_files/images/footer_img3.jpg" alt="净离子热线电话"></div>
+<div class="in_clist3_01">
+  <img src="/pci_files/images/footer_img4.jpg" alt="服务支持">
+  <div id="in_fotlink4-1" class="in_fotxl1"><a href="/shop_pci" target="_blank">▶ 实体门店</a></div>
+  <div id="in_fotlink4-2" class="in_fotxl1"><a href="/pci/faq">▶ 常见问题</a></div>
+  <div id="in_fotlink4-3" class="in_fotxl1"><a href="/faqs/113" target="_blank">▶ 保修说明</a></div>
+  <div id="in_fotlink4-4" class="in_fotxl1"><a href="http://www.sharp.cn/service_shops/search_by_map" target="_blank">▶ 维修网点</a></div>
+</div>
+<p class="clear" style="padding-bottom:50px"></p>
+
+  </div>
+</div>
+<p class="clear"></p>
+<div class="footer" id="footer">
+  <div class="back_ictop">
+    <div class="back_top" style="position:relative;z-index:999"><a href="#back_top">回到顶部</a></div>
+    <p class="clear"></p>
+    <ul class="footer_list">
+      <p class="footer_title">产品信息</p>
+      <li><a href="/pci?id=1">空气消毒器</a></li>
+      <li><a href="/pci?id=2">加湿型空气净化器</a></li>
+      <li><a href="/pci?id=3">空气净化器</a></li>
+      <li><a href="/pci?id=4">净离子群发生器</a></li>
+      <li><a href="/pci?id=5">除湿机</a></li>
+    </ul>
+    <ul class="footer_list">
+      <p class="footer_title">服务支持</p>
+      <li><a href="/pci/?id=-1">配件信息</a></li>
+      <li><a href="/pci/faq">常见问题</a></li>
+      <li><a href="/faqs/113" target="_blank">保修说明</a></li>
+      <li><a href="http://www.sharp.cn/service_shops/search_by_map" target="_blank">维修网点</a></li>
+    </ul>
+    <ul class="footer_list">
+      <p class="footer_title">其它</p>
+      <li><a href="http://www.sharp-pci.com/cn/stories/index.html" target="_blank">用户体验</a></li>
+      <li><a href="http://www.sharp-pci.com/cn/technology/index.html" target="_blank">净离子群空气净化技术</a></li>
+      <li><a href="/" target="_blank">夏普首页</a></li>
+    </ul>
+    <p class="clear"></p>
+    <div class="footer2">
+      <p class="footer2_text">© 2011 夏普商贸（中国）有限公司 <a href="http://www.miitbeian.gov.cn/" target="_blank">沪ICP备08016514号</a></p>
+      <ul>
+        <li><a href="http://e.weibo.com/plasmacluster" target="_blank"><img src="/pci_files/images/dimensional.gif" /></a></li>
+        <li><a href="http://e.weibo.com/plasmacluster" target="_blank"><img src="/pci_files/images/sina.gif" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="/pci_files/js/product.js" type="text/javascript"></script>
+<script src="/pci_files/js/smartrollover.js" type="text/javascript"></script>
+<script  type="text/javascript">
+  new ButtonEff().FadeInMore('menu',-1);
+  $(".pd_fxlist .pd1_line:last").remove()
+   $(".pd2_tblist table tr").each(function(){if ($(this).find("td:gt(0)").text() == ""){$(this).remove()}});
+  </script>
+  <!-- Baidu Button BEGIN -->
+  <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=0" ></script>
+  <script type="text/javascript" id="bdshell_js"></script>
+  <script type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+    <!-- Baidu Button END -->
+</body>
+</html>

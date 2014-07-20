@@ -1,0 +1,2433 @@
+
+
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="zh" lang="zh">
+<head>
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="/cn/common/css/samsung.css" />
+<!--[if gte IE 8]><link rel="stylesheet" type="text/css" href="/cn/common/css/ie8gte.css" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/cn/common/css/ie7lte.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/cn/common/css/ie6.css" /><![endif]-->
+<link rel="shortcut icon" href="/common/img/favicon.ico"/>
+<script type="text/javascript" src="/common/js/jQuery.js"></script>
+<script type="text/javascript" src="/common/js/fe/uilib.js"></script>
+<script type="text/javascript" src="/cn/common/js/fe/ui.js"></script>
+<script type="text/javascript" src="/cn/common/js/apps/ssdc.script.message.js"></script>
+<script type="text/javascript" src="/common/js/apps/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/apps/ssdc.jquery.cookie.js"></script>
+<script type="text/javascript" >
+      var SITE_CODE = "cn";
+      $.SsdcCookie.initialize(SITE_CODE );
+</script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/APIModules_all.js"></script>
+<script type="text/javascript" src="/common/js/fe/brightcove_panel.js"></script>
+<script type="text/javascript" src="/common/js/fe/youtube_panel.js"></script>
+
+<meta property="qc:admins" content="12403770316315356763757543" />
+<meta property="qc:admins" content="124037703163153567637570216452" />
+
+
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="/common/js/fe/customPlayerManager.js"></script>
+<script type="text/javascript" src="/common/js/fe/p25_player.js"></script>
+<script type="text/javascript" src="/cn/common/js/customPlayerSetup.js"></script>
+<script type="text/javascript" src="/common/js/apps/ssdc.omniture.js"></script>
+<script type="text/javascript" src="/common/js/ssdc.b2c.base.js"></script>
+<script type="text/javascript" src="/common/js/fe/customDynamicMultiplayer.js"></script>
+
+
+
+
+
+
+ 
+	 
+	
+
+
+
+	
+		
+    		<link rel="canonical" href="http://www.samsung.com/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-spec" />
+		
+		
+		
+		
+		
+		
+	
+		 
+	<title>三星等离子空气净化器/空气加湿净化器/除菌器 | 中国三星电子 - 规格参数</title>
+	
+	<meta name="title"       content="三星等离子空气净化器/空气加湿净化器/除菌器 | 中国三星电子 - 规格参数"/>
+	<meta name="description" content="SAMSUNG 三星等离子空气净化除菌器官网提供包括等离子空气净化器、等离子空气加湿净化器、等离子空气杀菌器在内等离子空气净化除菌设备最新报价、功能及售后服务等信息。三星等离子空气净化除菌设备家庭消毒净化必备选择！"/>
+	<meta name="keywords"    content="等离子空气净化器，等离子空气加湿净化器，等离子空气除菌器"/>
+	<meta name="last-modified" content="2014-07-10"/>	
+	<meta name="sitecode" 	 content="CN" />
+	
+	
+    
+    
+    
+   
+	
+    <meta property="fb:admins"		content="100001305264935"/>
+
+
+
+	<meta property="fb:app_id"		content="144651938879532"/>
+
+
+    <meta property="og:title"		content="三星等离子空气净化器/空气加湿净化器/除菌器 | 中国三星电子 - 规格参数"/>
+    <meta property="og:description"	content="SAMSUNG 三星等离子空气净化除菌器官网提供包括等离子空气净化器、等离子空气加湿净化器、等离子空气杀菌器在内等离子空气净化除菌设备最新报价、功能及售后服务等信息。三星等离子空气净化除菌设备家庭消毒净化必备选择！"/>
+    
+    
+		
+			<meta property="og:image"		content="http://images.samsung.com/is/image/samsung/cn_AX022FCVAND-SC_009_Front_green_thumb?$S1-Thumbnail$"/>
+		
+		
+	
+	
+    <meta property="og:site_name"	content="Samsung CN"/>
+    <meta property="og:type"		content="product" />
+    <meta property="og:country-name"	content="CN"/>
+    <meta property="og:url"		content="http://fb.cn.samsung.com/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-spec" />
+    
+	
+		
+		
+		
+		
+	
+	
+	
+
+ 
+
+
+
+ 
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	//spec pdf omniture
+	if($(".reverse").length) {
+		$(".reverse").each(function() {
+			$(this).find("a").first().click(function() {
+				f_omniture();
+			});
+		});
+	}
+	
+	if($("#dataBindingPageParam > .longGsValUseFl").text() == "Y" &&
+			$("#dataBindingPageParam > .newSpecYN").text() == 'N') {
+		$("#div_bullet_view_tab > .tableOn > a").attr("href", "javascript:displayTableView()");
+		$("#div_table_view_tab > .bulletOn > a").attr("href", "javascript:displayBulletView()");
+		
+		displayBulletView();
+	} else {
+		//bullet view 탭을 보여주지않는다.
+		$("#div_table_view_tab > .bulletOn").hide();
+		
+		displayTableView();
+	}
+	
+	$("#content").show();
+	
+
+});
+
+function displayBulletView() {
+	$("#div_bullet_view_tab"    ).show();
+	$("#div_table_view_tab"     ).hide();
+	$("#div_bullet_view_content").show();
+	$("#div_table_view_content" ).hide();
+}
+
+function displayTableView() {
+	$("#div_bullet_view_tab"    ).hide();
+	$("#div_table_view_tab"     ).show();
+	$("#div_bullet_view_content").hide();
+	$("#div_table_view_content" ).show();
+}
+
+function f_omniture() {
+	s_control_click('products,events,eVar9', 'event3', 'AX022FCVAND/SC,event3,spec pdf', 'o', 'product interaction');
+}
+
+function appPop(mdlCd){
+	window.open("/sec/consumer/mobile/Apps/"+mdlCd+".html", "pop", 'width=640, height=700, left=0, top=0, scrollbars=yes');
+}
+
+//]]>
+</script>
+
+
+    
+    
+    	<script type="text/javascript">
+//<![CDATA[
+var g_searchLabel = 'Samsung GALAXY S5';
+var g_searchSiteCode = 'cn';
+//]]>
+</script>
+<script type="text/javascript" src="/common/js/apps/espsearch.js"></script>
+
+<!-- Foresee Survey Script :DO NOT ALTER ANYTHING IN THIS SCRIPT -->
+<script  type="text/javascript" src="/common/js/foresee/foresee-trigger.js"></script>
+
+</head>
+<body>
+    	
+		<!-- Nav for accessibility, dynamic create -->
+			<div id="accNav">
+			<p><a href="#content">跳到内容</a></p>
+			</div>
+		<!-- //Nav for accessibility-->
+		<!-- Body Wrap -->
+<link type="text/css" rel="stylesheet" href="/cn/common/css/theme.css" />
+<div id="wrap" class="con">
+
+	<!-- Header -->
+	<div id="header">
+		<p class="logo" role="banner">
+		<a href="/cn/"><img src="/cn/common/img/logo.gif" width="106" height="35" alt="" />中国三星电子</a>
+		</p>
+
+		<!-- GNB : svn temporary-->
+		<div id="globalNav" role="navigation" class="ir">
+			<script type="text/javascript" src="/common/js/apps/ssdc.gnb.js"></script>
+<ul>
+	<li class='consumer'><a href='/cn/consumer/index.html'>&#20010;&#20154;&#21450;&#23478;&#29992;&#20135;&#21697;</a>
+		<div class='menu'>
+			<ul>
+				<li>
+					<h2><a href='/cn/consumer/mobile-phones/mobile-phones/'>&#25163;&#26426;&#20135;&#21697;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/smart-phone/'>&#26234;&#33021;&#25163;&#26426;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/galaxy-note/'>Samsung <br/>GALAXY Note</a></li>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/gear/'>&#26234;&#33021;&#20329;&#25140;&#35774;&#22791;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/feature-phone/'>&#26102;&#23578;&#25163;&#26426;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/duos/'>&#21452;&#21345;/&#21452;&#24453;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/tab/'>&#26234;&#33021;&#24179;&#26495;&#30005;&#33041;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/mid/'>&#26234;&#33021;&#36855;&#20320;&#26412;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/galaxy-camera/'>Samsung <br/>GALAXY Camera</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/televisions/televisions/'>&#30005;&#35270;&#20135;&#21697;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/televisions/televisions/oled-tv/'>OLED TV</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/uhd-tv/'>UHD TV</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/smart-tv/'>Smart TV</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/slim-led/'>&#32420;&#34180;&#28082;&#26230;&#30005;&#35270;</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/plasma-tv/'>&#31561;&#31163;&#23376;&#30005;&#35270;</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/tv-accessories/'>&#30005;&#35270;&#37197;&#20214;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/audio-video/'>&#24433;&#38899;&#35774;&#22791;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/audio-video/home-theater/'>&#23478;&#24237;&#24433;&#38498;</a></li>
+						<li><a href='/cn/consumer/audio-video/blu-ray-players/bd-player/'>Blu-ray &#25773;&#25918;&#22120;</a></li>
+						<li><a href='/cn/consumer/audio-video/airtrack/airtrack/'>&#22721;&#25346;&#38899;&#21709;</a></li>
+						<li><a href='/cn/consumer/audio-video/audio-dock/'>&#24213;&#24231;&#38899;&#21709;</a></li>
+						<li><a href='/cn/consumer/audio-video/sound-stand/sound-stand/'>&#26080;&#32447;&#24179;&#26495;&#38899;&#21709;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/notebooksdisplay/'>&#30005;&#33041;/&#21150;&#20844;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/computers-office/ultra-mobile-pc/'>&#20010;&#20154;&#30005;&#33041;</a></li>
+						<li><a href='/cn/consumer/computers-office/printers-multifunction/'>&#21150;&#20844;&#20135;&#21697;</a></li>
+						<li><a href='/cn/consumer/computers-office/monitors/'>&#26174;&#31034;&#22120;</a></li>
+						<li><a href='/cn/consumer/computers-office/sd-card-memory-card/'>&#23384;&#20648;&#21345;/&#20869;&#23384;</a></li>
+						<li><a href='/cn/consumer/computers-office/ssd-card/'>SSD</a></li>
+						<li><a href='/cn/consumer/computers-office/optical-disc-drives/optical-disc-drives/'>&#20809;&#23384;&#20648;</a></li>
+						<li><a href='http://drive.seagate.com/content/samsung-zh-cn/' class='blank' target='_blank' title='新窗口'>&#30828;&#30424;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/cameracamcorder/'>&#25968;&#30721;&#24433;&#20687;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/digital-video/smart-camera/nx-series-cameras/'>NX&#31995;&#21015;&#26234;&#33021;&#24494;&#22411;&#21333;&#30005;</a></li>
+						<li><a href='/cn/consumer/mobile-phones/galaxy-camera/'>Samsung<br/>GALAXY Camera</a></li>
+						<li><a href='/cn/consumer/digital-video/smart-compact/smart-compact/'>&#26234;&#33021;&#20415;&#25658;&#30456;&#26426;</a></li>
+						<li><a href='/cn/consumer/digital-video/nx-lens/lenses/'>&#38236;&#22836;</a></li>
+						<li><a href='/cn/consumer/digital-video/smart-camera/nx-accessories/'>&#30456;&#26426;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/digital-video/camcorders/hd-camcorder/'>&#25968;&#30721;&#25668;&#20687;&#26426;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/home-appliances/'>&#30333;&#33394;&#23478;&#30005;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/home-appliances/refrigerators/'>&#20912;&#31665;</a></li>
+						<li><a href='/cn/consumer/home-appliances/washers-dryers/'>&#27927;&#34915;&#26426;</a></li>
+						<li><a href='/cn/consumer/home-appliances/air-conditioners/'>&#31354;&#35843;</a></li>
+						<li><a href='/cn/consumer/home-appliances/air-care/'>&#31561;&#31163;&#23376;&#31354;&#27668;&#20928;&#21270;&#22120;</a></li>
+						<li><a href='/cn/consumer/home-appliances/rambo/'>&#26234;&#33021;&#21560;&#23576;&#22120;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='/cn/consumer/accessories/'>&#37197;&#20214;</a></h2>
+					<ul>
+						<li><a href='/cn/consumer/mobile-phones/mobile-phones/mobile-phone-accessories/'>&#25163;&#26426;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/televisions/televisions/tv-accessories/'>&#30005;&#35270;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/computers-office/ultra-mobile-pc/option-accessories/'>&#20010;&#20154;&#30005;&#33041;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/digital-video/smart-camera/accessories/'>&#20415;&#25658;&#30456;&#26426;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/digital-video/smart-camera/nx-accessories/'>&#30456;&#26426;&#37197;&#20214;</a></li>
+						<li><a href='/cn/consumer/computers-office/printers-multifunction/supplies-accessories/'>&#25171;&#21360;&#26426;&#32791;&#26448;</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li class='business'><a href='/cn/business/index.html'>&#21830;&#29992;&#35299;&#20915;&#26041;&#26696;</a>
+		<div class='menu'>
+			<ul>
+				<li>
+					<h2><a href='#'>&#34892;&#19994;&#35299;&#20915;&#26041;&#26696;</a></h2>
+					<ul>
+						<li><a href='/cn/business/industry/finance/'>&#37329;&#34701;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/security/'>&#23433;&#38450;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/design/'>&#35774;&#35745;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/government/'>&#25919;&#24220;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/construction/'>&#24314;&#31569;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/hospitality/'>&#37202;&#24215;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/education/'>&#25945;&#32946;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/automotive/'>&#20132;&#36890;&#34892;&#19994;</a></li>
+						<li><a href='/cn/business/industry/others/'>&#20854;&#23427;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='#'>&#20135;&#21697;&#35299;&#20915;&#26041;&#26696;</a></h2>
+					<ul>
+						<li><a href='/cn/business/solutions/mobile-phone/'>&#25163;&#26426;</a></li>
+						<li><a href='/cn/business/solutions/notebook-pc/'>&#21830;&#29992;&#31508;&#35760;&#26412;</a></li>
+						<li><a href='/cn/business/solutions/hospitality-display/'>&#21830;&#29992;&#30005;&#35270;</a></li>
+						<li><a href='/cn/business/solutions/large-format-display/'>LFD &#22823;&#22411;&#26174;&#31034;&#22120;</a></li>
+						<li><a href='/cn/business/solutions/business-printers/'>&#21830;&#29992;&#25171;&#21360;&#26426;</a></li>
+						<li><a href='/cn/business/solutions/cloud-display/'>&#20113;&#32456;&#31471;</a></li>
+						<li><a href='/cn/business/solutions/business-monitors/'>&#21830;&#29992;&#26174;&#31034;&#22120;</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='#'>&#20135;&#21697;</a></h2>
+					<ul>
+						<li>
+							<h3><a href='#'>&#21830;&#29992;&#20135;&#21697;</a></h3>
+							<ul>
+								<li><a href='/cn/business/business-products/hospitality-display/'>&#21830;&#29992;&#30005;&#35270;</a></li>
+								<li><a href='/cn/business/business-products/large-format-display/'>LFD &#22823;&#22411;&#26174;&#31034;&#22120;</a></li>
+								<li><a href='/cn/business/business-products/cloud-display/'>&#20113;&#32456;&#31471;</a></li>
+								<li><a href='/cn/business/business-products/business-printers/'>&#21830;&#29992;&#25171;&#21360;&#26426;</a></li>
+								<li><a href='/cn/business/business-products/notebook-pc/'>&#21830;&#29992;&#31508;&#35760;&#26412;</a></li>
+								<li><a href='/cn/business/business-products/business-monitors/'>&#21830;&#29992;&#26174;&#31034;&#22120;</a></li>
+								<li><a href='/cn/business/business-products/ssd-card/'>SSD</a></li>
+								<li><a href='/cn/business/business-products/led-lamp/'>LED &#29031;&#26126;</a></li>
+								<li><a href='/cn/business/business-products/dvm/'>&#20013;&#22830;&#31354;&#35843;</a></li>
+								<li><a href='http://www.samsung.com/global/business/healthcare/' class='blank' target='_blank' title='新窗口'>&#21307;&#30103;&#22120;&#26800;</a></li>
+								<li><a href='http://www.samsung.com/global/business/set-top-box/' class='blank' target='_blank' title='新窗口'>&#26426;&#39030;&#30418;</a></li>
+								<li><a href='http://www.samsung.com/global/business/telecommunication-systems/' class='blank' target='_blank' title='新窗口'>&#36890;&#20449;&#31995;&#32479;</a></li>
+								<li><a href='http://www.samsungfiberoptics.com/Ch/main.html' class='blank' target='_blank' title='新窗口'>&#20809;&#36890;&#20449;</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3><a href='#'>&#20803;&#22120;&#20214;</a></h3>
+							<ul>
+								<li><a href='http://www.samsung.com/global/business/compressor/' class='blank' target='_blank' title='新窗口'>&#21387;&#32553;&#26426;</a></li>
+								<li><a href='http://www.samsung.com/global/business/semiconductor/' class='blank' target='_blank' title='新窗口'>&#21322;&#23548;&#20307;</a></li>
+								<li><a href='http://samsungled.com/eng/main/index.asp' class='blank' target='_blank' title='新窗口'>LED</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href='#'>&#30456;&#20851;&#36164;&#35759;</a></h2>
+					<ul>
+						<li><a href='/cn/business/resource/case-study/'>&#25104;&#21151;&#26696;&#20363;</a></li>
+						<li><a href='/cn/business/resource/data-sheet/'>&#26032;&#38395;</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li class='contentServices'><a href='http://content.samsung.cn/cn/main.do' class='blank' target='_blank' title='新窗口'>&#24212;&#29992;&#19982;&#26381;&#21153;</a>
+	</li>
+	<li class='support'><a href='/cn/support/main/supportMain.do'>&#21806;&#21518;&#26381;&#21153;</a>
+		<div class='menu'>
+			<ul>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10001'>&#25163;&#26426;&#20135;&#21697;</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10003'>&#35270;&#21548;/&#24433;&#38899;</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10004'>&#30005;&#33041;/&#21150;&#20844;</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10002'>&#29031;&#30456;&#26426; &amp; &#25668;&#20687;&#26426;</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10005'>&#23478;&#30005;&#20135;&#21697;</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href='/cn/support/main/supportMain.do?supportIaCode=10006'>&#23384;&#20648;&#35774;&#22791;</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class='fixedList'>
+				<div class='otherList'>
+					<h2>&#20135;&#21697;&#25903;&#25345;</h2>
+					<ul>
+						<li><a href='/cn/support/download/supportDownloadMain.do'>&#19979;&#36733;&#20013;&#24515;</a></li>
+						<li><a href='/cn/support/troubleshootingguides/supportTroubleShootingGuidesMain.do'>&#24120;&#35265;&#38382;&#39064;&#35299;&#31572;</a></li>
+						<li><a href='/cn/support/warranty/warrantyInformation.do'>&#20135;&#21697;&#26381;&#21153;&#25919;&#31574;</a></li>
+						<li><a href='http://support-cn.samsung.com/product_validation/ProductVerification/'>&#20135;&#21697;&#39564;&#35777;</a></li>
+					</ul>
+				</div>
+				<div class='otherList'>
+					<h2>&#33258;&#21161;&#26381;&#21153;</h2>
+					<ul>
+						<li><a href='http://support-cn.samsung.com/supportcn/support/pre-booking/'>&#32500;&#20462;&#39044;&#32422;&#30003;&#35831;</a></li>
+						<li><a href='https://support-cn.samsung.com/supportcn/support/SupportApply_add.aspx'>&#23433;&#35013;&#32500;&#20462;&#30003;&#35831;</a></li>
+						<li><a href='https://support-cn.samsung.com/supportcn/support/SupportApply_List_Cust.aspx'>&#32500;&#20462;&#36827;&#24230;&#26597;&#35810;</a></li>
+						<li><a href='/cn/support/location/supportServiceLocation.do?page=SERVICE.LOCATION'>&#26381;&#21153;&#20013;&#24515;&#26597;&#35810;</a></li>
+						<li><a href='https://support-cn.samsung.com/supportcn/imei/index.html?pid=cn_support_specialservice_warranty_20140310'>&#24310;&#20445;&#26597;&#35810;</a></li>
+					</ul>
+				</div>
+				<div class='otherList'>
+					<h2>&#29305;&#33394;&#26381;&#21153;</h2>
+					<ul>
+						<li><a href='https://smartchat.samsung.com.cn/smartchat/nonmeminfo' class='blank' target='_blank' title='新窗口'>&#22312;&#32447;&#23458;&#26381;</a></li>
+						<li><a href='http://r.samsungservice.cn/'>&#36828;&#31243;&#21830;&#35848;</a></li>
+						<li><a href='https://support-cn.samsung.com/supportcn/support/material_price/index.aspx'>&#38646;&#37197;&#20214;&#21442;&#32771;&#20215;&#26684;&#26597;&#35810;</a></li>
+						<li><a href='http://support.samsung.com.cn/topic-simulator/'>&#27169;&#25311;&#25805;&#20316;&#25351;&#21335;</a></li>
+						<li><a href='https://vip.samsungservice.com.cn/index.aspx?pid=cn_support_vip_detail_20140310' class='blank' target='_blank' title='新窗口'>VIP &#20465;&#20048;&#37096;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class='productregistration'><a href='http://store.samsung.com/cn/' class='blank' target='_blank' title='新窗口'>&#32593;&#19978;&#21830;&#22478;</a></li>
+</ul>
+		</div>
+		<!-- //GNB : svn temporary-->
+
+		<!-- Search : accessibility -->
+		<!--div class="accHide">
+			<fieldset class="search" role="search">
+				<legend>搜索</legend>
+				<label for="search">搜索</label>
+				<input type="text" id="search" name="input_keyword" title="search" value="" accesskey="" maxlength="100" onkeydown="tricks(event);" onkeyup="tricks(event);"> 
+				<button>Search</button>
+			</fieldset>
+		</div-->
+		<div class="accHide">
+		<form action="/cn/function/search/espsearchResult" method="get" id="search_form" name="search_form">
+			<fieldset class="search" role="search">
+				<legend>I9300</legend>
+				<label for="search">I9300</label>
+				<input type="text" id="search" name="input_keyword" title="search" value="" accesskey="" maxlength="100"> 
+				<input name="keywords" type="hidden" id="keywords"> 
+				<button>Search</button>
+			</fieldset>
+		</form>
+		</div>
+		<div class="accShow">
+		<form action="/cn/function/search/espsearchResult" method="get" id="search_form" name="search_form">
+			<fieldset class="search" role="search">
+				<legend>I9300</legend>
+				<label for="search_acc">I9300</label>
+				<input type="text" id="search_acc" name="input_keyword" title="search" value="" accesskey="" maxlength="100"> 
+				<input name="keywords" type="hidden" id="keywords"> 
+				<button>Search</button>
+			</fieldset>
+		</form>
+		</div>
+		<!-- //Search : accessibility -->
+		<div id="util">
+			<ul>
+				<li><a target="_blank" href="http://support-cn.samsung.com/3dtiyanguan/">虚拟体验馆</a></li>
+				<li><a href="/cn/launchingpeople/landing.html">Launching People</a></li>
+				<li class="first"><a href="http://club.samsung.com/cn" target="_blank" onClick="omni_call('pid','cn_home_utilitymenu_club_20140609','');">会员俱乐部</a></li>
+				<li><a target="_blank" href="http://support-cn.samsung.com/StoreLocation/">专卖网络</a></li>
+				<li><a target="_blank" href="http://www.samsung.com.cn/csr/">探知未来</a></li>
+				<li><a href="/cn/experience/Promotion/index.html">最新活动</a></li>
+				<li><a href="/cn/news/main.do">新闻中心</a></li>
+				<li><a href="/cn/aboutsamsung/index.html">关于三星</a></li>
+				<li><a target="_blank" href="http://www.dearsamsung.com.cn/">人才招聘</a></li>
+				
+				<li id="loginId"><a href="http://membership.samsung.com/cn/login/SALogin">登录/注册</a></li>
+				<li id="mymenu_logout2" style="display:none">
+					<a href="http://membership.samsung.com/cn/member/memberInfoDetail">我的三星 </a></li>
+					<li id="mymenu_logout" style="display:none; border-left:none; padding:0;"><a href="javascript:logoutyl();">(退出)</a>
+				</li>
+			</ul>
+		</div>
+		<div id="colorThemes">
+			<ul>
+			<li class="theme0Btn"><a href="#none" title=" Change the colours by using the Colour theme on your browser"><span> Change the colours by using the Colour theme on your browser</span>C</a></li>
+			<li class="theme1Btn"><a href="#none" title="Change the colours by using the Blue theme on your browser"><span>Change the colours by using the Blue theme on your browser</span>C</a></li>
+			<li class="theme2Btn"><a href="#none" title="Change the colours by using the Hi Visibility theme on your browser"><span>Change the colours by using the Hi Visibility theme on your browser</span>C</a></li>
+			</ul>
+		</div>
+		
+	<script type="text/javascript">
+
+	function logoutyl(){
+	if($('#iframeyulan').length <=0){
+	
+	$("body").after("<iframe id='iframeyulan'></iframe>")
+	
+	$('#iframeyulan').attr('src', 'http://support-cn.samsung.com/MySamsungCN/Club/launchevent/api/logout.ashx');
+	 $('#iframeyulan').load(function()
+	 {
+		
+		 location.href = "http://club.samsung.com/cn/login/SALogout"
+	 });
+	
+	}
+	}
+
+    function logoutzuoyou(){
+    var logoutUrl = location.href.split("://")[0] + "://support-cn.samsung.com/MySamsungCN/Club/launchevent/api/logout.ashx";
+    $.ajax({
+    type: "POST",
+    url: logoutUrl,
+    async: false,
+    data: "",
+    success: function (data) {
+    if (data == 1) {
+    location.href = "http://club.samsung.com/cn/login/memberLogOut";
+    } else {
+    // alert(data);
+    }
+    }
+    });
+
+    }
+
+    $(function(){
+    var prof_id = getCookie("iPlanetDirectoryPro");
+    if ((prof_id != null) && (prof_id != "")){
+			$("#mymenu_logout").show();
+			$("#mymenu_logout2").show();
+			$("#loginId").hide();}
+		else
+		{
+			$("#mymenu_logout").hide();
+			$("#mymenu_logout2").hide();
+			$("#loginId").show();
+		}
+	}); 
+  
+	  
+	  function logout() {
+	  deleteCookie("prof_country", "/", ".samsung.com");
+	  deleteCookie("prof_id", "/", ".samsung.com");
+	  deleteCookie("prof_prolist", "/", ".samsung.com");
+	  deleteCookie("prof_username", "/", ".samsung.com");
+	  deleteCookie("prof_pass_info", "/", ".samsung.com");
+	  deleteCookie("bvdisplaycode", "/", "");
+	  deleteCookie("bvproductid", "/", "");
+	  deleteCookie("bvpage", "/", "");
+	  deleteCookie("bvcontenttype", "/", "");
+	  deleteCookie("bvauthenticateuser", "/", "");
+	
+	  deleteCookie("bzv_url", "/", "");
+	  deleteCookie("auth_flag", "/", "");
+	
+	  //window.location.reload();
+	  //window.location.href = document.URL;
+	  window.location.href="http://support-cn.samsung.com/MySamsungCN/logout.aspx";
+	  }
+	  function deleteCookie(name, path, domain)
+	  {
+	  if (getCookie(name))
+	  document.cookie = name + '=' +
+	  ((path) ? ';path=' + path : '') +
+	  ((domain) ? ';domain=' + domain : '' ) +
+	  ';expires=Thu, 01-Jan-1970 00:00:01 GMT';
+	  }
+	</script>
+		
+		
+		<script type="text/javascript">
+		//<![CDATA[
+		var eventTrick = null;
+		var onpressTrick = '';
+		function trick() {
+		    if (navigator.userAgent.indexOf("MSIE") != -1) return;
+		
+		    var target = $('#search');
+		    if ( onpressTrick != target.val() && '' != target.val() ) {
+			onpressTrick = target.val();
+			//sqs.keyUp( eventTrick );
+			if (g_sqs != null && eventTrick != undefined && eventTrick.keyCode != 40 && eventTrick.keyCode != 38) g_sqs.fetchAndDisplaySuggestions();
+		    }
+		}
+		    
+		setInterval("trick()", 300);
+		function tricks(e) { eventTrick = e; };
+		   //]]>
+		</script>
+
+	</div>
+	<!-- //Header -->
+
+	<!-- Content Wrap -->
+	<div id="container">
+
+	<script type="text/javascript">
+	//<![CDATA[
+		//Browser Auto-complete off
+		document.getElementById("search").setAttribute("autocomplete", "off");
+	//]]>
+	</script>
+    
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/common/js/apps/ssdc.wheretobuy.js"></script>
+
+<script type="text/javascript">
+	//<![CDATA[
+   	
+    $(document).ready(function () {
+        $(".utillinks").find(".email").each(function() {
+            $(this).click(function(){
+                var frm = document.getElementById("form");
+                var win = window.open("about:blank","prepopup1","scrollbars=yes,tobar=no,width=645,height=487,top=0,left=0,");
+                win.focus();
+                frm.target="prepopup1";
+                
+                frm.submit();
+            });
+        });
+        
+    	if($(".productInfo2 #reviewDispYN2").val()=="Y"){
+        	$(".productInfo2 .rating").show();
+        } else {
+        	$(".productInfo2 .rating").hide();
+        }
+        
+        if($(".productInfo #reviewDispYN").val()=="Y"){
+        	$(".productInfo .rating").show();
+        } else {
+        	$(".productInfo .rating").hide();
+        }
+    	 
+    });
+    //]]>    
+</script>
+
+<form name="form" method="post" id="form" action="/cn/emailaFriend.do">
+    <input type="hidden" id="group" 			name="group" 				value="home-appliances" />
+    <input type="hidden" id="type" 				name="type" 				value="air-care" />
+    <input type="hidden" id="subtype" 			name="subtype" 				value="air-care" />
+    <input type="hidden" id="m_model_cd" 		name="model_cd" 			value="AX022FCVAND/SC" />
+    <input type="hidden" id="taf_type_cd" 		name="taf_type_cd" 			value="CP" />
+    <input type="hidden" id="taf_notes" 		name="taf_notes" 			value="" />
+    <input type="hidden" id="pagelink" 			name="pagelink" 			value="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC" />
+    <input type="hidden" id="typeName" 			name="typeName" 			value="" />
+    <input type="hidden" id="detail_url" 		name="detail_url" 			value="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC"/>
+	    
+	<input type="hidden" id="pvi_type_name" 	name="pvi_type_name"		value="" /> 
+	<input type="hidden" id="pvi_type_code" 	name="pvi_type_code"		value="" />
+	<input type="hidden" id="pvi_subtype_name" 	name="pvi_subtype_name" 	value="" /> 
+	<input type="hidden" id="pvi_subtype_code" 	name="pvi_subtype_code" 	value="" />
+	<input type="hidden" id="pvi_project_name" 	name="pvi_project_name" 	value="" />
+	<input type="hidden" id="pvi_project_code" 	name="pvi_project_code" 	value="" />
+	<input type="hidden" id="model_code" 		name="model_code" 			value="AX022FCVAND/SC" />
+	<input type="hidden" id="pageTrack" 		name="pageTrack"			value="product detail" />
+	<input type="hidden" id="tabTrack" 			name="tabTrack"				value="spec" />
+    <input type="hidden" id="model_name" 		name="model_name" 			value="AX022FCVAND/SC"/>	
+	<input type="hidden" id="display_name" 		name="display_name" 		value="AX022FCVAND/SC" />
+	<input type="hidden" id="price" 		    name="price" 		        value="" />
+	<input type="hidden" id="print_this_page" 	name="print_this_page" 		value="打印此页" />
+	<input type="hidden" id="printer_friendly" 	name="printer_friendly" 	value="打印此页" />
+	<input type="hidden" id="ia_cd" 			name="ia_cd" 				value="07140200" />
+	<input type="hidden" id="emailTypeCode"		name="emailTypeCode"		value="1" />
+	<input type="hidden" id="emailUsePath"		name="emailUsePath"			value="[<null>,个人及家用产品, <null>,白色家电, /cn/consumer/home-appliances/air-care/,等离子空气净化器, /cn/consumer/home-appliances/air-care/air-care/,等离子空气净化器]" />
+</form>
+
+
+ 
+
+
+
+
+<!-- Content Head -->
+<div id="contentHead" class="pdt"  >
+	<div class="headWrap" >
+		
+		
+	
+	
+	
+	
+	
+	 
+			<p class="breadcrumb" id="pathindicator">
+				<a href="/cn/index.html" onclick="omni_call('content_click','top:site_ia_link');">首页</a>
+		
+			
+			
+			
+				<span>个人及家用产品</span>
+			
+			
+		
+			
+			
+			
+				<span>白色家电</span>
+			
+			
+		
+			
+			
+				<a href='/cn/consumer/home-appliances/air-care/' onclick="omni_call('content_click','top:site_ia_link');">等离子空气净化器</a>
+			
+			
+			
+		
+			
+			
+				<a href='/cn/consumer/home-appliances/air-care/air-care/' onclick="omni_call('content_click','top:site_ia_link');">等离子空气净化器</a>
+			
+			
+			
+		
+			</p>
+			<p style="display:none" id="pathindicatorENG" class="pathindicator_p3">
+		
+			<a>Consumer</a>
+		
+			<a>Home Appliances</a>
+		
+			<a>air care</a>
+		
+			<a>air care</a>
+		
+			<strong>AX022FCVAND/SC</strong>
+		
+		
+			
+			
+			
+				<strong>spec</strong>
+			
+			
+		
+			</p>
+	
+
+			
+		
+			
+				<div class="headWrap_top"> 
+				
+					
+					
+				
+				<div class="titleHide"><h1>AX022FCVAND/SC</h1></div>
+				
+				
+					<div class="pageTitle">AX022FCVAND/SC</div>
+					<meta itemprop="name" content="AX022FCVAND/SC"/>
+					<meta itemprop="model" content="AX022FCVAND/SC"/>
+				
+				
+				
+					<div class="utillinks_top">
+						<ul>
+							<li>
+								<a title="新窗口" class="print layPopOpener" href="#toPrint"  onclick="s_control_click('products,events,eVar9', 'event3', 'AX022FCVAND/SC,event3, printer-friendly-top', 'o', 'product interaction');" >打印此页</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			
+			
+		
+
+		<!-- product page head -->
+		
+		
+		
+		
+			
+		
+		
+
+		
+		
+		
+		
+		
+			
+			<div class="productInfo2"  >
+				
+				
+					<strong class="prdName">AX022FCVAND/SC</strong>
+				
+				
+				
+				<span class="price"></span>
+				
+					<input type="hidden" id="reviewDispYN2"name="reviewDispYN2" value="Y"/>
+					<span class="rating" style="display:none;">
+						<span class="small point"><strong style="width:0%">评价是05星</strong></span>
+						
+							
+							
+							
+								<a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-reviews/consumer-reviews">
+									<span itemprop="reviewCount" content="0">0 </span>相关评论
+								</a>
+							
+						
+						
+					</span>
+				
+			</div>
+
+			<div class="optional2">
+			
+			
+		
+
+			<!-- Where To Buy Button -->
+<!--  SENA(fi,dk,no,se) 4개국 E commerce 구축 관련 변경 / se 선 적용 후 no, dk, fi 확산 예정    -->
+<!--  SENA 4개국일 경우 화면 상단의 where to buy 버튼 hidden 처리-->
+					
+							
+			
+			<ul class='dropDown' title='即刻购买'><li><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-dealerlocator"  rel="nofollow" onclick="$.omniture.tagging('cn','OTC_D_TR_06','event36','AX022FCVAND/SC','popup:/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-dealerlocator');f_showOnlineRatailor('popup','/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-dealerlocator');return false;">销售地点</a></li></ul>
+ 
+					
+			<!-- //SHOP Button --> 
+
+			<!-- Social Button -->
+            
+
+	
+	
+		
+			<script type="text/javascript">
+	//<![CDATA[
+
+		var hs;
+		
+		var shareShowMessage = function(){
+			window.clearTimeout(hs);
+			$("#shareHeaderlayer").show();
+		};
+		
+		var shareHiddenMessage = function(){
+			hs = window.setTimeout("shereHidden();", 500);
+		};
+
+		var shereHidden = function(){
+			$("#shareHeaderlayer").css("display", "none");
+		};
+
+		function addOmniture(shareName){
+			if ("Y" == "Y"){
+				s_control_click('products,eVar17,events', 'event15', 'AX022FCVAND/SC,cn:share_'+shareName+',event15', 'o', 'share this product');
+			} else {
+				s_control_click('eVar17,events', 'event15', 'cn:share_'+shareName+',event15', 'o', 'share this product');
+			}
+		}
+
+		function addOmnitureList(snsName){
+			if ("Y" == "Y"){
+				s_control_click('products,eVar17,events', 'event15', 'AX022FCVAND/SC,addthis:'+snsName+',event15', 'o', 'share this product');
+			} else {
+				s_control_click('eVar17,events', 'event15', 'addthis:'+snsName+',event15', 'o', 'share this product');
+			}
+		}
+
+	//]]>
+	</script>
+
+	<script type="text/javascript">
+		
+		var share_site_cd 		= "cn";
+		var share_model_name 	= "AX022FCVAND/SC";
+		var share_display_name  = "AX022FCVAND/SC";
+		var share_detail_url 	= "/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC";
+	
+		// make a request 처리용
+		function makeRequest(mkRqGbn,cntusUrl,linkType,width,height,scrollFl) {
+			if(cntusUrl=='') {
+				if("PT"==mkRqGbn || "ST"==mkRqGbn || "IST"==mkRqGbn || "RT"==mkRqGbn || "RD"==mkRqGbn) {
+					cntusUrl = "/cn/business/bizTypeRequest.do";
+					if("PT"==mkRqGbn || "ST"==mkRqGbn) {
+						cntusUrl += "?iaCode=07140200";	
+					}
+				} else if("PD"==mkRqGbn) {
+					cntusUrl = "/cn/business/bizProductRequest.do?iaCode=07140200&modelCode=AX022FCVAND/SC";
+				} else if("SD"==mkRqGbn) {
+					cntusUrl = "/cn/business/bizSolutionRequest.do?iaCode=07140200&modelCode=AX022FCVAND/SC";
+				}
+			}
+			
+			if("NEW"==linkType) {
+				window.open(cntusUrl,"makeReqPopup");	
+			} else {
+				var scrollbars = "no";
+				if("Y"==scrollFl) scrollbars = "yes";
+				window.open(cntusUrl,"makeReqPopup","width="+width+",height="+height+",scrollbars="+scrollbars);
+			}				
+		}
+		
+					
+	</script>
+
+		
+
+		<!-- onmouseout="shareHiddenMessage()" 삭제 (2012-04-05, jaeyong.seo) -->
+		<p class="addthis_toolbox"><a href="" onmouseout="shareHiddenMessage()"  onmouseover="shareShowMessage()"><img src="/cn/common/img/ico_plus.png" alt="分享至" /></a></p>
+
+		<div class="social">
+	       	<div class="fb">
+	       		<a href="/cn/redirection/redirection_sumsungelectronic110120.html?pid=cn_footer_sinaweibo_20110614" onclick="addOmniture('renrenweibo');" ><img src="/cn/common/img/ico_sina.png" alt="" title="" /></a>
+	       	</div>
+			<div class="tw">
+				<a href="/cn/redirection/redirection_qqweibo110817.html?pid=cn_footer_qqweibo_20110817" onclick="addOmniture('qqweibo');" ><img src="/cn/common/img/ico_tencent.png" alt="" title="" /></a>
+			</div>
+			<div class="gp">
+				<a href="/cn/redirection/redirection_renrenweibo110817.html?pid=cn_footer_renrenweibo_20110817" onclick="addOmniture('sinaweibo');" ><img src="/cn/common/img/ico_renren.png" alt="" title="" /></a>
+			</div> 
+		</div>
+		
+		<!-- share and family layer -->
+		<div id="shareHeaderlayer" onmouseout="document.getElementById('shareHeaderlayer').style.display='none';return false;" onmouseover="shareShowMessage()" style="display:none;">
+			<h6>分享至...<a href="" onclick="document.getElementById('shareHeaderlayer').style.display='none';return false;">关闭</a></h6>
+			<input readonly="readonly" id="shareUrl" type="hidden" value="http://www.samsung.com/cn" />
+			<ul>
+				<li><a href="javascript:(function(){window.open('http://support-cn.samsung.com/cn/p275/microsite/gnb/type-email/footer_Email.htm?title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(location.href),'_blank','width=394,height=474,top=120,left=420');})()" onclick="addOmnitureList('share_email');" title="寄给朋友">寄给朋友<img align="absmiddle" class="png24" src="/cn/p2images/landy/email_img.png"></a></li>
+				<li><a href="javascript:void(0)" onclick="addOmnitureList('share_copy');" title="复制网址">复制网址<img src="/cn/p2images/landy/copy_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','width=450,height=400');})()" onclick="addOmnitureList('share_sina');"  title="新浪微博">新浪微博<img src="/cn/p2images/landy/sina_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://profile.live.com/badge/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="addOmnitureList('share_MSN');" title="MSN">MSN<img src="/cn/p2images/landy/msn_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:void(0);" onclick="addOmnitureList('share_qq');" title="腾讯微博">腾讯微博<img src="/cn/p2images/landy/qq_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://share.renren.com/share/buttonshare.do?title='+encodeURIComponent(document.title)+'&link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','width=600,height=340');})()" onclick="addOmnitureList('share_renren');" title="人人网">人人网<img src="/cn/p2images/landy/renren_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:window.open('http://www.kaixin001.com/repaste/share.php?rtitle='+encodeURIComponent(document.title.substring(0,76))+'&rurl='+encodeURIComponent(location.href)+'&rcontent=','_blank','scrollbars=no,width=600,height=450,left=75,top=20,status=no,resizable=yes');void(0)" onclick="addOmnitureList('share_kaixin');" title="开心网">开心网<img src="/cn/p2images/landy/kaixin_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://t.163.com/article/user/checkLogin.do?link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子')+'&info='+encodeURIComponent(document.title)+encodeURIComponent(location.href),'_blank','width=510,height=300');})()" onclick="addOmnitureList('share_163');" title="网易微博">网易微博<img src="/cn/p2images/landy/163_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:void(((function(s,d,e){var f='http://t.sohu.com/third/post.jsp?&url='+e(location.href)+'&title='+e(d.title),u=d.location;function a(){if(!window.open(f,'sohushare',['toolbar=0,status=0,resizable=1,width=660,height=470,left=',(s.width-660)/2,',top=',(s.height-470)/2].join('')))u.href=f;};if(-[1,])setTimeout(a,0);else a();})(screen,document,escape)))" onclick="addOmnitureList('share_sohu');" title="搜狐微博">搜狐微博<img src="/cn/p2images/landy/sohu_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://apps.hi.baidu.com/share/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="addOmnitureList('share_baidu');" title="百度空间">百度空间<img src="/cn/p2images/landy/baidu_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://tieba.baidu.com/i/sys/share?title='+encodeURIComponent(document.title)+'&link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="addOmnitureList('share_baidutieba');" title="百度i贴吧">百度i贴吧<img src="/cn/p2images/landy/baiduteiba_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://www.douban.com/recommend/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="addOmnitureList('share_douban');" title="豆瓣网">豆瓣网<img src="/cn/p2images/landy/douban_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(top.location.href),'');})()" onclick="addOmnitureList('share_qzone');" title="QQ空间">QQ空间<img src="/cn/p2images/landy/qqkongjian_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://space.fetion.com.cn/api/share?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="addOmnitureList('share_fetion');" title="飞信空间">飞信空间<img src="/cn/p2images/landy/feixin_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://co.tianya.cn/third/export/thirdLoginDiv.jsp?app_id=jiathis&ccTitle='+encodeURIComponent(document.title)+'&ccUrl='+encodeURIComponent(location.href),'');})()" onclick="addOmnitureList('share_tianya');" title="天涯社区">天涯社区<img src="/cn/p2images/landy/tianya_img.png" class="png24" align="absmiddle" /></a></li>
+				<li><a href="javascript:(function(){window.open('http://passport.51.com/passport.5p?strTitle='+encodeURIComponent(document.title)+'&gourl='+encodeURIComponent(location.href)+'_blank','');})()" onclick="addOmnitureList('share_51.com');" title="51.com">51.com<img src="/cn/p2images/landy/51_img.png" class="png24" align="absmiddle" /></a></li>
+			</ul>			
+		</div> 
+		<!-- //share and family layer -->
+	
+
+
+		</div>
+
+		
+		
+		
+		<ul class="productNav" id="accTarget">
+			
+			<li ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC" id="OVERVIEW">产品概述</a></li>
+			
+				<li ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-features" id="FEATURES">功能特征</a></li>
+			
+			
+				<li  class='acted' ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-spec" id="SPEC">规格参数</a></li>
+			
+			
+				<li ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-gallery" id="GALLERY">产品展示</a></li>
+			
+			
+			
+				<li ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-reviews">相关评论</a></li>
+						
+        	
+                
+                                
+            
+        	
+						            
+			
+				<li ><a href="/cn/consumer/home-appliances/air-care/air-care/AX022FCVAND/SC-support">服务支持</a></li>
+			
+						
+<!--  SENA(fi,dk,no,se) 4개국 E commerce 구축 관련 추가 / se 선 적용 후 no, dk, fi 확산 예정    -->
+<!--  SENA 4개국일 경우 STORE TAB 추가 / WEHER TO BUYBUTTON(회색)이 disable일 경우 STRORE TAB 노출하지 않는다.-->
+<!--  WCMS에서 Shop Mgmt 사용을 Yes로 설정할 경우에 Store tab이 노출됨.  -->
+<!--  se국가일 경우 Butiker tab 항상 노출  -->
+			
+				
+<!--  SENA 4개국 설정 끝 -->		
+			
+		</ul>
+		<!-- //product page head -->
+	</div>
+</div>
+
+
+<!-- MDA -->
+
+<!-- //MDA -->
+
+
+<div id="feedbackParam">
+	<span id="feedbk_qst_area_cd">R01</span>
+	<span id="feedbk_qst_lvl_cd">R0101</span>
+	<span id="siteCd">cn</span>
+	<span id="ia_cd">07140200</span>
+	<span id="model_cd">AX022FCVAND/SC</span>
+</div>
+<!-- //Content Head -->
+	
+	<div class="dataBinding" id="dataBindingPageParam">
+		<div class='longGsValUseFl'>Y</div>
+		<div class='newSpecYN'>N</div>
+	</div>
+	
+	<!-- Content -->
+	<div id="content" role="main">
+		<div >
+			<div class="compWrap">
+				
+					
+					
+						 
+							<p class="productImage">
+								
+								<img src="/cn/consumer-images/product/air-care/2013/AX022FCVAND-SC/AX022FCVAND-SC-34342-0.jpg" alt="AX022FCVAND/SC的尺寸" title="AX022FCVAND/SC的尺寸" />
+							</p>
+						
+					
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				<!-- sec 사이트 / 해당 배너 사용하는 모델 코드일 때 -->
+				
+				
+				<div class="tabsArea" id="div_bullet_view_tab">
+					<p class="bulletOff">项目形式<!-- Bullet View --></p>
+					<p class="tableOn"><a href="javascript:#none" class="on">表格形式<!-- Table View --></a></p>
+					
+					
+						
+					
+				</div>
+				<div class="tabsArea" id="div_table_view_tab">
+					<p class="bulletOn"><a href="#none" class="on">项目形式<!-- Bullet View --></a></p>
+					<p class="tableOff">表格形式<!-- Table View --></p>
+					
+					
+						
+					
+				</div>
+			</div>
+			
+			<!-- specification Bullet View -->
+			<div class="compWrap devideHor bulletView" id="div_bullet_view_content">
+				
+				<div class="list grid4">
+					
+						
+							
+							
+								<h2>规格</h2>
+								
+								
+									<ul>
+										
+											
+													<li>尺寸:净尺寸:362 x 478 x 163mm<br>包装尺寸:414 x 563 x 219mm
+														
+														
+													</li>
+											
+										
+											
+													<li>净重:6.1kg<br>毛重:7.5kg
+														
+														
+													</li>
+											
+										
+											
+													<li>模式:除尘、除味、睡眠、自动
+														
+														
+													</li>
+											
+										
+											
+													<li>风量调节:特强、强、中、弱
+														
+														
+													</li>
+											
+										
+											
+													<li>感应:2（灰尘、异味）
+														
+														
+													</li>
+											
+										
+											
+													<li>洁净空气量(CADR):179m<sup>3</sup>/h
+														
+														
+													</li>
+											
+										
+											
+													<li>预警:1、过滤器更换周期提醒；<br>2、空气污染度（LED灯：红、橙, 黄、绿,蓝）
+														
+														
+													</li>
+											
+										
+											
+													<li>功耗:15w
+														
+														
+													</li>
+											
+										
+											
+													<li>固态污染物洁净空气量:179
+														
+														
+													</li>
+											
+										
+											
+													<li>能效等级:1等级
+														
+														
+													</li>
+											
+										
+									</ul>
+								
+							
+						
+					
+						
+							
+							
+						
+					
+						
+							
+							
+						
+					
+						
+							
+							
+								<h2>除菌系统</h2>
+								
+									<ul>
+										<li>S-plasma ion</li>
+									</ul>
+								
+								
+							
+						
+					
+				</div>
+				
+				<div class="list grid4 devide1st">
+					
+						
+							
+							
+						
+					
+						
+							
+							
+								<h2>外观</h2>
+								
+								
+									<ul>
+										
+											
+													<li>颜色:淡绿
+														
+														
+													</li>
+											
+										
+									</ul>
+								
+							
+						
+					
+						
+							
+							
+						
+					
+						
+							
+							
+						
+					
+				</div>
+				
+				<div class="list grid4 devide1st">
+					
+						
+							
+							
+						
+					
+						
+							
+							
+						
+					
+						
+							
+							
+								<h2>过滤网</h2>
+								
+								
+									<ul>
+										
+											
+													<li>预过滤器
+														
+														
+													</li>
+											
+										
+											
+													<li>除尘过滤器(抗过敏涂层)
+														
+														
+													</li>
+											
+										
+											
+													<li>除臭过滤器
+														
+														
+													</li>
+											
+										
+									</ul>
+								
+							
+						
+					
+						
+							
+							
+						
+					
+					
+					<!-- [START] 2014-06-26 LEGAL NOTICE BULLET VIEW  -->
+					
+					<!-- [E N D] 2014-06-26 LEGAL NOTICE BULLET VIEW  -->
+
+				</div>
+			</div>
+			
+			<!-- specification Table View -->
+			<div class="compWrap merged tableView" id="div_table_view_content">
+				
+					
+						<h2>规格</h2>
+						
+						<table cellspacing="0" border="0" summary="规格 Spec Table">
+							<caption>spec view 规格 data</caption>
+							<tbody>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">尺寸</th>
+											
+											
+										
+										
+										<td>
+											净尺寸:362 x 478 x 163mm<br>包装尺寸:414 x 563 x 219mm
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">重量</th>
+											
+											
+										
+										
+										<td>
+											净重:6.1kg<br>毛重:7.5kg
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">模式</th>
+											
+											
+										
+										
+										<td>
+											除尘、除味、睡眠、自动
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">风量</th>
+											
+											
+										
+										
+										<td>
+											特强、强、中、弱
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">传感器类型</th>
+											
+											
+										
+										
+										<td>
+											2（灰尘、异味）
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">洁净空气量(CADR)</th>
+											
+											
+										
+										
+										<td>
+											179m<sup>3</sup>/h
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">预警</th>
+											
+											
+										
+										
+										<td>
+											1、过滤器更换周期提醒；<br>2、空气污染度（LED灯：红、橙, 黄、绿,蓝）
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">功耗 高/低</th>
+											
+											
+										
+										
+										<td>
+											15w
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">固态污染物洁净空气量</th>
+											
+											
+										
+										
+										<td>
+											179
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">能效等级</th>
+											
+											
+										
+										
+										<td>
+											1等级
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+							</tbody>
+						</table>
+					
+				
+					
+						<h2>外观</h2>
+						
+						<table cellspacing="0" border="0" summary="外观 Spec Table">
+							<caption>spec view 外观 data</caption>
+							<tbody>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">颜色</th>
+											
+											
+										
+										
+										<td>
+											淡绿
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+							</tbody>
+						</table>
+					
+				
+					
+						<h2>过滤网</h2>
+						
+						<table cellspacing="0" border="0" summary="过滤网 Spec Table">
+							<caption>spec view 过滤网 data</caption>
+							<tbody>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">金属预过滤器</th>
+											
+											
+										
+										
+										<td>
+											预过滤器
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">HEPA除尘过滤器</th>
+											
+											
+										
+										
+										<td>
+											除尘过滤器(抗过敏涂层)
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+									
+									<tr>
+										
+											
+											
+												<th scope="row">活性碳过滤器+DNA过滤器</th>
+											
+											
+										
+										
+										<td>
+											除臭过滤器
+										</td>
+										
+																						
+												<td>&nbsp;</td>
+												
+										
+									</tr>
+								
+							</tbody>
+						</table>
+					
+				
+					
+						<h2>除菌系统</h2>
+						
+							<div><p>S-plasma ion</p></div>
+						
+						<table cellspacing="0" border="0" summary="除菌系统 Spec Table">
+							<caption>spec view 除菌系统 data</caption>
+							<tbody>
+								
+							</tbody>
+						</table>
+					
+				
+				
+				<!-- [START] 2014-06-26 LEGAL NOTICE TABLE VIEW -->
+				
+				<!-- [E N D] 2014-06-26 LEGAL NOTICE TABLE VIEW -->
+
+				
+				
+					
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+					
+					
+						
+					
+				
+					
+					
+						
+					
+						
+					
+						
+					
+				
+					
+					
+				
+				
+			</div>
+			<!-- //specification Table View -->
+
+			<!-- definition area -->
+			<div>
+				
+					
+						<dl id="s_g_b_1" class="layTip">
+                            <dt>规格</dt>
+                            <dd></dd>
+						</dl>
+					
+				
+					
+						<dl id="s_g_b_4" class="layTip">
+                            <dt>外观</dt>
+                            <dd></dd>
+						</dl>
+					
+				
+					
+						<dl id="s_g_b_26" class="layTip">
+                            <dt>过滤网</dt>
+                            <dd></dd>
+						</dl>
+					
+				
+					
+				
+				
+					
+						<dl id="s_g_1" class="layTip">
+							<dt>规格</dt>
+							<dd></dd>
+						</dl>
+					
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+				
+					
+						<dl id="s_g_4" class="layTip">
+							<dt>外观</dt>
+							<dd></dd>
+						</dl>
+					
+					
+						
+							
+						
+					
+				
+					
+						<dl id="s_g_26" class="layTip">
+							<dt>过滤网</dt>
+							<dd></dd>
+						</dl>
+					
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+				
+					
+					
+				
+			</div>
+			<!-- //definition area -->
+		</div>
+		
+		<div class="compWrap merged">
+			<!-- utillinks -->
+			<div class="utillinks">
+				<ul>
+					
+						<li><a title="新窗口" class="email layPopOpener" href="#toEmail" >寄给朋友</a></li>
+					
+						<li><a title="新窗口" class="print layPopOpener" href="#toPrint"  onclick="s_control_click('products,events,eVar9', 'event3', 'AX022FCVAND/SC,event3, printer-friendly-bottom', 'o', 'product interaction');" >打印此页</a></li>
+					
+				</ul>
+			</div>
+			<!-- //utillinks -->
+		</div>
+		
+		<!-- commentDis -->
+		
+			
+				
+				
+					<div class="commentDis">
+						<p>本网站内的产品图片以及型号、功能特征、技术规格参数等仅供参考，具体信息请参照产品实物、产品使用说明书。三星电子保留对产品外观、型号、功能和技术规格等进行改进和改变的权利，恕不另行通知。</p>
+					</div>
+				
+			
+		
+		<!-- commentDis -->
+	</div>
+	<!-- /Content -->
+
+
+<!-- Google Analytics -->
+
+
+
+ 
+
+
+    
+    
+    	﻿	</div>
+<!--Float banner-->
+<script src="/cn/promotions/fp/floatad_20130529.js"></script>
+<script language="javascript">
+	var _supportUrl=document.location.href;
+	if($("#fp_pagetype").val()=="homepage")
+	{	
+	document.getElementById("right_top").style.display="none";
+	}
+</script>
+<!--//Float banner-->
+
+<!--PrinterAccessories Float banner-->
+<script src="/cn/promotions/fp/floatad_131018_PrinterA.js"></script>
+<!--//PrinterAccessories Float banner-->
+
+<script language="javascript">
+function getCookie(name)
+{
+	var search = name + "="
+	if(document.cookie.length > 0) {
+	    offset = document.cookie.indexOf(search)
+	    if(offset != -1){
+	      offset += search.length
+	      end = document.cookie.indexOf(";", offset)
+	      if(end == -1)
+	        end = document.cookie.length
+	    return document.cookie.substring(offset, end)
+	    }
+	}
+    	return "";
+}
+function openPopup() 
+{
+  if(!IsPop01())
+  {
+   return 
+   }
+ var _supportUrl=document.location.href;
+if(_supportUrl.indexOf("/cn/support/main/supportMain.do")>0)
+{	
+	var eventCookie=getCookie("index");
+	if (eventCookie != "no")
+	{	
+		var URL ="/cn/pop/20130628/popup_post.html"; 
+		var status = "toolbar=no,directories=no,scrollbars=2,resizable=no,status=no,menubar=no,width=500, height=570, top=0,left=0"; 
+		if(IsPop01()){
+			window.open(URL,"windowname",status)
+		}
+    }
+ }
+}
+function IsPop01(){	
+	var flag = false;
+	var date = new Date();
+	var year = date.getYear();
+	var month = date.getMonth();
+	var day = date.getDate();
+	var hour = date.getHours();
+	var flagDate = new Date(2013,05,28,08);
+	var lastDate = new Date(2013,06,07,21);//时间大于2月8日的时候弹出
+	//alert(year+"-"+month+"-"+day+"-"+hour);
+	if(date>flagDate && date<lastDate){
+		flag = true;
+	}
+   return flag;	
+}
+$(document).ready(function ()
+{
+ openPopup();
+}
+)
+</script>
+
+<!--
+<script language="JavaScript" type="text/javascript">
+document.writeln("<div id=\"LeftAD_b2b\" style=\"width:120px; height:115px; position:absolute; top:200px; z-index:400; display:none;\">");
+document.writeln("	<div style=\"width:120px; height:115px; background:url(/cn\/business\/images\/b2b-idx-banner.png); _background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'/cn\/business\/images\/b2b-idx-banner.png\',sizingMethod=\'scale\');\">");
+document.writeln("		<div style=\"position:absolute; width:120px; display:inline;\">");
+document.writeln("			<span style=\"float:right; width:18px; height:14px; margin:10px 6px 0 0; font-size:0px; line-height:0px; cursor:pointer\" onclick=\"javascript:document.getElementById(\'LeftAD_b2b\').style.display=\'none\'\"><\/span>");
+document.writeln("			<span style=\"float:left; margin:2px 0 0 4px; display:inline; width:112px; height:90px; cursor:pointer\" onclick=\"window.open(\'http:\/\/www.samsung.com\/cn\/business\/bizTypeRequest.do?iaCode=B0000001\')\"><\/span>");
+document.writeln("		<\/div>");
+document.writeln("	<\/div>");
+document.writeln("<\/div>");
+
+var lastScrollY=0;
+function heartBeat(){ 
+diffY=document.documentElement.scrollTop; 
+percent=0.1*(diffY-lastScrollY); 
+if(percent>0)percent=Math.ceil(percent); 
+else percent=Math.floor(percent); 
+document.getElementById("LeftAD_b2b").style.top=parseInt(document.getElementById("LeftAD_b2b").style.top)+percent+"px";
+document.getElementById("LeftAD_b2b").style.right=($(window).width()-960)/2-120+"px";
+lastScrollY=lastScrollY+percent;
+}
+
+var _supportUrl=document.location.href;
+if(_supportUrl.indexOf("/cn/business/")>0)
+{	
+	document.getElementById("LeftAD_b2b").style.display="block";
+}
+
+window.setInterval("heartBeat()",1);
+function hidead(){
+document.getElementById("LeftAD_b2b").style.display="none";
+}
+</script>
+
+-->
+	<!-- Footer -->
+	<div id="footer" role="contentinfo">
+		<div class="siteLink">
+			<div class="aboutArea">
+				<h2>关于我们</h2>
+
+				<ul>
+					<li><a href="/cn/aboutsamsung/">关于三星</a></li>
+					<li><a target="_blank" href="http://www.dearsamsung.com.cn/">人才招聘</a></li>
+					<li><a href="/cn/news/main.do">新闻中心</a></li>
+					<li><a href="/cn/aboutsamsung/corporateprofile/affiliatedcompanies.html">附属企业</a></li>
+					<li><a target="_blank" href="/cn/business/">商务采购</a></li>
+				</ul>
+				<script type="text/javascript">
+					function gotoUrl(obj) {
+						if (obj.value != "0")
+							window.open(obj.value);
+					}
+
+					function bookmark(){
+						var title=document.title
+						var url=document.location.href
+						if (window.sidebar) window.sidebar.addPanel(title, url,"");
+						else if( window.opera && window.print ){
+						var mbm = document.createElement('a');
+						mbm.setAttribute('rel','sidebar');
+						mbm.setAttribute('href',url);
+						mbm.setAttribute('title',title);
+						mbm.click();}
+						else if( document.all ) window.external.AddFavorite( url, title);
+					}
+
+
+
+					var s1;
+					function showMessage(){
+					  window.clearTimeout(s1);
+					  document.getElementById("shareFooterlayer").style.display="block";
+					}
+				   
+					function hiddenMessage(){
+					  s1=window.setTimeout("hidden();",500);
+					}
+							function hidden(){
+					  document.getElementById("shareFooterlayer").style.display="none";
+					}
+
+					var s2;
+					function showMessage2(){
+					  window.clearTimeout(s2);
+					  document.getElementById("familyFooterlayer").style.display="block";
+					}
+				   
+					function hiddenMessage2(){
+					  s2=window.setTimeout("hidden2();",500);
+					}
+							function hidden2(){
+					  document.getElementById("familyFooterlayer").style.display="none";
+					}
+
+					function ClickCopyButton(){
+						var jQry = jQuery.noConflict(); 
+						var content = jQry('#shareUrl').val();
+						jQry('#shareUrl').select();
+						var flag = copyToClipboard(content);
+						if(!flag){
+							alert("恭喜你，你已经成功将地址复制到剪贴板，请转发给你身边的好友吧！");
+						}
+					}
+
+					function postToWb(){
+						var _t = encodeURI(document.title);
+						var _url = encodeURI(document.location);
+						var _appkey = encodeURI("appkey");//你从腾讯获得的appkey
+						var _pic = encodeURI('');//（列如：var _pic='图片url1|图片url2|图片url3....）
+						var _site = location.href;//你的网站地址
+						var _u = 'http://v.t.qq.com/share/share.php?title='+_t+'&url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic;
+						window.open( _u,'转播到腾讯微博', 'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+					}
+
+					copyToClipboard = function(txt) {
+						//txt = document.getElementById("show_data").value;
+						if(window.clipboardData) {
+							window.clipboardData.clearData();
+							window.clipboardData.setData("Text", txt);
+						} else if(navigator.userAgent.indexOf("Opera") != -1) {
+							window.location = txt;
+						} else if (window.netscape) {
+							try {
+								netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+							} catch (e) {
+								alert("您的 Firefox 安全限制限制您进行剪贴板操作，请打开 'about:config' 将 'signed.applets.codebase_principal_support' 设置为 'true' 之后重试");
+								return false;
+							}
+							var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+							if (!clip)
+							return;
+							var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+							if (!trans)
+							return;
+							trans.addDataFlavor('text/unicode');
+							var str = new Object();
+							var len = new Object();
+							var str = Components.classes['@mozilla.org/supports-string;1'].createInstance(Components.interfaces.nsISupportsString);
+							var copytext = txt;
+							str.data = copytext;
+							trans.setTransferData("text/unicode",str,copytext.length*2);
+							var clipid = Components.interfaces.nsIClipboard;
+							if (!clip)
+							return false;
+							clip.setData(trans,null,clipid.kGlobalClipboard);
+						}
+					}
+				</script>
+			</div>
+			<div class="productArea">
+				<h2>我们的产品</h2>
+				<ul>
+	<li><a href='/cn/consumer/mobile-phones/mobile-phones/'>&#25163;&#26426;&#20135;&#21697;</a>
+		<ul>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/smart-phone/'>&#26234;&#33021;&#25163;&#26426;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/galaxy-note/'>Samsung <br/>GALAXY Note</a></li>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/gear/'>&#26234;&#33021;&#20329;&#25140;&#35774;&#22791;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/feature-phone/'>&#26102;&#23578;&#25163;&#26426;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/duos/'>&#21452;&#21345;/&#21452;&#24453;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/tab/'>&#26234;&#33021;&#24179;&#26495;&#30005;&#33041;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/mid/'>&#26234;&#33021;&#36855;&#20320;&#26412;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/galaxy-camera/'>Samsung <br/>GALAXY Camera</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/televisions/televisions/'>&#30005;&#35270;&#20135;&#21697;</a>
+		<ul>
+			<li><a href='/cn/consumer/televisions/televisions/oled-tv/'>OLED TV</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/uhd-tv/'>UHD TV</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/smart-tv/'>Smart TV</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/slim-led/'>&#32420;&#34180;&#28082;&#26230;&#30005;&#35270;</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/plasma-tv/'>&#31561;&#31163;&#23376;&#30005;&#35270;</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/tv-accessories/'>&#30005;&#35270;&#37197;&#20214;</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/audio-video/'>&#24433;&#38899;&#35774;&#22791;</a>
+		<ul>
+			<li><a href='/cn/consumer/audio-video/home-theater/'>&#23478;&#24237;&#24433;&#38498;</a></li>
+			<li><a href='/cn/consumer/audio-video/blu-ray-players/bd-player/'>Blu-ray &#25773;&#25918;&#22120;</a></li>
+			<li><a href='/cn/consumer/audio-video/airtrack/airtrack/'>&#22721;&#25346;&#38899;&#21709;</a></li>
+			<li><a href='/cn/consumer/audio-video/audio-dock/'>&#24213;&#24231;&#38899;&#21709;</a></li>
+			<li><a href='/cn/consumer/audio-video/sound-stand/sound-stand/'>&#26080;&#32447;&#24179;&#26495;&#38899;&#21709;</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/notebooksdisplay/'>&#30005;&#33041;/&#21150;&#20844;</a>
+		<ul>
+			<li><a href='/cn/consumer/computers-office/ultra-mobile-pc/'>&#20010;&#20154;&#30005;&#33041;</a></li>
+			<li><a href='/cn/consumer/computers-office/printers-multifunction/'>&#21150;&#20844;&#20135;&#21697;</a></li>
+			<li><a href='/cn/consumer/computers-office/monitors/'>&#26174;&#31034;&#22120;</a></li>
+			<li><a href='/cn/consumer/computers-office/sd-card-memory-card/'>&#23384;&#20648;&#21345;/&#20869;&#23384;</a></li>
+			<li><a href='/cn/consumer/computers-office/ssd-card/'>SSD</a></li>
+			<li><a href='/cn/consumer/computers-office/optical-disc-drives/optical-disc-drives/'>&#20809;&#23384;&#20648;</a></li>
+			<li><a href='http://drive.seagate.com/content/samsung-zh-cn/' class='blank' target='_blank' title='新窗口'>&#30828;&#30424;</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/cameracamcorder/'>&#25968;&#30721;&#24433;&#20687;</a>
+		<ul>
+			<li><a href='/cn/consumer/digital-video/smart-camera/nx-series-cameras/'>NX&#31995;&#21015;&#26234;&#33021;&#24494;&#22411;&#21333;&#30005;</a></li>
+			<li><a href='/cn/consumer/mobile-phones/galaxy-camera/'>Samsung<br/>GALAXY Camera</a></li>
+			<li><a href='/cn/consumer/digital-video/smart-compact/smart-compact/'>&#26234;&#33021;&#20415;&#25658;&#30456;&#26426;</a></li>
+			<li><a href='/cn/consumer/digital-video/nx-lens/lenses/'>&#38236;&#22836;</a></li>
+			<li><a href='/cn/consumer/digital-video/smart-camera/nx-accessories/'>&#30456;&#26426;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/digital-video/camcorders/hd-camcorder/'>&#25968;&#30721;&#25668;&#20687;&#26426;</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/home-appliances/'>&#30333;&#33394;&#23478;&#30005;</a>
+		<ul>
+			<li><a href='/cn/consumer/home-appliances/refrigerators/'>&#20912;&#31665;</a></li>
+			<li><a href='/cn/consumer/home-appliances/washers-dryers/'>&#27927;&#34915;&#26426;</a></li>
+			<li><a href='/cn/consumer/home-appliances/air-conditioners/'>&#31354;&#35843;</a></li>
+			<li><a href='/cn/consumer/home-appliances/air-care/'>&#31561;&#31163;&#23376;&#31354;&#27668;&#20928;&#21270;&#22120;</a></li>
+			<li><a href='/cn/consumer/home-appliances/rambo/'>&#26234;&#33021;&#21560;&#23576;&#22120;</a></li>
+		</ul>
+	</li>
+	<li><a href='/cn/consumer/accessories/'>&#37197;&#20214;</a>
+		<ul>
+			<li><a href='/cn/consumer/mobile-phones/mobile-phones/mobile-phone-accessories/'>&#25163;&#26426;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/televisions/televisions/tv-accessories/'>&#30005;&#35270;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/computers-office/ultra-mobile-pc/option-accessories/'>&#20010;&#20154;&#30005;&#33041;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/digital-video/smart-camera/accessories/'>&#20415;&#25658;&#30456;&#26426;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/digital-video/smart-camera/nx-accessories/'>&#30456;&#26426;&#37197;&#20214;</a></li>
+			<li><a href='/cn/consumer/computers-office/printers-multifunction/supplies-accessories/'>&#25171;&#21360;&#26426;&#32791;&#26448;</a></li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>&#34892;&#19994;&#35299;&#20915;&#26041;&#26696;
+		<ul>
+			<li><a href='/cn/business/industry/finance/'>&#37329;&#34701;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/security/'>&#23433;&#38450;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/design/'>&#35774;&#35745;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/government/'>&#25919;&#24220;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/construction/'>&#24314;&#31569;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/hospitality/'>&#37202;&#24215;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/education/'>&#25945;&#32946;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/automotive/'>&#20132;&#36890;&#34892;&#19994;</a></li>
+			<li><a href='/cn/business/industry/others/'>&#20854;&#23427;</a></li>
+		</ul>
+	</li>
+	<li>&#20135;&#21697;&#35299;&#20915;&#26041;&#26696;
+		<ul>
+			<li><a href='/cn/business/solutions/mobile-phone/'>&#25163;&#26426;</a></li>
+			<li><a href='/cn/business/solutions/notebook-pc/'>&#21830;&#29992;&#31508;&#35760;&#26412;</a></li>
+			<li><a href='/cn/business/solutions/hospitality-display/'>&#21830;&#29992;&#30005;&#35270;</a></li>
+			<li><a href='/cn/business/solutions/large-format-display/'>LFD &#22823;&#22411;&#26174;&#31034;&#22120;</a></li>
+			<li><a href='/cn/business/solutions/business-printers/'>&#21830;&#29992;&#25171;&#21360;&#26426;</a></li>
+			<li><a href='/cn/business/solutions/cloud-display/'>&#20113;&#32456;&#31471;</a></li>
+			<li><a href='/cn/business/solutions/business-monitors/'>&#21830;&#29992;&#26174;&#31034;&#22120;</a></li>
+		</ul>
+	</li>
+	<li>&#20135;&#21697;
+		<ul>
+			<li><a href='/cn/business/business-products/hospitality-display/'>&#21830;&#29992;&#30005;&#35270;</a></li>
+			<li><a href='/cn/business/business-products/large-format-display/'>LFD &#22823;&#22411;&#26174;&#31034;&#22120;</a></li>
+			<li><a href='/cn/business/business-products/cloud-display/'>&#20113;&#32456;&#31471;</a></li>
+			<li><a href='/cn/business/business-products/business-printers/'>&#21830;&#29992;&#25171;&#21360;&#26426;</a></li>
+			<li><a href='/cn/business/business-products/notebook-pc/'>&#21830;&#29992;&#31508;&#35760;&#26412;</a></li>
+			<li><a href='/cn/business/business-products/business-monitors/'>&#21830;&#29992;&#26174;&#31034;&#22120;</a></li>
+			<li><a href='/cn/business/business-products/ssd-card/'>SSD</a></li>
+			<li><a href='/cn/business/business-products/led-lamp/'>LED &#29031;&#26126;</a></li>
+			<li><a href='/cn/business/business-products/dvm/'>&#20013;&#22830;&#31354;&#35843;</a></li>
+			<li><a href='http://www.samsung.com/global/business/healthcare/' class='blank' target='_blank' title='新窗口'>&#21307;&#30103;&#22120;&#26800;</a></li>
+			<li><a href='http://www.samsung.com/global/business/set-top-box/' class='blank' target='_blank' title='新窗口'>&#26426;&#39030;&#30418;</a></li>
+			<li><a href='http://www.samsung.com/global/business/telecommunication-systems/' class='blank' target='_blank' title='新窗口'>&#36890;&#20449;&#31995;&#32479;</a></li>
+			<li><a href='http://www.samsungfiberoptics.com/Ch/main.html' class='blank' target='_blank' title='新窗口'>&#20809;&#36890;&#20449;</a></li>
+			<li><a href='http://www.samsung.com/global/business/compressor/' class='blank' target='_blank' title='新窗口'>&#21387;&#32553;&#26426;</a></li>
+			<li><a href='http://www.samsung.com/global/business/semiconductor/' class='blank' target='_blank' title='新窗口'>&#21322;&#23548;&#20307;</a></li>
+			<li><a href='http://samsungled.com/eng/main/index.asp' class='blank' target='_blank' title='新窗口'>LED</a></li>
+		</ul>
+	</li>
+	<li>&#30456;&#20851;&#36164;&#35759;
+		<ul>
+			<li><a href='/cn/business/resource/case-study/'>&#25104;&#21151;&#26696;&#20363;</a></li>
+			<li><a href='/cn/business/resource/data-sheet/'>&#26032;&#38395;</a></li>
+		</ul>
+	</li>
+</ul>
+			</div>
+			<div class="supportArea">
+				<div class="helpList">
+					<h2>更多服务与支持</h2>
+					<ul>
+						<li><a href="/cn/support/main/supportMain.do">查找产品支持</a></li>
+						<li><a href="/cn/support/download/supportDownloadMain.do">获取下载</a></li>
+						<li><a href="/cn/support/howtoguide/supportHowToGuideMain.do">帮助与故障排除</a></li>
+						<li><a href="/cn/article">产品资讯</a></li>
+						<li><a href="/cn/info/contactus.html">联系我们</a></li>
+						<li><a href="/cn/accessibility/">易用性帮助</a></li>
+						<li class="conHide"><a href="https://partnerportal.samsung.com/portal/app/locator/listA?targetSite=CHINA&targetNation=CN&param=A03010"  target="_blank" title="New Window">合作伙伴查询</a></li>
+						<li><a target="_blank" href="http://samsung.youku.com/" onclick="omni_call('pid','cn_home_footerbanner_video_20140616');">三星视频空间</a></li>
+					</ul>
+				</div>
+
+				<!-- Search : accessibility -->
+				<div class="accHide">
+					<fieldset class="search">
+						<legend>搜索</legend>
+						<label for="search_f">搜索</label>
+						<input type="text" id="search_f" name="input_keyword" title="搜索" value="" accesskey="" maxlength="100" />
+						<button>搜索</button>
+					</fieldset>
+				</div>
+				
+				<div class="accShow">
+					<form action="/cn/function/search/espsearchResult" method="get" id="search_form_f" name="search_form">
+						<fieldset class="search">
+							<legend>搜索</legend>
+								<label for="search_f_acc">搜索</label>
+								<input type="text" id="search_f_acc" name="input_keyword" title="搜索" value="" accesskey="" maxlength="100"> 
+								<input name="keywords" type="hidden" id="keywords_f" /> 
+								<button>I9300</button>
+						</fieldset>
+					</form>
+				</div>
+				<!-- //Search : accessibility -->
+
+			</div>
+		</div>
+		<div class="social">
+			<a href="JavaScript:void(0)" style="margin:4px 0 0;">官方微博：</a>
+			<a href="http://weibo.com/samsungelectronics" target="_blank" rel="nofollow" onclick="s_control_click_SNS('cn:footer:share_sinaweibo')"><img src="/cn/common/img/ico_sina.png" alt="成为三星粉丝" /></a>
+			<a href="http://t.qq.com/samsungelectronicbj" target="_blank" rel="nofollow" onclick="s_control_click_SNS('cn:footer:share_qqweibo')"><img src="/cn/common/img/ico_tencent.png" alt="腾讯微博" /></a>
+			<a href="http://page.renren.com/600828994?checked=true" target="_blank" rel="nofollow" onclick="s_control_click_SNS('cn:footer:share_renrenweibo')"><img src="/cn/common/img/ico_renren.png" alt="人人网" /></a>
+			<a href="JavaScript:void(0)" style="margin:4px 0 0 12px;">分享到：</a>
+			<a href="JavaScript:void(0)" onmouseout="hiddenMessage()" onmouseover="showMessage()"><img src="/cn/common/img/ico_plus.png" alt="分享至" /></a>
+		</div>
+		<div class="custom">
+			<p class="country"><a href="/cn/function/ipredirection/ipredirectionLocalList.do"><img src="/common/img/ico_flag_cn.gif" border="0" alt="" class="flag" />中国 / 简体中文</a></p>
+			<p class="bandType">
+				<a href="#none" class="highBandWidth">高带宽版本</a>
+				<a href="#none" class="lowBandWidth">低带宽版本</a>
+			</p>
+			<p class="feedback"><a href="/cn/function/feedback/feedbackPopup.do?vstr_rate_qst_typ_cd=R01&amp;vstr_rate_qst_level_cd=
+R0101&amp;vstr_prd_ia_cd=23010000&amp;vstr_model_cd=" onclick="s_control_click('events', 'event90', 'event90', 'o', 'footer - feedback step1');">反馈</a></p>
+			<p class="ssfamily"><a href="JavaScript:void(0)" onmouseout="hiddenMessage2()" onmouseover="showMessage2()">三星家族网站</a></p>
+
+
+			<!-- share and family layer -->
+			<div id="shareFooterlayer" onmouseout="hiddenMessage()" onmouseover="showMessage()" style="display: none;">
+
+				<h6>分享至...<a href="JavaScript:void(0)" onclick="document.getElementById('shareFooterlayer').style.display='none';return false;">关闭</a></h6>
+				<input readonly="readonly" id="shareUrl" type="hidden" value="http://www.samsung.com/cn" />
+				<ul>
+					<li><a title="寄给朋友" onclick="s_control_click_SNS('cn:footer:share_email')" href="javascript:(function(){window.open('http://support-cn.samsung.com/cn/p275/microsite/gnb/type-email/footer_Email.htm?title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(location.href),'_blank','width=394,height=474,top=120,left=420');})()">寄给朋友<img align="absmiddle" class="png24" src="/cn/p2images/landy/email_img.png"></a></li>
+
+					<li><a href="javascript:void(0)" onclick="javascript:ClickCopyButton(); s_control_click_SNS('cn:footer:share_copy')" title="复制网址">复制网址<img src="/cn/p2images/landy/copy_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','width=450,height=400');})()" onclick="s_control_click_SNS('cn:footer:share_sina')"  title="新浪微博">新浪微博<img src="/cn/p2images/landy/sina_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://profile.live.com/badge/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_MSN')" title="MSN">MSN<img src="/cn/p2images/landy/msn_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:void(0);" onclick="javascript:postToWb(); s_control_click_SNS('cn:footer:share_qq')" title="腾讯微博">腾讯微博<img src="/cn/p2images/landy/qq_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://share.renren.com/share/buttonshare.do?title='+encodeURIComponent(document.title)+'&link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','width=600,height=340');})()" onclick="s_control_click_SNS('cn:footer:share_renren')" title="人人网">人人网<img src="/cn/p2images/landy/renren_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:window.open('http://www.kaixin001.com/repaste/share.php?rtitle='+encodeURIComponent(document.title.substring(0,76))+'&rurl='+encodeURIComponent(location.href)+'&rcontent=','_blank','scrollbars=no,width=600,height=450,left=75,top=20,status=no,resizable=yes');void(0)" onclick="s_control_click_SNS('cn:footer:share_kaixin')" title="开心网">开心网<img src="/cn/p2images/landy/kaixin_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://t.163.com/article/user/checkLogin.do?link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子')+'&info='+encodeURIComponent(document.title)+encodeURIComponent(location.href),'_blank','width=510,height=300');})()" onclick="s_control_click_SNS('cn:footer:share_163')" title="网易微博">网易微博<img src="/cn/p2images/landy/163_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:void(((function(s,d,e){var f='http://t.sohu.com/third/post.jsp?&url='+e(location.href)+'&title='+e(d.title),u=d.location;function a(){if(!window.open(f,'sohushare',['toolbar=0,status=0,resizable=1,width=660,height=470,left=',(s.width-660)/2,',top=',(s.height-470)/2].join('')))u.href=f;};if(-[1,])setTimeout(a,0);else a();})(screen,document,escape)))" onclick="s_control_click_SNS('cn:footer:share_sohu')" title="搜狐微博">搜狐微博<img src="/cn/p2images/landy/sohu_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://apps.hi.baidu.com/share/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_baidu')" title="百度空间">百度空间<img src="/cn/p2images/landy/baidu_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://tieba.baidu.com/i/sys/share?title='+encodeURIComponent(document.title)+'&link='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_baidutieba')" title="百度i贴吧">百度i贴吧<img src="/cn/p2images/landy/baiduteiba_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://www.douban.com/recommend/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_douban')" title="豆瓣网">豆瓣网<img src="/cn/p2images/landy/douban_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(top.location.href),'');})()" onclick="s_control_click_SNS('cn:footer:share_qzone')" title="QQ空间">QQ空间<img src="/cn/p2images/landy/qqkongjian_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://space.fetion.com.cn/api/share?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_fetion')" title="飞信空间">飞信空间<img src="/cn/p2images/landy/feixin_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://www.tianya.cn/?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source='+encodeURIComponent('三星电子'),'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_tianya')" title="天涯社区">天涯社区<img src="/cn/p2images/landy/tianya_img.png" class="png24" align="absmiddle" /></a></li>
+
+					<li><a href="javascript:(function(){window.open('http://passport.51.com/passport.5p?strTitle='+encodeURIComponent(document.title)+'&gourl='+encodeURIComponent(location.href)+'_blank','');})()" onclick="s_control_click_SNS('cn:footer:share_51.com')" title="51.com">51.com<img src="/cn/p2images/landy/51_img.png" class="png24" align="absmiddle" /></a></li>
+				</ul>					
+			</div> 
+
+			<div id="familyFooterlayer" onmouseout="hiddenMessage2()" onmouseover="showMessage2()" style="display: none;">
+				<h6>三星家族网站<a href="JavaScript:void(0)" onclick="document.getElementById('familyFooterlayer').style.display='none';return false;">关闭</a> </h6>
+				<ul>
+					<li><a target="_blank" href="http://china.samsung.com.cn/" rel="nofollow">中国三星</a></li>	
+					<li><a target="_blank" href="http://www.samsung.com/hk/" rel="nofollow">三星电子(香港)</a></li>	
+					<li><a target="_blank" href="http://www.samsung.com/tw/" rel="nofollow">三星电子(台湾)</a></li>	
+					<li><a target="_blank" href="http://store.samsung.com/cn/">网上商城</a></li>	
+					<li><a target="_blank" href="http://www.samsungsds.com.cn/" rel="nofollow">三星数据系统</a></li>	
+					<li><a target="_blank" href="http://dearsamsung.com.cn/" rel="nofollow">三星人才</a></li>	
+					<li><a target="_blank" href="http://www.samsungsdi.com/" rel="nofollow">三星SDI</a></li>	
+					<li><a target="_blank" href="http://www.opentide.com.cn/" rel="nofollow">三星鹏泰</a></li>	
+					<li><a target="_blank" href="http://www.semdg.com/" rel="nofollow">东莞三星电机</a></li>
+					<li><a target="_blank" href="http://www.samsung-airchinalife.com.cn/" rel="nofollow">中航三星人寿</a></li>	
+					<li><a target="_blank" href="http://www.cheil.com.cn/" rel="nofollow">北京杰尔思行广告</a></li>	
+					<li><a target="_blank" href="http://www.suzhoushilla.com/" rel="nofollow">新罗酒店</a></li>	
+					<li><a target="_blank" href="http://www.imarketchina.com/" rel="nofollow">iMarketChina</a></li>	
+					<li><a target="_blank" href="http://www.partnersamsung.com/" rel="nofollow">三星B2B商桥</a></li>	
+					<li><a target="_blank" href="http://www.samsungproperty.com.cn" rel="nofollow">三星财产保险</a></li>	
+					<li><a target="_blank" href="http://support-cn.samsung.com/dvm/" rel="nofollow">三星数码中央空调</a></li>	
+					<li><a target="_blank" href="http://www.samsungfiberoptics.com/Ch/main.html" rel="nofollow">三星(海南)光通信</a></li>	
+					<li><a target="_blank" href="http://www.samsungshnc.com.cn/" rel="nofollow">三星重工业(宁波)</a></li>	
+					<li><a target="_blank" href="http://www.serichina.org/" rel="nofollow">三星经济研究所</a></li>	
+				</ul>
+			</div>
+			<!-- //share and family layer -->
+
+
+		</div>
+		<div class="otherLink">
+			<ul>
+				<li class="conHide"><a href="/cn">个人及家用产品</a></li>
+				<li class="busHide"><a href="/cn/business">商用解决方案</a></li>
+				<li><a href="/cn/info/privacy.html">隐私政策</a></li>
+				<li><a href="/cn/info/legal.html">服务条款</a></li>
+				<li><a href="/cn/info/memberpolicy.html">三星会员政策</a></li>
+				<li><a href="/cn/info/sitemap.html">网站地图</a></li>
+				<li><a href="/cn/info/statement.html">重要声明</a></li>
+				<li><a href="javascript:bookmark()">加为书签</a></li>
+				<li><a href="http://support-cn.samsung.com/mysamsungcn/dingyuekuaibao.html">订阅快报</a></li>
+				<li><a href="javascript:window.print();">打印</a></li>
+			</ul>
+			<p class="copyright">&copy; 1995-2014 三星（中国）投资有限公司 版权所有<a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001082100323" rel="nofollow"><img align="absmiddle" src="/cn/p2images/landy/common_cpr_100113.gif"></a><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">京ICP备05068163号</a>&nbsp;京公网安备110105011756号
+&nbsp;&nbsp;<a target="_blank" href="https://search.szfw.org/cert/l/CX20130412002822002877" id="___szfw_logo___"><img src="/cn/p2images/landy/cert.png"></a>
+<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script></p>
+		</div>
+	</div>
+	<!-- //Footer -->
+
+	<!--
+	<div class="layPop" id="ir" style="display:none">
+		<p class="cont">您将被重新定向到 Samsung.com 美国网站</p>
+		<div class="btnArea center">
+			<a href="http://www.samsung.com/us/aboutsamsung/ir/newsMain.do" class="btnStyle" target="_blank"><span>OK</span></a>
+		</div>
+		<p class="btnClose"><a href="#none"><img src="/common/img/btn_layTip_close.png" alt="close" /></a></p>
+	</div>
+	-->
+
+</div>
+<!-- //Body Wrap -->
+
+
+<!-- Omniture Log Script -->
+<script type="text/javascript" src="/common/js/omni/s_code_p3.js "></script>
+<script type="text/javascript">
+//<![CDATA[
+	try {
+ var sitecd = getSiteCode();
+		var taginfo = getTextNode("pathindicatorENG");
+		if ( taginfo == false) {
+			tagURL(sitecd);
+		} else {
+			tagPathindicator(sitecd,"pathindicatorENG");
+		}
+	}catch (e) {
+	}
+   //]]>
+</script>
+
+<script type="text/javascript">
+function s_control_click_SNS(linkname)
+{
+	var pageType=$("#pageTrack").val();
+	if(pageType=="support detail" || pageType=="product detail")
+	{
+		var modeName=$("#model_name").val();
+		s_control_click('products,eVar17,events', 'event15', modeName+','+linkname+',event15', 'o', 'share this product');
+	}
+	else
+	{
+		s_control_click('eVar17,events', 'event15', linkname+',event15', 'o', 'share this product');
+	}
+}
+</script>
+<!--
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+			// Query E-shop server to determine visibility of purchase button
+			var URL = window.location.href;
+			URL=URL.replace("http://","@@@");
+
+			// Ensure work on detail page
+			var isDetailPage = true;
+			var URLSection = new Array();
+			var showButton=1;
+
+			URLSection = URL.split("/");
+
+			if (URL.indexOf("/consumer/")==-1) isDetailPage=false;  
+			if (URLSection.length<7) isDetailPage=false;
+			if (URLSection[URLSection.length-1]=="" ||URLSection[URLSection.length-1]==null) isDetailPage=false;
+
+			if (isDetailPage==true) {
+
+				var MODELCODE = "";
+				if (MODELCODE == "" && document.getElementById("model_code")) MODELCODE = document.getElementById("model_code").value;
+				if (MODELCODE == "" && document.getElementById("m_model_cd")) MODELCODE = document.getElementById("m_model_cd").value;
+				if (MODELCODE == "" && document.getElementById("model_cd")) MODELCODE = document.getElementById("model_cd").innerHTML;
+				//if (MODELCODE == "") MODELCODE = prd_compare_options.currentModel;
+				//if (MODELCODE=="") alert("console|| error retrieving modelcode, please check.");
+				if (MODELCODE=="") return false;
+
+				$.ajax({
+
+					 type: "get",
+					 async: false,
+					 url: "http://shop.samsung.com.cn/front_jsonp_getGoodsPopByUnicode.action?goodsUnicode=" + MODELCODE,
+					 dataType: "jsonp",
+					 jsonp: "callback",
+					 jsonpCallback:"jsonp",
+					 success: function(json){
+
+						showButton =  json.exists;
+						if (showButton==0)
+						{
+							$(".visual div.kvInfo .fe_ddList  li  a").eq(0).remove();
+							$(".headWrap  .optional2  .dropdown").hide();
+						}
+
+					 },
+
+					 error: function(){
+						 //alert("E-shop Server Error");
+						 return false;
+					 }
+
+				 });
+
+			}
+
+			//alert("console|| is detail page: " + isDetailPage + " MODELCODE: " + MODELCODE + " visible:" + showButton);
+    });
+
+
+</script>
+-->
+
+<script type='text/javascript'>
+	(function(){
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
+		s.async = true;
+		s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') + 'gridsumdissector.com/js/Clients/GWD-000792-98E1B2/gs.js';
+		var firstScript = document.getElementsByTagName('script')[0];
+		firstScript.parentNode.insertBefore(s, firstScript);
+	})();
+</script>
+
+<script src="http://support-cn.samsung.com/recomm/scripts/samsung.recomm.js"></script>
+
+</body>
+</html>
+    
+

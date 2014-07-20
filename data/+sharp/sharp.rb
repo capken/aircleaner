@@ -1,10 +1,16 @@
 require "nokogiri"
-require 'open-uri'
 require "json"
+require 'uri'
+require 'digest/sha1' 
 
 STDIN.each do |url|
-  warn url
-  doc = Nokogiri::HTML(open(url.strip))
+  url = url.strip
+  warn "\nprocessing page => #{url} ...\n"
+  hash = Digest::SHA1.hexdigest(url)
+  cached_file = File.open "./cache/#{hash}"
+
+  doc = Nokogiri::HTML(cached_file.read)
+
   doc.css("div.pd2_tblist table").each do |table|
     content = table.to_str
     obj = {}
@@ -25,9 +31,7 @@ STDIN.each do |url|
 
     obj["weight"] = $1.to_f if content =~ /重量\(kg\)\s*约([0-9.]+)/
 
-    cadr = {}
-    cadr["dust"] = $1.to_i if content =~ /洁净空气量CADR\(m3\/h\)\s*(\d+)/
-    obj["CADR"] = cadr
+    obj["cadr_dust"] = $1.to_i if content =~ /洁净空气量CADR\(m3\/h\)\s*(\d+)/
 
     noise_level = {}
     if content =~ /dB\(A\)\s*(\d+)\s+(?:\d+\s+)+(\d+)\s*集尘/
@@ -44,8 +48,7 @@ STDIN.each do |url|
     obj["power"]= power
 
     obj["air_volume"] = $1.to_i if content =~ /m³\/h\s*(\d+)\/\d+/
-    obj["total_fan_speed_levels"] = $1.split(/\n/).size if content =~ /风量模式\s*(.+?)耗电量/m
-    obj["filter_lifetime"] = -1
+    obj["fan_speed_levels"] = $1.split(/\n/).size if content =~ /风量模式\s*(.+?)耗电量/m
     obj["_source"] = url.strip
 
     puts obj.to_json
