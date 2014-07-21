@@ -14,7 +14,7 @@ csv_string = CSV.generate do |csv|
     end
 
     csv << attr_meta.keys.map do |attr|
-      record[attr] ? record[attr] : ''
+      record[attr].nil? ? "" : record[attr]
     end
   end
 end
