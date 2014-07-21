@@ -64,7 +64,7 @@ DonLim;东菱
 sheeraire;席爱尔
 TOYOTOMI;丰臣
 TTBT;技真百通
-Filtrete;菲尔萃;3M
+Filtrete;3M
 熊津;Coway
 Fellowes;范罗士
 Triangle;三角
@@ -79,6 +79,7 @@ LuvA;滤霸
 MeiLing;美菱
 BROAD;远大
 Magiclight;魔光球
+Allerair;欧乐
 帝度
 双飞燕
 丝吉利娅

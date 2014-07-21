@@ -7,18 +7,17 @@ File.readlines(path).each do |line|
 end
 
 refine do |record|
-  brand = record["brand"]
+  brand = record['brand']
+
   if brand.nil?
     @is_good_record = false
     next
-  end
-
-  brand_patterns.each_pair do |offical_brand, pattern|
-    if brand =~ pattern
-      brand = offical_brand
-      break
+  else
+    brand_patterns.each do |offical_brand, pattern|
+      if brand =~ pattern
+        record['brand'] = offical_brand
+        break
+      end
     end
   end
-
-  record['brand'] = brand
 end

@@ -1,6 +1,6 @@
 {
   "cadr_dust": {
-    "name": "CADR:dust",
+    "name": "cadr_dust",
     "type": "integer",
     "summary_mode": "vote"
   },
@@ -34,10 +34,15 @@
     "type": "float",
     "summary_mode": "vote"
   },
-  "color": {
-    "name": "color",
-    "type": "string",
-    "summary_mode": "combine"
+  "air_volume": {
+    "name": "air_volume",
+    "type": "integer",
+    "summary_mode": "vote"
+  },
+  "fan_speed_levels": {
+    "name": "fan_speed_levels",
+    "type": "integer",
+    "summary_mode": "vote"
   },
   "sleep_mode": {
     "name": "sleep_mode",
@@ -55,18 +60,13 @@
     "summary_mode": "vote"
   },
   "quality_meter": {
-    "name": "air_quality_led",
+    "name": "quality_meter",
     "type": "boolean",
     "summary_mode": "vote"
   },
   "filter_reminder": {
-    "name": "filter_replacement_reminder",
+    "name": "filter_reminder",
     "type": "boolean",
-    "summary_mode": "vote"
-  },
-  "filter_life": {
-    "name": "filter_lifetime",
-    "type": "float",
     "summary_mode": "vote"
   }
 }

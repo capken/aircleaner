@@ -9,6 +9,8 @@ attr_meta = JSON[File.readlines(path).join]
 path = File.join(File.dirname(__FILE__), "domain_meta.json")
 weight_by_domain = JSON[File.readlines(path).join]
 
+warn weight_by_domain
+
 STDIN.each do |line|
   record = JSON[line]
   summarized_record = {}
@@ -18,6 +20,8 @@ STDIN.each do |line|
     summary_mode = attr_meta[attr]['summary_mode'] if attr_meta[attr]
 
     if votes.is_a? Array
+      next if votes.empty?
+
       votes.each do |vote|
         vote['score'] = vote['source'].map do |url|
           host = URI.parse(url).host
@@ -32,7 +36,7 @@ STDIN.each do |line|
         best_vote = votes.inject do |v1, v2|
           v1['score'] > v2['score'] ? v1 : v2
         end
-        best_vote ? best_vote['value'] : ''
+        best_vote['value']
       when 'combine'
         votes.map { |v| v['value'] }.
           reject { |v| v.empty? }.
@@ -44,6 +48,8 @@ STDIN.each do |line|
       summarized_record[attr] = votes
     end
   end
+
+  domains.delete_if {|domain| domain =~ /ahamdir/ }
 
   puts summarized_record.to_json if domains.size > 1
 end
