@@ -30,6 +30,8 @@ refine do |record|
     model = $1.gsub(/ /, '-') if model =~ /([A-Z]{3}-F\d{2,3}[A-Z]|TCL[- ]360)/i
   when /^cado$/
     model = "AP-#{$1}" if model =~ /(?:AP-)?(C\d{3})/i
+  when /^东芝$/
+    model = $1 if model =~ /(CAF-[A-Z0-9]{4,5})/i
   when /^三星$/
     model  = model.gsub(/AX-34/, 'AX-034').gsub(/^AC-505$/, 'AC-505CMAGA/SC')
     if model =~ /(A[CGX])-?(\d{3}(?:FCVAND|FCVAUW|EPXAUW|HPAWQ|CSAUA|CPAWQ|CMAGA|VKCBB))(?:\/SC)?/
@@ -88,6 +90,8 @@ refine do |record|
     model = "AeraMax " + $1 if model =~ /(DX55|DX5|DX96|100|190|200|290|300|90)/i
   when /^西屋$/
     model = $1 if model =~ /(AP-\d{3})/i
+  when /^三菱重工$/
+    model = $1 if model =~ /(SP[A-Z]-\d{3}AC)/i
   when /^远大$/
     model = $1 if model =~ /(T[ABD]\d+)/i
   when /^霍尼韦尔$/

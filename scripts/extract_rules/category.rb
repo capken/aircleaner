@@ -7,6 +7,10 @@ extract :category do |input|
       if value =~ /滤网$|^附件|附件$/
         break "耗材"
       end
+    elsif label =~ /其它(?:性能|特性)/
+      if value =~ /适用于/
+        break "耗材"
+      end
     end
   end
 end
