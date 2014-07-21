@@ -7,6 +7,8 @@ def value_of(record, name, type)
   raw_value = (name =~ /^(.+?):(.+?)$/) ? 
     (record[$1] && record[$1][$2]) : record[name]
 
+  return nil if raw_value.nil?
+
   value = case type.to_sym
   when :float
     raw_value.to_s =~ /-1/ ? nil : raw_value.to_f
@@ -16,7 +18,7 @@ def value_of(record, name, type)
     raw_value.to_s
   when :boolean
     (raw_value.to_s =~ /^(?:true|支持|有)$/i) ? true : false
-  end if raw_value
+  end
 
   return value
 end

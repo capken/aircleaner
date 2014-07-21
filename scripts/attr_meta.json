@@ -15,6 +15,12 @@
     "label": "CADR 灰尘(m3/h)",
     "summary_mode": "vote"
   },
+  "aham_verified": {
+    "name": "aham_verified",
+    "type": "boolean",
+    "label": "AHAM认证",
+    "summary_mode": "vote"
+  },
   "power_min": {
     "name": "power:min",
     "type": "float",
