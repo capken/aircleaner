@@ -46,10 +46,13 @@ STDIN.each do |line|
       'brand' => cr['brand'],
       'model' => cr['model']
     }
-    attr_meta.keys.each { |attr| record[attr] = [] }
+    attr_meta.each do |attr, meta|
+      record[attr] = [] if meta['summary_mode']
+    end
   end
 
   attr_meta.each do |attr, meta|
+    next if meta['summary_mode'].nil?
     value = value_of(cr, meta['name'], meta['type'])
     merge(record[attr], value, cr['_source'])
   end

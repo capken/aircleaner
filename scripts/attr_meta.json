@@ -1,72 +1,96 @@
 {
+  "brand": {
+    "name": "brand",
+    "type": "string",
+    "label": "品牌"
+  },
+  "model": {
+    "name": "model",
+    "type": "string",
+    "label": "型号"
+  },
   "cadr_dust": {
     "name": "cadr_dust",
     "type": "integer",
+    "label": "CADR 灰尘(m3/h)",
     "summary_mode": "vote"
   },
   "power_min": {
     "name": "power:min",
     "type": "float",
+    "label": "最小功率(W)",
     "summary_mode": "vote"
   },
   "power_max": {
     "name": "power:max",
     "type": "float",
+    "label": "最大功率(W)",
     "summary_mode": "vote"
   },
   "noise_min": {
     "name": "noise_level:min",
     "type": "float",
+    "label": "最小噪音(dB)",
     "summary_mode": "vote"
   },
   "noise_max": {
     "name": "noise_level:max",
     "type": "float",
+    "label": "最大噪音(dB)",
     "summary_mode": "vote"
   },
   "made_in": {
     "name": "made_in",
     "type": "string",
+    "label": "产地",
     "summary_mode": "vote"
   },
   "weight": {
     "name": "weight",
     "type": "float",
+    "label": "重量(kg)",
     "summary_mode": "vote"
   },
   "air_volume": {
     "name": "air_volume",
     "type": "integer",
+    "label": "最大风量",
     "summary_mode": "vote"
   },
   "fan_speed_levels": {
     "name": "fan_speed_levels",
     "type": "integer",
+    "label": "风档",
     "summary_mode": "vote"
   },
   "sleep_mode": {
     "name": "sleep_mode",
     "type": "boolean",
+    "label": "睡眠模式",
     "summary_mode": "vote"
   },
   "remote_control": {
     "name": "remote_control",
     "type": "boolean",
+    "label": "支持遥控",
     "summary_mode": "vote"
   },
   "timing": {
     "name": "timing",
     "type": "boolean",
+    "label": "支持定时",
     "summary_mode": "vote"
   },
   "quality_meter": {
     "name": "quality_meter",
     "type": "boolean",
+    "label": "空气质量显示",
     "summary_mode": "vote"
   },
   "filter_reminder": {
     "name": "filter_reminder",
     "type": "boolean",
+    "label": "滤网更新提醒",
     "summary_mode": "vote"
   }
 }

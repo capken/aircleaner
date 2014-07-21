@@ -6,6 +6,8 @@ require 'public_suffix'
 path = File.join(File.dirname(__FILE__), "attr_meta.json")
 attr_meta = JSON[File.readlines(path).join]
 
+warn attr_meta
+
 path = File.join(File.dirname(__FILE__), "domain_meta.json")
 weight_by_domain = JSON[File.readlines(path).join]
 
@@ -16,8 +18,8 @@ STDIN.each do |line|
   summarized_record = {}
   domains = Set.new
 
-  record.each do |attr, votes|
-    summary_mode = attr_meta[attr]['summary_mode'] if attr_meta[attr]
+  attr_meta.each do |attr, meta|
+    votes = record[attr]
 
     if votes.is_a? Array
       next if votes.empty?
@@ -31,7 +33,7 @@ STDIN.each do |line|
         end.reduce(:+)
       end
 
-      summary_value = case summary_mode
+      summary_value = case meta['summary_mode']
       when 'vote'
         best_vote = votes.inject do |v1, v2|
           v1['score'] > v2['score'] ? v1 : v2

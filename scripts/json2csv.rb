@@ -10,15 +10,12 @@ csv_string = CSV.generate do |csv|
     record = JSON.parse(line)
     if is_first_line
       is_first_line = false
-      csv << ['brand', 'model'].concat(attr_meta.keys)
+      csv << attr_meta.values.map { |meta| meta['label'] }
     end
 
-    attrs = [record['brand'], record['model']]
-    attr_meta.keys.each do |attr|
-      attrs << record[attr] ? record[attr] : ''
+    csv << attr_meta.keys.map do |attr|
+      record[attr] ? record[attr] : ''
     end
-
-    csv << attrs
   end
 end
 

@@ -187,7 +187,7 @@
 {"brand":"布鲁雅尔","model":"450E","cadr_dust":240,"power_min":17.0,"power_max":95.0,"noise_min":32.0,"noise_max":49.0,"made_in":"中国","weight":15.5,"air_volume":500,"fan_speed_levels":4}
 {"brand":"布鲁雅尔","model":"503;510B","cadr_dust":375,"power_min":16.0,"power_max":90.0,"noise_min":32.0,"noise_max":60.0,"made_in":"中国","weight":16.0,"air_volume":735,"fan_speed_levels":4,"timing":true,"filter_reminder":true}
 {"brand":"布鲁雅尔","model":"550E","cadr_dust":663,"power_min":23.0,"power_max":95.0,"noise_min":32.0,"noise_max":60.0,"made_in":"中国","weight":16.0,"air_volume":765,"sleep_mode":true,"remote_control":true,"timing":true}
-{"brand":"布鲁雅尔","model":"603","cadr_dust":400,"power_min":16.0,"power_max":90.0,"noise_min":32.0,"noise_max":65.0,"made_in":"中国","weight":16.0,"air_volume":830,"fan_speed_levels":4,"timing":true}
+{"brand":"布鲁雅尔","model":"603","cadr_dust":400,"power_min":16.0,"power_max":90.0,"noise_min":32.0,"noise_max":65.0,"made_in":"瑞典","weight":16.0,"air_volume":830,"fan_speed_levels":4,"timing":true}
 {"brand":"布鲁雅尔","model":"SENSE","cadr_dust":170,"power_min":4.0,"power_max":30.0,"noise_min":29.0,"noise_max":50.0,"made_in":"中国","weight":10.0,"air_volume":200,"fan_speed_levels":3,"remote_control":true,"timing":true,"filter_reminder":true}
 {"brand":"德龙","model":"AC100","power_max":50.0,"noise_min":33.0,"noise_max":39.0,"made_in":"中国","weight":6.7,"fan_speed_levels":3,"sleep_mode":true,"timing":true,"quality_meter":true,"filter_reminder":true}
 {"brand":"德龙","model":"AC150","power_max":60.0,"noise_min":33.0,"noise_max":40.0,"made_in":"中国","weight":7.1,"fan_speed_levels":3,"sleep_mode":true,"timing":true,"quality_meter":true,"filter_reminder":true}
