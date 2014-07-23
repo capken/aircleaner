@@ -57,6 +57,12 @@
     "label": "重量(kg)",
     "summary_mode": "vote"
   },
+  "price": {
+    "name": "price",
+    "type": "float",
+    "label": "价格",
+    "summary_mode": "min"
+  },
   "air_volume": {
     "name": "air_volume",
     "type": "integer",

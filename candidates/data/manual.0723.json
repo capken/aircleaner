@@ -1,0 +1,21 @@
+{"brand":"cado","model":"AP-C700","cadr_dust":400,"power_min":25.0,"power_max":170.0,"noise_min":30.0,"noise_max":58.0,"weight":18.0,"air_volume":768,"fan_speed_levels":3,"timing":true,"_source":"http://cadostore.com/view.asp?id=5"}
+{"brand":"cado","model":"AP-C500 ","power_min":25.0,"power_max":155.0,"noise_min":30.0,"noise_max":58.0,"weight":17.5,"air_volume":510,"fan_speed_levels":3,"timing":true,"_source":"http://cadostore.com/view.asp?id=6"}
+{"brand":"cado","model":"AP-C300 ","power_min":20.0,"power_max":80.0,"noise_min":30.0,"noise_max":58.0,"weight":9.7,"air_volume":360,"fan_speed_levels":3,"timing":true,"_source":"http://cadostore.com/view.asp?id=7"}
+{"brand":"cado","model":"AP-C100 ","power_min":5.3,"power_max":30.0,"noise_min":30.0,"noise_max":61.0,"weight":3.5,"air_volume":120,"fan_speed_levels":3,"timing":true,"_source":"http://cadostore.com/view.asp?id=8"}
+{"brand":"Coway","model":"AP-1013A","power_max":45.0,"weight":6.4,"air_volume":306,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=0&prod_id=53"}
+{"brand":"Coway","model":"APM-0812DH","power_max":26.0,"weight":8.0,"air_volume":216,"timing":true,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=0&prod_id=50"}
+{"brand":"Coway","model":"AP-1511FHE","power_max":72.0,"noise_max":49.0,"weight":12.0,"air_volume":426,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=50&prod_id=49"}
+{"brand":"Coway","model":"AP-1012GH","power_max":88.0,"noise_min":30.0,"noise_max":50.6,"weight":7.6,"air_volume":336,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=50&prod_id=48"}
+{"brand":"Coway","model":"APM-1510FH","weight":15.0,"timing":true,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=100&prod_id=46"}
+{"brand":"Coway","model":"AP-2510EH","power_max":90.0,"weight":11.0,"remote_control":true,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=100&prod_id=45"}
+{"brand":"Coway","model":"AP-0509DH","power_max":43.0,"weight":5.0,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=0&prod_id=36"}
+{"brand":"Coway","model":"AP-1005AH","power_max":47.0,"weight":8.8,"air_volume":348,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=50&prod_id=34"}
+{"brand":"Coway","model":"AP-1009CH","power_min":15.0,"power_max":35.0,"weight":7.0,"fan_speed_levels":3,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=50&prod_id=33"}
+{"brand":"Coway","model":"AP-3008FH","power_max":106.0,"weight":25.0,"_source":"http://coway-china.com/products/productsview.aspx?type=AIR_PRF&subtype=100&prod_id=3"}
+{"brand":"瑞士风","model":"P355","cadr_dust":275,"power_max":57.0,"noise_max":25.0,"made_in":"嘉兴","weight":5.4,"quality_meter":true,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=56"}
+{"brand":"瑞士风","model":"P325","cadr_dust":120,"power_max":24.0,"noise_max":25.0,"made_in":"嘉兴","weight":4.0,"quality_meter":true,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=54"}
+{"brand":"瑞士风","model":"P380 ","cadr_dust":306,"power_max":86.0,"noise_min":44.0,"noise_max":54.0,"made_in":"台湾","weight":7.7,"fan_speed_levels":3,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=36"}
+{"brand":"瑞士风","model":"P350 ","cadr_dust":203,"power_max":61.0,"noise_min":42.0,"noise_max":51.0,"made_in":"台湾","weight":5.0,"fan_speed_levels":3,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=35"}
+{"brand":"瑞士风","model":"P320 ","cadr_dust":103,"power_max":52.0,"noise_min":41.0,"noise_max":50.0,"made_in":"台湾","weight":3.7,"fan_speed_levels":3,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=33"}
+{"brand":"瑞士风","model":"AOS2061","power_min":20.0,"power_max":42.0,"noise_min":26.0,"noise_max":43.0,"made_in":"捷克","weight":7.7,"air_volume":220,"fan_speed_levels":3,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=9"}
+{"brand":"瑞士风","model":"AOS2071","power_min":20.0,"power_max":42.0,"noise_min":28.0,"noise_max":43.0,"made_in":"捷克","weight":9.3,"air_volume":190,"fan_speed_levels":3,"_source":"http://airoswiss.cn/ProductShow.asp?ClassID=3&ID=8"}

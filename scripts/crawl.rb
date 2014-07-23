@@ -9,5 +9,5 @@ STDIN.each do |url|
   hash = Digest::SHA1.hexdigest(url)
   warn "caching #{url} into ./cache/#{hash} ..."
 
-  system "curl #{url} | iconv -f #{encode} -t utf-8 > ./cache/#{hash}"
+  system "curl -L #{url} | iconv -f #{encode} -t utf-8 > ./cache/#{hash}"
 end

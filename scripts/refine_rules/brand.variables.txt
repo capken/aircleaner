@@ -3,9 +3,11 @@ Whirlpool;惠而浦
 AirBliss;佰利世
 Blueair;布鲁雅尔
 AllerAir;欧乐
+Airmate;艾美特
 CHULUX;厨莱克斯
 NanoSteps;Nano Steps;高鼎
 Philips;飞利浦
+Mitsubishi;三菱重工
 Honeywell;霍尼韦尔
 BeYou;本原
 KEHEal;可汉

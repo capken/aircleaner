@@ -19,7 +19,7 @@ refine do |record|
       model = "503;510B"
     end
   when /^Coway$/
-    model = $1 if model =~ /(APM?-\d{4}[A-Z]{2})/i
+    model = $1 if model =~ /(APM?-\d{4}[A-Z]{1,2})/i
   when /^IQAir$/
     model = "HealthPro #{$1}" if model =~ /(100|150|250|250\/PLUS|GC MultiGas)/i
   when /^LG$/

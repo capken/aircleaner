@@ -43,6 +43,10 @@ STDIN.each do |line|
         votes.map { |v| v['value'] }.
           reject { |v| v.empty? }.
           join(',')
+      when 'min'
+        votes.map { |v| v['value'] }.min
+      when 'max'
+        votes.map { |v| v['value'] }.max
       end
 
       summarized_record[attr] = summary_value
