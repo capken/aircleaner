@@ -2,4 +2,5 @@
 .DS_Store?
 longtail/*/cache
 official/*/cache
+candidates/data/tmp
 
