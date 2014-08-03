@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天朗气清</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/holder.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">搜索条件: 上海, 25平米</a>
+                </h3>
+              </div>
+
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label for="city_code" class="col-xs-3 control-label">所在城市</label>
+                      <div class="col-xs-9">
+                        <input type="text" class="form-control" id="city_code" placeholder="上海">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="room_size" class="col-xs-3 control-label">室内面积(平米)</label>
+                      <div class="col-xs-9">
+                        <input type="number" class="form-control" id="room_size" placeholder="25">
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">搜索</button>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12">
+          <ul class="media-list">
+            <li class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="holder.js/80x80" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">BlueAir - 203</h4>
+                CADR: 250 m3/h
+              </div>
+            </li>
+
+            <li class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="holder.js/80x80" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">三星 - AHDJFK234</h4>
+                CADR: 285 m3/h
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/backbone-min.js"></script>
+
+    <script>
+      var AppRouter = Backbone.Router.extend({
+        routes: {
+          "*action": "hello"
+        },
+        hello: function(action) {
+          alert(action);
+        }
+      });
+
+      new AppRouter();
+      Backbone.history.start();
+    </script>
+  </body>
+</html>

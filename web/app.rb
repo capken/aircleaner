@@ -29,8 +29,19 @@ get '/products' do
   json 'products' => products
 end
 
-get '/suggest' do
+get '/brands' do
+  brands = Product.select(:brand).distinct
+  json 'brands' => brands.map(&:brand)
+end
 
+get '/models' do
+  models = Product.select(:model).
+    where(brand: params['brand']).distinct
+  json 'brand' => params['brand'],
+    'models' => models.map(&:model)
+end
+
+get '/suggest' do
   room_size = params['room_size'].to_f
   min_cadr = room_size * 2.8 * 5
 
