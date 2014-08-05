@@ -21,6 +21,7 @@
 
     <div class="container-fluid">
       <div class="row">
+        <div class="col-xs-12" id="breadcrumb"></div>
         <div class="col-xs-12" id="content"></div>
       </div>
     </div>
@@ -33,12 +34,6 @@
     <script type="text/template" id="search_template">
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
-
-          <div class="panel-heading">
-            <h3 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">搜索条件: 上海, 25平米</a>
-            </h3>
-          </div>
 
           <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
@@ -73,13 +68,27 @@
           </a>
           <div class="media-body">
             <h4 class="media-heading">
-              <%= product.get('brand') %> - <%= product.get('model') %>
+              <a href="#products/<%= product.get('id')%>">
+                <%= product.get('brand') %> - <%= product.get('model') %>
+              </a>
             </h4>
             CADR: <%= product.get('cadr_dust') %> m3/h
           </div>
         </li>
         <% }); %>
       </ul>
+    </script>
+
+    <script type="text/template" id="breadcrumb_template">
+      <ol class="breadcrumb">
+        <% _.each(links, function (link) { %>
+        <li><a href="<%= link.href %>"><%= link.text %></a></li>
+        <% }); %>
+      </ol>
+    </script>
+
+    <script type="text/template" id="product_template">
+      <p>Details of <%= product.get("brand") %></p>
     </script>
 
     <script src="js/app.js"></script>
