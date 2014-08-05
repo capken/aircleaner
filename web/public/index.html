@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>天朗气清</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>天朗气清 惠风和畅</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +21,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12" id="search_bar"></div>
-        <div class="col-xs-12" id="search_results"></div>
+        <div class="col-xs-12" id="content"></div>
       </div>
     </div>
 
@@ -45,14 +44,14 @@
             <div class="panel-body">
               <form class="form-horizontal" role="form">
                 <div class="form-group">
-                  <label for="city_code" class="col-xs-3 control-label">所在城市</label>
-                  <div class="col-xs-9">
-                    <input type="text" class="form-control" id="city_code" placeholder="上海">
+                  <label for="city_code" class="col-xs-5 control-label">所在城市</label>
+                  <div class="col-xs-7">
+                    <input type="text" class="form-control" id="city" placeholder="上海">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="room_size" class="col-xs-3 control-label">室内面积(平米)</label>
-                  <div class="col-xs-9">
+                  <label for="room_size" class="col-xs-5 control-label">室内面积(平米)</label>
+                  <div class="col-xs-7">
                     <input type="number" class="form-control" id="room_size" placeholder="25">
                   </div>
                 </div>
@@ -73,7 +72,9 @@
             <img class="media-object" data-src="holder.js/80x60" alt="image">
           </a>
           <div class="media-body">
-            <h4 class="media-heading"><%= product.get('brand') %> - <%= product.get('model') %></h4>
+            <h4 class="media-heading">
+              <%= product.get('brand') %> - <%= product.get('model') %>
+            </h4>
             CADR: <%= product.get('cadr_dust') %> m3/h
           </div>
         </li>
@@ -81,61 +82,7 @@
       </ul>
     </script>
 
-    <script>
+    <script src="js/app.js"></script>
 
-      var Products = Backbone.Collection.extend({
-        url: function() {
-          return '/suggest?room_size=' + this.room_size +
-            "&page=" + this.page;
-        },
-        page: 1,
-        room_size: 15,
-        parse: function(resp, xhr) {
-          return resp.products;
-        }
-      });
-
-      var SearchView = Backbone.View.extend({
-        initialize: function() {
-          this.products = new Products();
-          this.render();
-        },
-        render: function() {
-          var template = _.template($("#search_template").html(), {});
-          this.$el.html(template);
-        },
-        events: {
-          "click button": "doSearch"
-        },
-        doSearch: function(event) {
-          console.log("Search Button Clicked");
-          this.products.room_size = $("#room_size").val();
-          this.products.fetch({
-            success: function(products) {
-              var template = _.template(
-                $("#results_template").html(),
-                {products: products.models, _:_}
-              );
-              $("#search_results").append(template);
-              Holder.run();
-            }
-          });
-        }
-      });
-
-      var search_view = new SearchView({ el: $("#search_bar") })
-      
-//      var AppRouter = Backbone.Router.extend({
-//        routes: {
-//          "*action": "hello"
-//        },
-//        hello: function(action) {
-//          alert(action);
-//        }
-//      });
-//
-//      new AppRouter();
-//      Backbone.history.start();
-    </script>
   </body>
 </html>
