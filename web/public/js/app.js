@@ -37,7 +37,8 @@ var SearchBarView = Backbone.View.extend({
   },
 
   render: function() {
-    var template = _.template($("#search_template").html(), {});
+    var template = _.template($("#search_template").html(),
+      { form: this.products });
     this.$el.html(template);
     return this.el;
   },
@@ -102,7 +103,7 @@ var AppRouter = Backbone.Router.extend({
 
   showSearchBar: function() {
     breadcrumbView.updateView([
-      { href: "#search", text: "查询" }
+      { href: "#search", text: "查询", active: true }
     ]);
     this.updateView("#content",
       new SearchBarView({ products: this.products }));
@@ -112,11 +113,10 @@ var AppRouter = Backbone.Router.extend({
   showSearchResults: function() {
     breadcrumbView.updateView([
       { href: "#search", text: "查询" }, 
-      { href: "#search/results", text: this.text() }
+      { href: "#search/results", text: this.text(), active: true }
     ]);
     this.updateView("#content",
       new SearchResultsView({ products: this.products }));
-    Holder.run();
     console.log("show search results");
   },
 
@@ -131,7 +131,7 @@ var AppRouter = Backbone.Router.extend({
           { href: "#search", text: "查询" }, 
           { href: "#search/results", text: that.text() },
           { href: "#products/" + id, text: product.get("brand") +
-            " - " + product.get("model") }
+            " - " + product.get("model"), active: true }
         ]);
       }
     });
@@ -145,6 +145,7 @@ var AppRouter = Backbone.Router.extend({
     }
 
     $(selector).html(view.render());
+    Holder.run();
     this.currentView = view;
   },
 

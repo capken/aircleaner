@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,7 @@
                 <div class="form-group">
                   <label for="room_size" class="col-xs-5 control-label">室内面积(平米)</label>
                   <div class="col-xs-7">
-                    <input type="number" class="form-control" id="room_size" placeholder="25">
+                    <input type="number" class="form-control" id="room_size" value="<%= form.room_size %>">
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="search_button">搜索</button>
@@ -72,7 +73,7 @@
                 <%= product.get('brand') %> - <%= product.get('model') %>
               </a>
             </h4>
-            CADR: <%= product.get('cadr_dust') %> m3/h
+            CADR: <%= product.get('cadr_dust') %> m³/h
           </div>
         </li>
         <% }); %>
@@ -82,13 +83,56 @@
     <script type="text/template" id="breadcrumb_template">
       <ol class="breadcrumb">
         <% _.each(links, function (link) { %>
-        <li><a href="<%= link.href %>"><%= link.text %></a></li>
+        <% if(link.active == true) { %>
+          <li class="active"><%= link.text %></li>
+        <% } else { %>
+          <li><a href="<%= link.href %>"><%= link.text %></a></li>
+        <% } %>
         <% }); %>
       </ol>
     </script>
 
     <script type="text/template" id="product_template">
-      <p>Details of <%= product.get("brand") %></p>
+      <div class="panel panel-info">
+        <div class="panel-body">
+          <div id="product-image">
+            <img class="media-object" data-src="holder.js/400x300" alt="image">
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">购买建议</div>
+        <div class="panel-body">
+          <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">产品参数</div>
+        <table class="table">
+          <tr>
+            <th>CADR</th>
+            <td><%= product.get("cadr_dust") %> m³/h</td>
+          </tr>
+          <tr>
+            <th>最大功率</th>
+            <td><%= product.get("power_max") %> W</td>
+          </tr>
+          <tr>
+            <th>最大噪音</th>
+            <td><%= product.get("noise_max") %> db</td>
+          </tr>
+          <tr>
+            <th>产地</th>
+            <td><%= product.get("made_in") %></td>
+          </tr>
+          <tr>
+            <th>参考价格</th>
+            <td>￥<%= product.get("price") %></td>
+          </tr>
+        </table>
+      </div>
     </script>
 
     <script src="js/app.js"></script>
