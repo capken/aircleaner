@@ -22,7 +22,14 @@
 
     <div class="container-fluid">
       <div class="row">
+        <div class="col-xs-12"></div>
+      </div>
+
+      <div class="row">
         <div class="col-xs-12" id="breadcrumb"></div>
+      </div>
+
+      <div class="row">
         <div class="col-xs-12" id="content"></div>
       </div>
     </div>
@@ -38,20 +45,41 @@
 
           <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
-              <form class="form-horizontal" role="form">
+              <form role="form">
+
                 <div class="form-group">
-                  <label for="city_code" class="col-xs-5 control-label">所在城市</label>
-                  <div class="col-xs-7">
-                    <input type="text" class="form-control" id="city" placeholder="上海">
-                  </div>
+                  <label class="control-label" for="city">所在城市</label>
+                  <input type="text" class="form-control" id="city" placeholder="上海">
                 </div>
+                
                 <div class="form-group">
-                  <label for="room_size" class="col-xs-5 control-label">室内面积(平米)</label>
-                  <div class="col-xs-7">
-                    <input type="number" class="form-control" id="room_size" value="<%= form.room_size %>">
-                  </div>
+                  <label class="control-label" for="room_size">室内面积(m²)</label>
+                  <input type="number" class="form-control" id="room_size" value="<%= form.room_size %>">
                 </div>
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="search_button">搜索</button>
+
+                <div class="form-group">
+                  <label class="control-label" for="room_size">选择品牌</label>
+                  <select class="form-control">
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="room_size">选择型号</label>
+                  <select class="form-control">
+                    <option>203</option>
+                    <option>303</option>
+                    <option>403</option>
+                  </select>
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="search_button">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
               </form>
             </div>
           </div>
