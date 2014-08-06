@@ -21,9 +21,7 @@
   <body>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12"></div>
-      </div>
+      <br>
 
       <div class="row">
         <div class="col-xs-12" id="breadcrumb"></div>
@@ -54,26 +52,15 @@
                 
                 <div class="form-group">
                   <label class="control-label" for="room_size">室内面积(m²)</label>
-                  <input type="number" class="form-control" id="room_size" value="<%= form.room_size %>">
+                  <input type="number" class="form-control" id="room_size" value="<%= input.room_size %>">
                 </div>
 
                 <div class="form-group">
                   <label class="control-label" for="room_size">选择品牌</label>
-                  <select class="form-control">
-                    <option>A</option>
-                    <option>B</option>
-                    <option>C</option>
-                    <option>D</option>
-                    <option>E</option>
-                  </select>
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label" for="room_size">选择型号</label>
-                  <select class="form-control">
-                    <option>203</option>
-                    <option>303</option>
-                    <option>403</option>
+                  <select class="form-control" id="brand">
+                    <% _.each(brands, function (brand) { %>
+                    <option value="<%= brand %>" <%= input.brand == brand ? "selected" : "" %>><%= brand %></option>
+                    <% }); %>
                   </select>
                 </div>
 
@@ -124,7 +111,7 @@
       <div class="panel panel-info">
         <div class="panel-body">
           <div id="product-image">
-            <img class="media-object" data-src="holder.js/400x300" alt="image">
+            <img class="media-object" data-src="holder.js/100%x200" alt="image">
           </div>
         </div>
       </div>
@@ -158,6 +145,36 @@
           <tr>
             <th>参考价格</th>
             <td>￥<%= product.get("price") %></td>
+          </tr>
+          <tr>
+            <th>定时功能</th>
+            <td>
+              <% if(product.get("timing") === true) {%>
+                <span class="glyphicon glyphicon-ok"></span>
+              <% } else if(product.get("timing") === false) {%>
+                <span class="glyphicon glyphicon-remove"></span>
+              <% } %>
+            </td>
+          </tr>
+          <tr>
+            <th>遥控功能</th>
+            <td>
+              <% if(product.get("remote_control") === true) {%>
+                <span class="glyphicon glyphicon-ok"></span>
+              <% } else if(product.get("remote_control") === false) {%>
+                <span class="glyphicon glyphicon-remove"></span>
+              <% } %>
+            </td>
+          </tr>
+          <tr>
+            <th>滤网更换提醒</th>
+            <td>
+              <% if(product.get("filter_reminder") === true) {%>
+                <span class="glyphicon glyphicon-ok"></span>
+              <% } else if(product.get("filter_reminder") === false) {%>
+                <span class="glyphicon glyphicon-remove"></span>
+              <% } %>
+            </td>
           </tr>
         </table>
       </div>

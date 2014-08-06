@@ -29,23 +29,37 @@ get '/products' do
   json 'products' => products
 end
 
-get '/brands' do
-  brands = Product.select(:brand).distinct
-  json 'brands' => brands.map(&:brand)
-end
-
-get '/models' do
-  models = Product.select(:model).
-    where(brand: params['brand']).distinct
-  json 'brand' => params['brand'],
-    'models' => models.map(&:model)
-end
+#get '/brands' do
+#  brands = Product.select(:brand).distinct
+#  json 'brands' => brands.map(&:brand)
+#end
+#
+#get '/models' do
+#  models = Product.select(:model).
+#    where(brand: params['brand']).distinct
+#  json 'brand' => params['brand'],
+#    'models' => models.map(&:model)
+#end
+#
+#get '/all_brands_models' do
+#  results = {}
+#  Product.select(:brand, :model).each do |p|
+#    models = results[p.brand] || []
+#    models << p.model
+#    results[p.brand] = models
+#  end
+#  json 'results' => results
+#end
 
 get '/suggest' do
+  brand = params['brand']
   room_size = params['room_size'].to_f
+
   min_cadr = room_size * 2.8 * 5
 
   condition = "cadr_dust >= #{min_cadr}"
+  condition += " and brand = '#{brand}'" unless brand.empty?
+
   products = Product.where(condition).
     order('cadr_dust').limit(10)
 
