@@ -40,7 +40,6 @@ var BreadcrumbView = Backbone.View.extend({
     this.links = links;
     this.render();
   }
-
 });
 
 var SearchBarView = Backbone.View.extend({
@@ -118,7 +117,7 @@ var AppRouter = Backbone.Router.extend({
 
   showSearchBar: function() {
     breadcrumbView.updateView([
-      { href: "#search", text: "查询", active: true }
+      { href: "#search", text: "搜搜看", active: true }
     ]);
     this.updateView("#content",
       new SearchBarView({ products: this.products }));
@@ -127,7 +126,7 @@ var AppRouter = Backbone.Router.extend({
 
   showSearchResults: function() {
     breadcrumbView.updateView([
-      { href: "#search", text: "查询" }, 
+      { href: "#search", text: "搜搜看" }, 
       { href: "#search/results", text: this.text(), active: true }
     ]);
     this.updateView("#content",
@@ -143,7 +142,7 @@ var AppRouter = Backbone.Router.extend({
         that.updateView("#content",
           new productDetailsView({product: product}));
         breadcrumbView.updateView([
-          { href: "#search", text: "查询" }, 
+          { href: "#search", text: "搜搜看" }, 
           { href: "#search/results", text: that.text() },
           { href: "#products/" + id, text: product.get("brand") +
             " - " + product.get("model"), active: true }
@@ -165,7 +164,8 @@ var AppRouter = Backbone.Router.extend({
   },
 
   text: function() {
-    return this.products.room_size + "m²";
+    return this.products.room_size + "m² + " +
+      this.products.brand;
   }
 });
 
