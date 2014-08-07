@@ -64,7 +64,7 @@ get '/suggest' do
   end
 
   products = Product.where(condition).
-    order('cadr_dust').limit(10)
+    order('score desc').limit(20)
 
   json 'products' => products
 end
