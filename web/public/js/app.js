@@ -1,4 +1,4 @@
-var brands = ["3M","Coway","IQAir","LG","SKG","TCL","cado","三星","三菱重工","东芝","亚都","伊莱克斯","双鸟","夏普","大金","奥司汀","奥得奥","奥郎格","布鲁雅尔","席爱尔","德龙","惠而浦","松下","格力","汇清","海尔","瑞士风","美的","艾美特","范罗士","莱克","西屋","贝昂","远大","霍尼韦尔","飞利浦"];
+var brands = ["所有品牌","3M","Coway","IQAir","LG","SKG","TCL","cado","三星","三菱重工","东芝","亚都","伊莱克斯","双鸟","夏普","大金","奥司汀","奥得奥","奥郎格","布鲁雅尔","席爱尔","德龙","惠而浦","松下","格力","汇清","海尔","瑞士风","美的","艾美特","范罗士","莱克","西屋","贝昂","远大","霍尼韦尔","飞利浦"];
 
 var Product = Backbone.Model.extend({
   urlRoot: "products"
@@ -20,7 +20,7 @@ var Products = Backbone.Collection.extend({
   },
   page: 1,
   room_size: 15,
-  brand: "Coway",
+  brand: "所有品牌",
   parse: function(resp, xhr) {
     return resp.products;
   }

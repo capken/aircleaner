@@ -58,7 +58,10 @@ get '/suggest' do
   min_cadr = room_size * 2.8 * 5
 
   condition = "cadr_dust >= #{min_cadr}"
-  condition += " and brand = '#{brand}'" unless brand.empty?
+
+  unless brand =~ /所有品牌/
+    condition += " and brand = '#{brand}'"
+  end
 
   products = Product.where(condition).
     order('cadr_dust').limit(10)

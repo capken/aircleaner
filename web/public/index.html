@@ -76,23 +76,26 @@
     </script>
 
     <script type="text/template" id="results_template">
-      <ul class="media-list">
-        <% _.each(products, function (product) { %>
-        <li class="media">
-          <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/80x60" alt="image">
+      <% _.each(products, function (product) { %>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="#products/<%= product.get('id')%>">
+            <img data-src="holder.js/100%x200" alt="100%x200">
           </a>
-          <div class="media-body">
-            <h4 class="media-heading">
+          <div class="caption">
+            <h5>
               <a href="#products/<%= product.get('id')%>">
                 <%= product.get('brand') %> - <%= product.get('model') %>
               </a>
-            </h4>
-            CADR: <%= product.get('cadr_dust') %> m³/h
+            </h5>
+            <b>CADR</b>: <%= product.get('cadr_dust') %> m³/h
+            <% if(product.get('made_in') !== null) { %>
+            <b>产地</b>: <%= product.get('made_in') %>
+            <% } %>
           </div>
-        </li>
-        <% }); %>
-      </ul>
+        </div>
+      </div>
+      <% }); %>
     </script>
 
     <script type="text/template" id="breadcrumb_template">
