@@ -10,8 +10,8 @@ STDIN.each do |url|
   warn "caching #{url} into ./cache/#{hash} ..."
 
   if encode
-    system "curl -L #{url} | iconv -f #{encode} -t utf-8 > ./cache/#{hash}"
+    system "curl -L \"#{url}\" | iconv -f #{encode} -t utf-8 > ./cache/#{hash}"
   else
-    system "curl -L #{url} > ./cache/#{hash}"
+    system "curl -L \"#{url}\" > ./cache/#{hash}"
   end
 end
