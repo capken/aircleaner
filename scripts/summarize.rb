@@ -59,7 +59,9 @@ STDIN.each do |line|
 
   domains_score = domains.map do |domain|
     weight_by_domain[domain] || 3.0
-  end.inject(:+)
+  end.inject(:+).to_f.round(2)
 
-  puts summarized_record.to_json if domains_score.to_f > 1
+  summarized_record[:popularity] = domains_score
+
+  puts summarized_record.to_json if domains_score > 1
 end

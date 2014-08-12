@@ -9,6 +9,11 @@
     "type": "string",
     "label": "型号"
   },
+  "popularity": {
+    "name": "popularity",
+    "type": "float",
+    "label": "受欢迎度"
+  },
   "cadr_dust": {
     "name": "cadr_dust",
     "type": "integer",
