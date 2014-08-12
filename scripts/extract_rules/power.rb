@@ -1,5 +1,7 @@
 
 extract :power do |input|
+  power = {}
+
   input.each_pair do |label, value|
     if label =~ /^功率|额定功率|耗电量/i
       case value
@@ -16,11 +18,10 @@ extract :power do |input|
         min = $1.to_f if value =~ /(?:静音|最小|低|弱|低速)[：:\s\/]*([\d.]+)W/i
       end
 
-      power = {}
       power['min'] = min if min
       power['max'] = max if max
-
-      break power
     end
   end
+
+  power.empty? ? nil : power
 end

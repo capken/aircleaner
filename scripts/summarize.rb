@@ -57,5 +57,9 @@ STDIN.each do |line|
 
   domains.delete_if {|domain| domain =~ /ahamdir/ }
 
-  puts summarized_record.to_json if domains.size > 1
+  domains_score = domains.map do |domain|
+    weight_by_domain[domain] || 3.0
+  end.inject(:+)
+
+  puts summarized_record.to_json if domains_score.to_f > 1
 end
