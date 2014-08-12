@@ -29,7 +29,7 @@ STDIN.each do |line|
           host = URI.parse(url).host
           domain = PublicSuffix.parse(host).domain
           domains << domain
-          weight_by_domain[domain]
+          weight_by_domain[domain] || 3.0
         end.reduce(:+)
       end
 

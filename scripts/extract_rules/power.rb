@@ -1,7 +1,7 @@
 
 extract :power do |input|
   input.each_pair do |label, value|
-    if label =~ /^功率|额定功率/i
+    if label =~ /^功率|额定功率|耗电量/i
       case value
       when /^(?:小于|最大)?\s*([\d.]+)\s*(?:w|瓦特|瓦)?$/i
         max = $1.to_f

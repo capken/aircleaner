@@ -1,9 +1,9 @@
 
 extract :dimension do |input|
   input.each_pair do |label, value|
-    if label =~ /^(?:产品|外观)?尺寸/
+    if label =~ /^(?:产品|外观|机器)?尺寸/
       dimension = case value
-      when /(\d+)[x×*](\d+)[x×*](\d+)(?:mm|毫米)?/i
+      when /(\d+)\s*[x×*]\s*(\d+)\s*[x×*]\s*(\d+)(?:mm|毫米)?/i
         dim = [$1, $2, $3].map(&:to_i).sort
         {
           'height' => dim[2],

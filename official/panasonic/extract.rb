@@ -12,17 +12,18 @@ STDIN.each do |url|
   doc = Nokogiri::HTML(cached_file.read)
 
   input = {}
-  input["brand"] = "海尔"
-  doc.css("div.tr").each do |tr|
-    tds = tr.css("div.td")
+  input["brand"] = "松下"
+
+  doc.css("h2.header3").each do |h|
+    input["model"] = h.to_str
+  end
+
+  doc.css("table.tech_specs tr").each do |tr|
+    tds = tr.css("td")
     input[tds.first.to_str.strip] = tds.last.to_str
   end
 
   input["_source"] = url
-
-  doc.css(".js_pic_mid > img").each do |image|
-    input["image"] = URI.join url.strip, image["src"]
-  end
 
   puts input.to_json
 end
