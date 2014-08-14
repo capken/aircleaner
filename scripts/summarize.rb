@@ -61,7 +61,11 @@ STDIN.each do |line|
     weight_by_domain[domain] || 3.0
   end.inject(:+).to_f.round(2)
 
+  brand, model = record['brand'], record['model']
+  etao_link = "http://m.etao.com/search/search.php?q=#{URI.encode("#{brand} #{model}")}" 
+
   summarized_record[:popularity] = domains_score
+  summarized_record[:etao_link] = etao_link
 
   puts summarized_record.to_json if domains_score > 1
 end

@@ -17,6 +17,7 @@ STDIN.each do |url|
   doc.css("a#brand").each do |brand|
     input["brand"] = brand.to_str
   end
+
   doc.css('div#detail_bullets_id li').each do |li|
     if li.to_str =~ /(.+?):(.+)/m
       next if $1.include? '用户评分'
@@ -54,6 +55,8 @@ STDIN.each do |url|
     end
 
   end
+
+  input["reviews_link"] = url.sub(/dp/, "product-reviews")
 
   input["_source"] = url
   puts input.to_json

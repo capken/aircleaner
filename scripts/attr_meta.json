@@ -109,5 +109,16 @@
     "type": "boolean",
     "label": "滤网更新提醒",
     "summary_mode": "vote"
+  },
+  "reviews_link": {
+    "name": "reviews_link",
+    "type": "string",
+    "label": "亚马逊评论",
+    "summary_mode": "vote"
+  },
+  "etao_link": {
+    "name": "etao_link",
+    "type": "string",
+    "label": "一淘选购"
   }
 }
