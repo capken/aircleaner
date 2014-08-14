@@ -52,18 +52,19 @@ end
 #end
 
 get '/suggest' do
-  brand = params['brand']
   room_size = params['room_size'].to_f
+  brand = params['brand']
+  mode = params['mode']
 
-  min_cadr = room_size * 2.8 * 5
-
-  condition = "cadr_dust >= #{min_cadr}"
-
-  unless brand =~ /所有品牌/
-    condition += " and brand = '#{brand}'"
+  case mode
+  when /search/
+    condition = "brand = '#{brand}'" unless brand =~ /所有品牌/
+  when /suggest/
+    min_cadr = room_size * 2.8 * 5
+    condition = "cadr_dust >= #{min_cadr}"
   end
 
-  products = Product.where(condition).
+  products = Product.where(condition.to_s).
     order('score desc').limit(20)
 
   json 'products' => products

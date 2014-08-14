@@ -43,31 +43,53 @@
 
           <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
-              <form role="form">
 
-                <div class="form-group">
-                  <label class="control-label" for="city">所在城市</label>
-                  <input type="text" class="form-control" id="city" placeholder="上海">
-                </div>
-                
-                <div class="form-group">
-                  <label class="control-label" for="room_size">室内面积(m²)</label>
-                  <input type="number" class="form-control" id="room_size" value="<%= input.room_size %>">
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="active">
+                  <a href="#suggest-product" role="tab" data-toggle="tab">产品推荐</a>
+                </li>
+                <li>
+                  <a href="#search-brand" role="tab" data-toggle="tab">按品牌查找</a>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+
+                <div class="tab-pane active" id="suggest-product">
+                  <br/>
+                  <form role="form">
+                    <div class="form-group">
+                      <label class="control-label" for="city">所在城市</label>
+                      <input type="text" class="form-control" id="city" placeholder="上海">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="room_size">室内面积(m²)</label>
+                      <input type="number" class="form-control" id="room_size" value="<%= input.room_size %>">
+                    </div>
+
+                  </form>
                 </div>
 
-                <div class="form-group">
-                  <label class="control-label" for="room_size">选择品牌</label>
-                  <select class="form-control" id="brand">
-                    <% _.each(brands, function (brand) { %>
-                    <option value="<%= brand %>" <%= input.brand == brand ? "selected" : "" %>><%= brand %></option>
-                    <% }); %>
-                  </select>
+                <div class="tab-pane" id="search-brand">
+                  <br/>
+                  <form role="form">
+                    <div class="form-group">
+                      <label class="control-label" for="room_size">选择品牌</label>
+                      <select class="form-control" id="brand">
+                        <% _.each(brands, function (brand) { %>
+                        <option value="<%= brand %>" <%= input.brand == brand ? "selected" : "" %>><%= brand %></option>
+                        <% }); %>
+                      </select>
+                    </div>
+                  </form>
                 </div>
 
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="search_button">
                   <span class="glyphicon glyphicon-search"></span>
                 </button>
-              </form>
+
+              </div>
+
             </div>
           </div>
 

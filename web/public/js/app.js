@@ -9,6 +9,7 @@ var Products = Backbone.Collection.extend({
     var params = {
       room_size: this.room_size,
       brand: this.brand,
+      mode: this.search_mode,
       page: this.page
     };
 
@@ -21,6 +22,7 @@ var Products = Backbone.Collection.extend({
   page: 1,
   room_size: 15,
   brand: "所有品牌",
+  search_mode: "suggest",
   parse: function(resp, xhr) {
     return resp.products;
   }
@@ -59,11 +61,14 @@ var SearchBarView = Backbone.View.extend({
   },
 
   doSearch: function(event) {
-    var room_size = $("#room_size").val();
-    var brand = $("#brand").val();
 
-    this.products.room_size = room_size;
-    this.products.brand = brand;
+    if($("#suggest-product").hasClass("active")) {
+      this.products.search_mode = "suggest";
+      this.products.room_size = $("#room_size").val();
+    } else {
+      this.products.search_mode = "search";
+      this.products.brand = $("#brand").val();
+    }
 
     this.products.fetch({
       success: function(products) {
@@ -117,7 +122,7 @@ var AppRouter = Backbone.Router.extend({
 
   showSearchBar: function() {
     breadcrumbView.updateView([
-      { href: "#search", text: "搜搜看", active: true }
+      { href: "#search", text: "天朗气清", active: true }
     ]);
     this.updateView("#content",
       new SearchBarView({ products: this.products }));
@@ -126,7 +131,7 @@ var AppRouter = Backbone.Router.extend({
 
   showSearchResults: function() {
     breadcrumbView.updateView([
-      { href: "#search", text: "搜搜看" }, 
+      { href: "#search", text: "天朗气清" }, 
       { href: "#search/results", text: this.text(), active: true }
     ]);
     this.updateView("#content",
@@ -142,7 +147,7 @@ var AppRouter = Backbone.Router.extend({
         that.updateView("#content",
           new productDetailsView({product: product}));
         breadcrumbView.updateView([
-          { href: "#search", text: "搜搜看" }, 
+          { href: "#search", text: "天朗气清" }, 
           { href: "#search/results", text: that.text() },
           { href: "#products/" + id, text: product.get("brand") +
             " - " + product.get("model"), active: true }
