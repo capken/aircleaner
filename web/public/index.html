@@ -76,8 +76,8 @@
                     <div class="form-group">
                       <label class="control-label" for="room_size">选择品牌</label>
                       <select class="form-control" id="brand">
-                        <% _.each(brands, function (brand) { %>
-                        <option value="<%= brand %>" <%= input.brand == brand ? "selected" : "" %>><%= brand %></option>
+                        <% _.each(brands, function (label, value) { %>
+                        <option value="<%= value %>" <%= input.brand == value ? "selected" : "" %>><%= label %></option>
                         <% }); %>
                       </select>
                     </div>
