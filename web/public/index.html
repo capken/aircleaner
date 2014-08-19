@@ -37,6 +37,30 @@
     <script src="js/underscore-min.js"></script>
     <script src="js/backbone-min.js"></script>
 
+
+    <script type="text/template" id="suggest_template">
+      <div class="panel panel-defualt">
+        <div class="panel-body">
+          <p id="query_text">
+            我住在
+            <input type="text" class="form-control" id="city" value="上海">，
+            我想购买一台
+            <select class="form-control" id="made_in">
+              <option value="home-make" selected>国产</option>
+              <option value="import">进口</option>
+            </select>
+            品牌的空气净化器放在卧室（面积大约
+            <input type="number" class="form-control" id="room_area" value="15">平方米），
+            我希望空气净化器可以每小时对房间进行
+            <input type="number" class="form-control" id="air_refresh_count" value="5">次换气。
+          </p>
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="suggest_button">
+            搜搜看
+          </button>
+        </div>
+      </div>
+    </script>
+
     <script type="text/template" id="search_template">
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">

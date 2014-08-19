@@ -44,142 +44,108 @@ var brands = {
   '龙禹' : '龙禹',
 };
 
+
 var Product = Backbone.Model.extend({
   urlRoot: "products"
 });
 
 var Products = Backbone.Collection.extend({
   url: function() {
-    var params = {
-      room_size: this.room_size,
-      brand: this.brand,
-      mode: this.search_mode,
-      page: this.page
-    };
-
-    var paramsStr = _.map(params, function(value, key){
+    var paramsStr = _.map(this.params, function(value, key){
       return key + "=" + value;
     }).join("&");
 
-    return "/suggest?" + paramsStr;
+    return "/products?" + paramsStr;
   },
-  page: 1,
-  room_size: 15,
-  brand: "所有品牌",
-  search_mode: "suggest",
+
+  params: {
+    page: 1,
+    mode: "suggest",
+    city: "上海",
+    made_in: "home-make",
+    room_area: 15,
+    air_refresh_count: 5
+  },
+
   parse: function(resp, xhr) {
     return resp.products;
   }
 });
 
-var BreadcrumbView = Backbone.View.extend({
-  el: "#breadcrumb",
+var SuggestView = Backbone.View.extend({
+  template: _.template( $("#suggest_template").html() ),
 
   render: function() {
-    var template = _.template($("#breadcrumb_template").html(),
-      { links: this.links, _:_ }
-    );
-    this.$el.html(template);
-  },
-
-  updateView: function(links) {
-    this.links = links;
-    this.render();
-  }
-});
-
-var SearchBarView = Backbone.View.extend({
-  initialize: function(options) {
-    this.products = options.products;
-  },
-
-  render: function() {
-    var template = _.template($("#search_template").html(),
-      { input: this.products, brands: brands });
-    this.$el.html(template);
+    this.$el.html(this.template({
+      params: this.collection.params
+    }));
     return this.el;
   },
 
   events: {
-    "click button": "doSearch"
+    "click button": "suggest"
   },
 
-  doSearch: function(event) {
+  suggest: function(event) {
+    var params = this.collection.params;
+    this.$('.form-control').each(function(i, el) {
+      if($(el).val()!= '') {
+        params[el.id] = $(el).val();
+      }
+    });
 
-    if($("#suggest-product").hasClass("active")) {
-      this.products.search_mode = "suggest";
-      this.products.room_size = $("#room_size").val();
-    } else {
-      this.products.search_mode = "search";
-      this.products.brand = $("#brand").val();
-    }
-
-    this.products.fetch({
-      success: function(products) {
-        router.navigate("search/results", true);
+    this.collection.fetch({
+      success: function(model) {
+        router.navigate("products", true);
       }
     });
   }
 });
 
-var SearchResultsView = Backbone.View.extend({
-  initialize: function(options) {
-    this.products = options.products;
-  },
+var ProductsView = Backbone.View.extend({
+  template: _.template($("#results_template").html()),
 
   render: function() {
-    var template = _.template($("#results_template").html(),
-      {products: this.products.models, _:_}
-    );
-    this.$el.html(template);
-    Holder.run();
+    this.$el.html(this.template({
+      products: this.collection.models
+    }));
     return this.el;
   }
 });
 
 var productDetailsView = Backbone.View.extend({
-  initialize: function(options) {
-    this.model = options.product;
-  },
+  template: _.template($("#product_template").html()),
 
   render: function() {
-    var template = _.template($("#product_template").html(),
-      {product: this.model, _:_}
-    );
-    this.$el.html(template);
+    this.$el.html(this.template({product: this.model}));
     return this.el;
   }
 });
 
-
 var AppRouter = Backbone.Router.extend({
-
   initialize: function(options) {
     this.products = new Products();
   },
 
   routes: {
-    "search": "showSearchBar",
-    "search/results": "showSearchResults",
+    "suggest"     : "showSuggestText",
+    "products"    : "showProducts",
     "products/:id": "showProduct"
   },
 
-  showSearchBar: function() {
-    breadcrumbView.updateView([
-      { href: "#search", text: "天朗气清", active: true }
-    ]);
+  showSuggestText: function() {
     this.updateView("#content",
-      new SearchBarView({ products: this.products }));
-    console.log("show search bar");
+      new SuggestView({
+        collection: this.products
+    }));
+    console.log("show suggest text");
   },
 
-  showSearchResults: function() {
-    breadcrumbView.updateView([
-      { href: "#search", text: "天朗气清" }, 
-      { href: "#search/results", text: this.text(), active: true }
-    ]);
+  showProducts: function() {
     this.updateView("#content",
-      new SearchResultsView({ products: this.products }));
+      new ProductsView({
+        collection: this.products
+    }));
     console.log("show search results");
   },
 
@@ -189,16 +155,9 @@ var AppRouter = Backbone.Router.extend({
     product.fetch({
       success: function(product) {
         that.updateView("#content",
-          new productDetailsView({product: product}));
-        breadcrumbView.updateView([
-          { href: "#search", text: "天朗气清" }, 
-          { href: "#search/results", text: that.text() },
-          { href: "#products/" + id, text: product.get("brand") +
-            " - " + product.get("model"), active: true }
-        ]);
+          new productDetailsView({model: product}));
       }
     });
-
     console.log("show product details");
   },
 
@@ -210,14 +169,9 @@ var AppRouter = Backbone.Router.extend({
     $(selector).html(view.render());
     Holder.run();
     this.currentView = view;
-  },
-
-  text: function() {
-    return this.products.room_size + "m² + " +
-      this.products.brand;
   }
+
 });
 
-var breadcrumbView = new BreadcrumbView();
 var router = new AppRouter();
 Backbone.history.start();

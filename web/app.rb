@@ -18,16 +18,16 @@ get '/products/:id' do
   json product
 end
 
-get '/products' do
-  condition = {}
-  ['brand', 'model'].each do |attr|
-    condition[attr] = params[attr] if params[attr]
-  end
-
-  products = Product.where(condition)
-
-  json 'products' => products
-end
+#get '/products' do
+#  condition = {}
+#  ['brand', 'model'].each do |attr|
+#    condition[attr] = params[attr] if params[attr]
+#  end
+#
+#  products = Product.where(condition)
+#
+#  json 'products' => products
+#end
 
 #get '/brands' do
 #  brands = Product.select(:brand).distinct
@@ -51,16 +51,18 @@ end
 #  json 'results' => results
 #end
 
-get '/suggest' do
-  room_size = params['room_size'].to_f
-  brand = params['brand']
+get '/products' do
   mode = params['mode']
+  made_in = params['made_in']
+  room_area = params['room_area'].to_i
+  air_refresh_count = params['air_refresh_count'].to_i
 
   case mode
-  when /search/
-    condition = "brand = '#{brand}'" unless brand =~ /所有品牌/
+#  when /search/
+#    brand = params['brand']
+#    condition = "brand = '#{brand}'" unless brand =~ /所有品牌/
   when /suggest/
-    min_cadr = room_size * 2.8 * 5
+    min_cadr = room_area * 2.8 * air_refresh_count
     condition = "cadr_dust >= #{min_cadr}"
   end
 
