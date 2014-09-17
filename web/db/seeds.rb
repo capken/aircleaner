@@ -37,6 +37,8 @@ File.readlines(seeds_file).each do |input|
     p.quality_meter = record['quality_meter']
     p.filter_reminder = record['filter_reminder']
     p.remote_control = record['remote_control']
+    p.reviews_link = record['reviews_link']
+    p.etao_link = record['etao_link']
     p.score = score_of p
   end
 

@@ -53,8 +53,8 @@ end
 
 get '/products' do
   mode = params['mode']
-  made_in = params['made_in']
   room_area = params['room_area'].to_i
+  room_height = params['room_height'].to_i
   air_refresh_count = params['air_refresh_count'].to_i
 
   case mode
@@ -62,12 +62,12 @@ get '/products' do
 #    brand = params['brand']
 #    condition = "brand = '#{brand}'" unless brand =~ /所有品牌/
   when /suggest/
-    min_cadr = room_area * 2.8 * air_refresh_count
+    min_cadr = room_area * room_height * air_refresh_count
     condition = "cadr_dust >= #{min_cadr}"
   end
 
   products = Product.where(condition.to_s).
-    order('score desc').limit(20)
+    order('cadr_dust').limit(20)
 
-  json 'products' => products
+  json products
 end

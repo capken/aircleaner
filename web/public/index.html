@@ -24,10 +24,6 @@
       <br>
 
       <div class="row">
-        <div class="col-xs-12" id="breadcrumb"></div>
-      </div>
-
-      <div class="row">
         <div class="col-xs-12" id="content"></div>
       </div>
     </div>
@@ -122,26 +118,50 @@
     </script>
 
     <script type="text/template" id="results_template">
-      <% _.each(products, function (product) { %>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <a href="#products/<%= product.get('id')%>">
-            <img data-src="holder.js/100%x200" alt="100%x200">
-          </a>
-          <div class="caption">
-            <h5>
-              <a href="#products/<%= product.get('id')%>">
-                <%= product.get('brand') %> - <%= product.get('model') %>
-              </a>
-            </h5>
-            <b>CADR</b>: <%= product.get('cadr_dust') %> m³/h
-            <% if(product.get('made_in') !== null) { %>
-            <b>产地</b>: <%= product.get('made_in') %>
-            <% } %>
+      <div class="row">
+        <div class="panel panel-default">
+          <div class="panel-body" id="back-nav">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+             <a href="#suggest">
+               <b>返回重新推荐</b>
+             </a>
           </div>
         </div>
       </div>
-      <% }); %>
+
+      <div class="row">
+          <label>产品排序：</label>
+          <button type="button" class="btn btn-default">
+            CADR <span class="glyphicon glyphicon-arrow-down"></span>
+          </button>
+          <button type="button" class="btn btn-default">Middle</button>
+          <button type="button" class="btn btn-default">Right</button>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <% _.each(products, function (product) { %>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a href="#products/<%= product.get('id')%>">
+              <img data-src="holder.js/100%x200" alt="100%x200">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="#products/<%= product.get('id')%>">
+                  <%= product.get('brand') %> - <%= product.get('model') %>
+                </a>
+              </h5>
+              <b>CADR</b>: <%= product.get('cadr_dust') %> m³/h
+              <% if(product.get('made_in') !== null) { %>
+              <b>产地</b>: <%= product.get('made_in') %>
+              <% } %>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+      </div>
     </script>
 
     <script type="text/template" id="breadcrumb_template">

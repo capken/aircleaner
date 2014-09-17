@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140807034344) do
+ActiveRecord::Schema.define(version: 20140917033212) do
 
   create_table "products", force: true do |t|
     t.string  "brand"
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 20140807034344) do
     t.boolean "filter_reminder"
     t.boolean "remote_control"
     t.float   "score"
+    t.string  "reviews_link"
+    t.string  "etao_link"
   end
 
 end
