@@ -26,35 +26,46 @@
         <li><a href="nav.html">咨询首页</a></li>
         <li class="active">选择产品</li>
       </ol>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4>您打算购买的空气净化器的品牌及型号</h4>
-        </div>
-        <div class="panel-body">
-          <select class="form-control" ng-model="modelId"
-            ng-options="product.id as product.brand + ' - ' + product.model group by product.brand for product in products">
-          </select>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4>您打算放置空气净化器的房间面积及高度</h4>
-        </div>
-        <div class="panel-body">
-          <div class="input-group">
-            <span class="input-group-addon">面积</span>
-            <input type="number" class="form-control" ng-model="area">
-            <span class="input-group-addon">平米</span>
+      <div ng-show="mode == 'form'">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>空气净化器的品牌及型号</h4>
           </div>
-          <br/>
-          <div class="input-group">
-            <span class="input-group-addon">高度</span>
-            <input type="number" class="form-control" ng-model="height">
-            <span class="input-group-addon">米 &nbsp;&nbsp;&nbsp;</span>
+          <div class="panel-body">
+            <select class="form-control" ng-model="modelId" ng-options=
+              "model.id as model.brand + ' - ' + model.model group by model.brand for model in models">
+            </select>
           </div>
         </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>放置空气净化器的房间面积及高度</h4>
+          </div>
+          <div class="panel-body">
+            <div class="input-group">
+              <span class="input-group-addon">面积</span>
+              <input type="number" class="form-control" ng-model="area">
+              <span class="input-group-addon">平米</span>
+            </div>
+            <br/>
+            <div class="input-group">
+              <span class="input-group-addon">高度</span>
+              <input type="number" class="form-control" ng-model="height">
+              <span class="input-group-addon">米 &nbsp;&nbsp;&nbsp;</span>
+            </div>
+          </div>
+        </div>
+        <p><a href="#" ng-click="search()" class="btn btn-success btn-block" role="button">看看净化效果如何</a></p>
       </div>
-      <p><a href="#" class="btn btn-success btn-block" role="button">看看净化效果如何</a></p>
+      <div ng-show="mode == 'review'">
+        <div class="jumbotron">
+          <p>在面积<b>{{area}}</b>平米高度<b>{{height}}</b>米的房间内放置
+          <b>{{product.brand + '' + product.model}}</b> 空气净化器，
+          当开到最高档时，洁净空气的换气量为 <b>{{cycles | number:1 }}</b> 次/小时，空气净化效果
+          <b>{{cyclesLevel()}}</b> 。{{conclusion()}}</p>
+          <p><a target="_blank" href="product.html?id={{product.id}}" class="btn btn-primary btn-lg" role="button">查看产品详情</a></p>
+        </div>
+      </div>
     </div>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

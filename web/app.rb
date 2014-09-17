@@ -57,13 +57,12 @@ get '/products' do
   mode = params['mode']
   room_area = params['room_area'].to_i
   room_height = params['room_height'].to_i
-  air_refresh_count = params['air_refresh_count'].to_i
 
   case mode
 #  when /search/
-#    brand = params['brand']
-#    condition = "brand = '#{brand}'" unless brand =~ /所有品牌/
+#    condition = "id = '#{params['id']}'"
   when /suggest/
+    air_refresh_count = params['air_refresh_count'].to_i
     min_cadr = room_area * room_height * air_refresh_count
     condition = "cadr_dust >= #{min_cadr}"
   end
