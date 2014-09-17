@@ -1,5 +1,5 @@
 angular.module('cleanAirApp', [])
-.controller('searchCtrl', function($scope, $http) {
+.controller('suggestCtrl', function($scope, $http) {
   $scope.mode = 'form';
 
   $scope.area = 15;
@@ -29,17 +29,26 @@ angular.module('cleanAirApp', [])
     baseUrl += '&room_height=' + $scope.height;
 
     console.log(baseUrl);
-    $http.get(baseUrl).success(function (data) {
+    $http.get(baseUrl).success(function(data) {
       $scope.mode = 'results';
       $scope.products = data;
     });
   }
 })
+.controller('searchCtrl', function($scope, $http) {
+  $scope.area = 15;
+  $scope.height = 2.8;
+  $scope.modelId = 1365;
+
+  $http.get('/all_brands_models').success(function(data) {
+    $scope.products = data;
+  });
+})
 .controller('productCtrl', function($scope, $http) {
   $scope.product = {}
 
   var baseUrl = '/products/' + location.search.split('id=')[1];
-  $http.get(baseUrl).success(function (data) {
+  $http.get(baseUrl).success(function(data) {
     $scope.product = data;
   });
 })

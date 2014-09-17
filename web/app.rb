@@ -40,16 +40,18 @@ end
 #  json 'brand' => params['brand'],
 #    'models' => models.map(&:model)
 #end
-#
-#get '/all_brands_models' do
-#  results = {}
-#  Product.select(:brand, :model).each do |p|
-#    models = results[p.brand] || []
-#    models << p.model
-#    results[p.brand] = models
-#  end
-#  json 'results' => results
-#end
+
+get '/all_brands_models' do
+  results = []
+  Product.select(:id, :brand, :model).each do |p|
+    results << {
+      :id => p.id,
+      :brand => p.brand,
+      :model => p.model
+    }
+  end
+  json results
+end
 
 get '/products' do
   mode = params['mode']
