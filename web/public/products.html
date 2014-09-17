@@ -70,12 +70,12 @@
 
           <div class="col-sm-6 col-md-4" ng-repeat="product in products">
             <div class="thumbnail">
-              <a href="product.html?id={{product.id}}">
+              <a target="_blank" href="product.html?id={{product.id}}">
                 <img data-src="holder.js/100%x200" alt="100%x200">
               </a>
               <div class="caption">
                 <h5>
-                  <a href="product.html?id={{product.id}}">{{product.brand}} {{product.model}}</a>
+                  <a target="_blank" href="product.html?id={{product.id}}">{{product.brand}} {{product.model}}</a>
                 </h5>
                 <b>CADR</b>: {{product.cadr_dust}} m³/h
                 <b>产地</b>: {{product.made_in}}
