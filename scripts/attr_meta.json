@@ -120,5 +120,16 @@
     "name": "etao_link",
     "type": "string",
     "label": "一淘选购"
+  },
+  "image": {
+    "name": "image",
+    "type": "string",
+    "label": "图片",
+    "summary_mode": "combine"
+  },
+  "image_hash": {
+    "name": "image",
+    "type": "string",
+    "label": "图片Hash"
   }
 }

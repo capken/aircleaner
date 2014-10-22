@@ -2,6 +2,7 @@ require 'json'
 require 'uri'
 require 'set'
 require 'public_suffix'
+require 'digest/sha1'
 
 path = File.join(File.dirname(__FILE__), "attr_meta.json")
 attr_meta = JSON[File.readlines(path).join]
@@ -66,6 +67,10 @@ STDIN.each do |line|
 
   summarized_record[:popularity] = domains_score
   summarized_record[:etao_link] = etao_link
+
+  summarized_record[:image_hash] = summarized_record["image"].split(',').map do |image_url|
+    Digest::SHA1.hexdigest image_url.strip
+  end if summarized_record["image"]
 
   puts summarized_record.to_json if domains_score > 1
 end

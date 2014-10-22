@@ -5,3 +5,4 @@ egrep -f ./candidates.txt |
 ruby ../scripts/merge.rb | tee merged.json |
 ruby ../scripts/summarize.rb | tee summarized.json |
 ruby ../scripts/json2csv.rb > summarized.csv
+cat summarized.json | ruby -rjson -ne "images = JSON[\$_]['image']; puts images.split(',') if images" > image_urls.txt
