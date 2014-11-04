@@ -68,7 +68,7 @@ STDIN.each do |line|
   summarized_record[:popularity] = domains_score
   summarized_record[:etao_link] = etao_link
 
-  summarized_record[:image_hash] = summarized_record["image"].split(',').map do |image_url|
+  summarized_record["image_hash"] = summarized_record["image"].split(',').map do |image_url|
     Digest::SHA1.hexdigest image_url.strip
   end if summarized_record["image"]
 

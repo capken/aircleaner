@@ -128,7 +128,7 @@
     "summary_mode": "combine"
   },
   "image_hash": {
-    "name": "image",
+    "name": "image_hash",
     "type": "string",
     "label": "图片Hash"
   }

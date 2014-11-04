@@ -37,7 +37,7 @@ refine do |record|
     if model =~ /(A[CGX])-?(\d{3}(?:FCVAND|FCVAUW|EPXAUW|HPAWQ|CSAUA|CPAWQ|CMAGA|VKCBB))(?:\/SC)?/
       model = "#{$1}-#{$2}/SC" 
     elsif model =~ /(SA501T[A-Z]CH|SA600C[A-Z]SSEC)/i
-      model = $1
+      model = $1.gsub(/SSEC/, '')
     elsif model =~ /(VIRUS DOCTOR).+?(501|600)/i
       model = $2
     end
