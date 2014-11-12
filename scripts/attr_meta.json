@@ -131,5 +131,10 @@
     "name": "image_hash",
     "type": "string",
     "label": "图片Hash"
+  },
+  "is_pro_mfr": {
+    "name": "is_pro_mfr",
+    "type": "boolean",
+    "label": "是否专业厂商"
   }
 }

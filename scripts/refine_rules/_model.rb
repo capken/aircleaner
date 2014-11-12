@@ -14,9 +14,9 @@ refine do |record|
     model = $1 if model =~ /(Sense|\d{3}[A-Z]?)/i
     case model
     when /403|410B/i
-      model = "403;410B"
+      model = "403或410B"
     when /503|510B/i
-      model = "503;510B"
+      model = "503或510B"
     end
   when /^Coway$/
     model = $1 if model =~ /(APM?-\d{4}[A-Z]{1,2})/i

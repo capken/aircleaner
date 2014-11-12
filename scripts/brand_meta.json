@@ -1,0 +1,550 @@
+[
+  {
+    "name": "3M/菲尔萃",
+    "short_name": "3M",
+    "variables": "Filtrete|菲尔萃|3M",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "Coway/熊津",
+    "short_name": "Coway",
+    "variables": "熊津|Coway",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "IQAir",
+    "short_name": "IQAir",
+    "variables": "HeathPro|HealthPro|艾可爱尔|IQAir",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "LG",
+    "short_name": "LG",
+    "variables": "LG",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "SKG",
+    "short_name": "SKG",
+    "variables": "SKG",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "TCL",
+    "short_name": "TCL",
+    "variables": "TCL",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "cado",
+    "short_name": "cado",
+    "variables": "cado",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "三星/Samsung",
+    "short_name": "三星",
+    "variables": "Samsung|三星",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "三菱/Mitsubishi",
+    "short_name": "三菱重工",
+    "variables": "Mitsubishi|三菱",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "东芝",
+    "short_name": "东芝/TOSHIBA",
+    "variables": "TOSHIBA|东芝",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "亚都/YADU",
+    "short_name": "亚都",
+    "variables": "YADU|亚都",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "伊莱克斯/Electrolux",
+    "short_name": "伊莱克斯",
+    "variables": "Electrolux|伊莱克斯",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "双鸟/TwinBird",
+    "short_name": "双鸟",
+    "variables": "TwinBird|双鸟",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "夏普/SHARP",
+    "short_name": "夏普",
+    "variables": "SHARP|夏普",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "大金/DAIKIN",
+    "short_name": "大金",
+    "variables": "DAIKIN|大金",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "奔腾/POVOS",
+    "short_name": "奔腾",
+    "variables": "POVOS|奔腾",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "奥司汀",
+    "short_name": "奥司汀",
+    "variables": "Austin|奥司汀",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "奥得奥",
+    "short_name": "奥得奥",
+    "variables": "Airdow|奥得奥",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "奥郎格/Airgle",
+    "short_name": "奥郎格",
+    "variables": "Airgle|奥郎格",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "布鲁雅尔/Blueair",
+    "short_name": "布鲁雅尔",
+    "variables": "Blueair|布鲁雅尔",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "席爱尔",
+    "short_name": "席爱尔",
+    "variables": "sheeraire|席爱尔",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "德龙/DeLonghi",
+    "short_name": "德龙",
+    "variables": "DeLonghi|德龙",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "惠而浦/Whirlpool",
+    "short_name": "惠而浦",
+    "variables": "Whirlpool|惠而浦",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "松下/Panasonic",
+    "short_name": "松下",
+    "variables": "Panasonic|松下",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "格力/GREE",
+    "short_name": "格力/GREE",
+    "variables": "GREE|格力",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "汇清",
+    "short_name": "汇清",
+    "variables": "HUIQING|汇清",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "海尔",
+    "short_name": "海尔",
+    "variables": "Haier|海尔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "爱宝乐/Airpal",
+    "short_name": "airpal",
+    "variables": "爱宝乐|airpal",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "瑞士风/AIR-O-SWISS",
+    "short_name": "瑞士风",
+    "variables": "AIR-O-SWISS|瑞士风",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "美的/Midea",
+    "short_name": "美的",
+    "variables": "Midea|美的",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "美菱",
+    "short_name": "美菱",
+    "variables": "MeiLing|美菱",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "艾美特/Airmate",
+    "short_name": "艾美特",
+    "variables": "Airmate|艾美特",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "范罗士",
+    "short_name": "范罗士",
+    "variables": "Fellowes|FELLOWS|范罗士",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "莱克",
+    "short_name": "莱克",
+    "variables": "LEXY|^莱克$",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "西屋/Westinghouse",
+    "short_name": "西屋",
+    "variables": "Westinghouse|西屋",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "贝昂",
+    "short_name": "贝昂",
+    "variables": "贝昂",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "远大/BROAD",
+    "short_name": "远大",
+    "variables": "BROAD|远大",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "霍尼韦尔/Honeywell",
+    "short_name": "霍尼韦尔",
+    "variables": "Honeywell|霍尼韦尔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "飞利浦/Philips",
+    "short_name": "飞利浦",
+    "variables": "Philips|飞利浦",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "龙禹",
+    "short_name": "龙禹",
+    "variables": "龙禹",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "佰利世/AirBliss",
+    "short_name": "佰利世",
+    "variables": "AirBliss|佰利世",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "欧乐/AllerAir",
+    "short_name": "欧乐",
+    "variables": "AllerAir|欧乐",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "厨莱克斯/CHULUX",
+    "short_name": "厨莱克斯",
+    "variables": "CHULUX|厨莱克斯",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "高鼎",
+    "short_name": "高鼎",
+    "variables": "NanoSteps|Nano Steps|高鼎",
+    "is_pro_mfr": true
+  },
+  {
+    "name": "本原/BeYou",
+    "short_name": "本原",
+    "variables": "BeYou|本原",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "可汉",
+    "short_name": "可汉",
+    "variables": "KEHEal|可汉",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "莱特艾尔",
+    "short_name": "莱特艾尔",
+    "variables": "LightAir|莱特艾尔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "龙的/Longde",
+    "short_name": "龙的",
+    "variables": "Longde|龙的",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "格诺斯",
+    "short_name": "格诺斯",
+    "variables": "GNORS|格诺斯",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "美承",
+    "short_name": "美承",
+    "variables": "Mition|美承",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "瑞艾",
+    "short_name": "瑞艾",
+    "variables": "REAI|瑞艾",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "创普",
+    "short_name": "创普",
+    "variables": "TRUMPXP|创普",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "小熊",
+    "short_name": "小熊",
+    "variables": "Bear|小熊",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "兰山",
+    "short_name": "兰山",
+    "variables": "Lan Shan|兰山",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "海信/Hisense",
+    "short_name": "海信",
+    "variables": "Hisense|海信",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "福玛特",
+    "short_name": "福玛特",
+    "variables": "FMART|福玛特",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "沃讯",
+    "short_name": "沃讯",
+    "variables": "VOSSON|沃讯",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "艾洁弗",
+    "short_name": "艾洁弗",
+    "variables": "RGF|艾洁弗",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "云雅",
+    "short_name": "云雅",
+    "variables": "WINIA|云雅",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "净美仕",
+    "short_name": "净美仕",
+    "variables": "Mfresh|净美仕",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "小田",
+    "short_name": "小田",
+    "variables": "Xiotin|小田",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "德尔玛",
+    "short_name": "德尔玛",
+    "variables": "Deerma|德尔玛",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "摩瑞尔",
+    "short_name": "摩瑞尔",
+    "variables": "MORAL|摩瑞尔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "文塔",
+    "short_name": "文塔",
+    "variables": "VENTA|文塔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "格子",
+    "short_name": "格子",
+    "variables": "Gezi|格子",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "澳玛克思",
+    "short_name": "澳玛克思",
+    "variables": "Aomacsi|澳玛克思",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "百奥耐尔",
+    "short_name": "百奥耐尔",
+    "variables": "BIONAIRE|百奥耐尔",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "飞时",
+    "short_name": "飞时",
+    "variables": "PHISINIC|飞时",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "铿特",
+    "short_name": "铿特",
+    "variables": "Hunter|铿特",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "凯仕达",
+    "short_name": "凯仕达",
+    "variables": "Kaishida|凯仕达",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "大松",
+    "short_name": "大松",
+    "variables": "TOSOT|大松",
+    "is_pro_mfr": false
+  },
+  {
+    "name": "福施威",
+    "short_name": "福施威",
+    "variables": "Fusewins|福施威",
+    "is_pro_mfr": false
+  },
+  {
+    "variables": "Hoover|胡佛",
+    "is_pro_mfr": false,
+    "name": "胡佛"
+  },
+  {
+    "variables": "Nenfa|能发",
+    "is_pro_mfr": false,
+    "name": "能发"
+  },
+  {
+    "variables": "KoolCoh|瑩高",
+    "is_pro_mfr": false,
+    "name": "瑩高"
+  },
+  {
+    "variables": "ECOWATER|怡口",
+    "is_pro_mfr": false,
+    "name": "怡口"
+  },
+  {
+    "variables": "S'beauty|小而美",
+    "is_pro_mfr": false,
+    "name": "小而美"
+  },
+  {
+    "variables": "NKT|凝康肽",
+    "is_pro_mfr": false,
+    "name": "凝康肽"
+  },
+  {
+    "variables": "DonLim|东菱",
+    "is_pro_mfr": false,
+    "name": "东菱"
+  },
+  {
+    "variables": "TOYOTOMI|丰臣",
+    "is_pro_mfr": false,
+    "name": "丰臣"
+  },
+  {
+    "variables": "TTBT|技真百通",
+    "is_pro_mfr": false,
+    "name": "技真百通/TTBT"
+  },
+  {
+    "variables": "Triangle|三角",
+    "is_pro_mfr": false,
+    "name": "三角"
+  },
+  {
+    "variables": "Kasrrow|凯仕乐",
+    "is_pro_mfr": false,
+    "name": "凯仕乐"
+  },
+  {
+    "variables": "LTIAN|力天",
+    "is_pro_mfr": false,
+    "name": "力天"
+  },
+  {
+    "variables": "YOUTIAN|友田",
+    "is_pro_mfr": false,
+    "name": "友田"
+  },
+  {
+    "variables": "ENCHEN|昂臣",
+    "is_pro_mfr": false,
+    "name": "昂臣"
+  },
+  {
+    "variables": "OPO|欧博",
+    "is_pro_mfr": false,
+    "name": "欧博"
+  },
+  {
+    "variables": "Crystal|清越",
+    "is_pro_mfr": true,
+    "name": "清越"
+  },
+  {
+    "variables": "LuvA|滤霸",
+    "is_pro_mfr": true,
+    "name": "滤霸"
+  },
+  {
+    "variables": "Magiclight|魔光球",
+    "is_pro_mfr": false,
+    "name": "魔光球"
+  },
+  {
+    "variables": "帝度",
+    "is_pro_mfr": false,
+    "name": "帝度"
+  },
+  {
+    "variables": "双飞燕",
+    "is_pro_mfr": false,
+    "name": "双飞燕"
+  },
+  {
+    "variables": "丝吉利娅",
+    "is_pro_mfr": false,
+    "name": "丝吉利娅"
+  },
+  {
+    "variables": "QQVIP",
+    "is_pro_mfr": false,
+    "name": "QQVIP"
+  },
+  {
+    "variables": "InovaAir",
+    "is_pro_mfr": true,
+    "name": "InovaAir"
+  }
+]
+

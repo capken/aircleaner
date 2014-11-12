@@ -14,6 +14,11 @@ weight_by_domain = JSON[File.readlines(path).join]
 
 warn weight_by_domain
 
+path = File.join(File.dirname(__FILE__), "brand_meta.json")
+brand_metas = JSON[File.readlines(path).join]
+
+warn brand_metas
+
 STDIN.each do |line|
   record = JSON[line]
   summarized_record = {}
@@ -50,9 +55,9 @@ STDIN.each do |line|
         votes.map { |v| v['value'] }.max
       end
 
-      summarized_record[attr] = summary_value
+      summarized_record[attr.to_sym] = summary_value
     else
-      summarized_record[attr] = votes
+      summarized_record[attr.to_sym] = votes
     end
   end
 
@@ -65,12 +70,19 @@ STDIN.each do |line|
   brand, model = record['brand'], record['model']
   etao_link = "http://m.etao.com/search/search.php?q=#{URI.encode("#{brand} #{model}")}" 
 
+  brand_metas.each do |brand_meta|
+    if brand_meta['short_name'] == brand
+      summarized_record[:brand] = brand_meta['name'] 
+      summarized_record[:is_pro_mfr] = brand_meta['is_pro_mfr'] 
+    end
+  end
+
   summarized_record[:popularity] = domains_score
   summarized_record[:etao_link] = etao_link
 
-  summarized_record["image_hash"] = summarized_record["image"].split(',').map do |image_url|
+  summarized_record[:image_hash] = summarized_record[:image].split(',').map do |image_url|
     Digest::SHA1.hexdigest image_url.strip
-  end if summarized_record["image"]
+  end if summarized_record[:image]
 
   puts summarized_record.to_json if domains_score > 1
 end
