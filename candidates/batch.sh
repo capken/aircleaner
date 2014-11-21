@@ -1,5 +1,14 @@
-cat data/longtail.0814.json data/official_new.json | ruby ../scripts/extract.rb > data/tmp
-cat data/tmp data/manual.0723.json data/manual.0812.json data/products.with.append.images.json data/aham.0720.json data/official.0720.json |
+cat \
+  data/longtail.0814.json \
+  data/official_new.json |
+ruby ../scripts/extract.rb > data/tmp
+
+cat \
+  data/tmp data/manual.0723.json \
+  data/manual.0812.json \
+  data/products.with.append.images.json \
+  data/products.with.filter.type.json \
+  data/aham.0720.json data/official.0720.json |
 ruby ../scripts/refine.rb| sort | tee refined.json |
 egrep -f ./candidates.txt |
 ruby ../scripts/merge.rb | tee merged.json |
